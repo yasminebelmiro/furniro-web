@@ -21,7 +21,7 @@ const Header = () => {
             <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to="/">Shop</Link>
+            <Link to="/shop">Shop</Link>
           </li>
           <li>
             <Link to="/">About</Link>
@@ -55,7 +55,7 @@ const Header = () => {
             <Link to="/">Home</Link>
           </li>
           <li className="w-full py-5 hover:bg-gold hover:text-white flex items-center justify-center ">
-            <Link to="/">Shop</Link>
+            <Link to="/shop">Shop</Link>
           </li>
           <li className="w-full py-5 hover:bg-gold hover:text-white flex items-center justify-center ">
             <Link to="/">About</Link>
