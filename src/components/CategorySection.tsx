@@ -19,7 +19,7 @@ const categories: Category[] = [
 
 export default function CategorySection() {
   return (
-    <section className="w-full py-12 px-4 md:px-8 lg:px-16 bg-white">
+    <section className="font-poppins w-full py-12 px-4 md:px-8 lg:px-16 bg-white">
       <div className="max-w-6xl mx-auto text-center font-poppins">
         {/* Título conforme Figma */}
         <h2
@@ -42,7 +42,7 @@ export default function CategorySection() {
           Explore our wide range of quality furniture
         </p>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div className="font-poppins grid grid-cols-1 md:grid-cols-3 gap-6">
           {categories.map((cat) => (
             <Link to={cat.link} key={cat.name} className="group cursor-pointer">
               <div className="overflow-hidden rounded-lg shadow-md hover:shadow-lg transition duration-300">
