@@ -35,7 +35,8 @@ export default function CategorySection() {
           className="
             text-[1.25rem] font-normal text-[#666666] 
             leading-normal mb-8 
-            mx-auto w-[34.9375rem]
+            mx-auto 
+            w-full max-w-[34.9375rem] px-4
           "
         >
           Explore our wide range of quality furniture
