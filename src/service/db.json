@@ -1,25 +1,91 @@
 {
-  "products": {
-    "id": "SS001",
-    "name": "Sofa",
-    "subtitle": "Subtítulo do card",
-    "rate": 4,
-    "size": "P",
-    "colors": ["#000000", "#ffffff", "#ff69b4"],
-    "reviews": 6,
-    "price": 49.9,
-    "discont": "50%",
-    "resume": "Resumo curto e fofo do produto.",
-    "description": "Descrição completa e bem detalhada do produto, com tudo que ele oferece.",
-    "adicionalDescription": "Informações extras, como cuidados, modo de uso, etc.",
-    "category": "Categoria do Produto",
-    "tags": ["tag1", "tag2", "tag3"],
-    "thumbnail": "https://link-da-thumbnail.jpg",
-    "images": [
-      "https://link-imagem1.jpg",
-      "https://link-imagem2.jpg",
-      "https://link-imagem3.jpg",
-      "https://link-imagem4.jpg"
-    ]
-  }
+  "products": [
+    {
+      "id": "SS001",
+      "name": "Sofá Amarelinho",
+      "subtitle": "Conforto e estilo para sua sala",
+      "rate": 4,
+      "size": ["P", "M", "G"],
+      "colors": ["#FFD700", "#FFFACD", "#FFEB3B"],
+      "reviews": 6,
+      "price": 499.9,
+      "discont": "50%",
+      "date": "2025-06-03",
+      "resume": "Um sofá amarelinho, fofo e confortável para alegrar seu cantinho.",
+      "description": "Sofá amarelinho com design moderno, acabamento em tecido de alta qualidade, estrutura resistente e super confortável. Perfeito para quem quer um toque de cor e aconchego.",
+      "adicionalDescription": "Limpeza com pano úmido, evitar exposição direta ao sol para preservar a cor. Montagem simples e rápida.",
+      "category": "Living",
+      "tags": ["sofá", "amarelo", "conforto"],
+      "thumbnail": "https://unsplash.com/pt-br/fotografias/brown-wooden-framed-yellow-padded-chair-_HqHX3LBN18",
+      "images": [
+        "https://unsplash.com/pt-br/fotografias/brown-wooden-framed-yellow-padded-chair-_HqHX3LBN18",
+        "https://unsplash.com/pt-br/fotografias/brown-wooden-framed-yellow-padded-chair-_HqHX3LBN18",
+        "https://unsplash.com/pt-br/fotografias/brown-wooden-framed-yellow-padded-chair-_HqHX3LBN18",
+        "https://unsplash.com/pt-br/fotografias/brown-wooden-framed-yellow-padded-chair-_HqHX3LBN18"
+      ],
+
+      "imagensDescription": [
+        "https://unsplash.com/pt-br/fotografias/brown-wooden-framed-yellow-padded-chair-_HqHX3LBN18",
+        "https://unsplash.com/pt-br/fotografias/brown-wooden-framed-yellow-padded-chair-_HqHX3LBN18"
+      ]
+    },
+    {
+      "id": "LU002",
+      "name": "Luminária Articulada Moderna",
+      "subtitle": "Iluminação flexível para seu espaço",
+      "rate": 5,
+      "size": ["M"],
+      "colors": ["#FFFFFF", "#000000"],
+      "reviews": 12,
+      "price": 129.9,
+      "discont": "15%",
+      "date": "2025-06-01",
+      "resume": "Luminária prática, com braço articulado para ajustar a luz do jeito que quiser.",
+      "description": "Luminária articulada com design minimalista, ideal para salas de estar ou escritórios. Possui ajuste de ângulo para iluminar exatamente onde precisa, acabamento em metal com pintura resistente.",
+      "adicionalDescription": "Use lâmpadas LED recomendadas, evite contato com água, limpeza com pano seco.",
+      "category": "living",
+      "tags": ["luminária", "iluminação", "articulada"],
+      "thumbnail": "https://images.unsplash.com/photo-1506377295352-e3154d43ea9e?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "images": [
+        "https://images.unsplash.com/photo-1506377295352-e3154d43ea9e?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1506377295352-e3154d43ea9e?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1506377295352-e3154d43ea9e?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1506377295352-e3154d43ea9e?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      ],
+
+      "imagensDescription": [
+        "https://images.unsplash.com/photo-1506377295352-e3154d43ea9e?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1506377295352-e3154d43ea9e?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      ]
+    },
+    {
+      "id": "LU002",
+      "name": "Luminária Articulada Moderna",
+      "subtitle": "Iluminação flexível para seu espaço",
+      "rate": 5,
+      "size": ["M"],
+      "colors": ["#FFFFFF", "#000000"],
+      "reviews": 12,
+      "price": 129.9,
+      "discont": "15%",
+      "date": "2025-06-01",
+      "resume": "Luminária prática, com braço articulado para ajustar a luz do jeito que quiser.",
+      "description": "Luminária articulada com design minimalista, ideal para salas de estar ou escritórios. Possui ajuste de ângulo para iluminar exatamente onde precisa, acabamento em metal com pintura resistente.",
+      "adicionalDescription": "Use lâmpadas LED recomendadas, evite contato com água, limpeza com pano seco.",
+      "category": "living",
+      "tags": ["luminária", "iluminação", "articulada"],
+      "thumbnail": "https://images.unsplash.com/photo-1467043153537-a4fba2cd39ef?q=80&w=1919&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "images": [
+        "https://images.unsplash.com/photo-1467043153537-a4fba2cd39ef?q=80&w=1919&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1467043153537-a4fba2cd39ef?q=80&w=1919&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1467043153537-a4fba2cd39ef?q=80&w=1919&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1467043153537-a4fba2cd39ef?q=80&w=1919&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      ],
+
+      "imagensDescription": [
+        "https://images.unsplash.com/photo-1467043153537-a4fba2cd39ef?q=80&w=1919&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1467043153537-a4fba2cd39ef?q=80&w=1919&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      ]
+    }
+  ]
 }
