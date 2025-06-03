@@ -14,6 +14,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/shop" element={<Shop />} />
+        {/* Rota dinâmica para categorias: dining, living, bedroom */}
+        <Route path="/shop/:category" element={<Shop />} />
       </Routes>
       <Footer />
     </>
