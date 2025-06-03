@@ -1,0 +1,25 @@
+{
+  "products": {
+    "id": "SS001",
+    "name": "Sofa",
+    "subtitle": "Subtítulo do card",
+    "rate": 4,
+    "size": "P",
+    "colors": ["#000000", "#ffffff", "#ff69b4"],
+    "reviews": 6,
+    "price": 49.9,
+    "discont": "50%",
+    "resume": "Resumo curto e fofo do produto.",
+    "description": "Descrição completa e bem detalhada do produto, com tudo que ele oferece.",
+    "adicionalDescription": "Informações extras, como cuidados, modo de uso, etc.",
+    "category": "Categoria do Produto",
+    "tags": ["tag1", "tag2", "tag3"],
+    "thumbnail": "https://link-da-thumbnail.jpg",
+    "images": [
+      "https://link-imagem1.jpg",
+      "https://link-imagem2.jpg",
+      "https://link-imagem3.jpg",
+      "https://link-imagem4.jpg"
+    ]
+  }
+}
