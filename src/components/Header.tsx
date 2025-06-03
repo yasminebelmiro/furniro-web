@@ -16,7 +16,6 @@ const Header = () => {
           <p className="hidden  md:flex font-bold text-2xl">Furniro</p>
         </Link>
         <ul className="hidden md:flex w-1/2 justify-evenly ">
-          {/** #TODO: adicionar rotas certas */}
           <li>
             <Link to="/">Home</Link>
           </li>
@@ -49,8 +48,7 @@ const Header = () => {
       </div>
 
       {open && (
-        <ul className=" w-full flex flex-col md:hidden">
-          {/** #TODO: adicionar rotas certas */}
+        <ul className=" w-full flex flex-col md:hidden pt-25">
           <li className="w-full py-5 hover:bg-gold hover:text-white flex items-center justify-center ">
             <Link to="/">Home</Link>
           </li>
