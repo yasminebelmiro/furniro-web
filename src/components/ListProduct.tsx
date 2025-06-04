@@ -1,8 +1,7 @@
 
-import data from "../service/db.json"
+import data from "../services/db.json"
 import Product from "./Product"
 import type {ProductType} from "../types/ProductType"
-import { useState } from "react"
 
 type ListProductProps = {
   cardCount: number
