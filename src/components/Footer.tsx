@@ -1,10 +1,10 @@
 
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import facebookIcon from '../assets/facebook.png';
-import instagramIcon from '../assets/instagram.png';
-import twitterIcon from '../assets/twitter.png';
-import linkedinIcon from '../assets/linkedin.png';
+import facebookIcon from '../assets/images/social-images/facebook.svg';
+import instagramIcon from '../assets/images/social-images/instagram.svg';
+import twitterIcon from '../assets/images/social-images/twitter.svg';
+import linkedinIcon from '../assets/images/social-images/linkedin.svg';
 
 interface FooterProps {
   onSubscribe?: (email: string) => void;

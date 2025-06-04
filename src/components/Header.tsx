@@ -9,8 +9,8 @@ const Header = () => {
   const [open, setOpen] = useState(false);
   return (
     <>
- 
-      <div className="bg-white h-24 fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-5 l:px-10 xl:px-20">
+    <header className="font-poppins">
+      <div className=" bg-white h-24 fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-5 l:px-10 xl:px-20">
         <Link to={"/"} className="flex flex-row items-center">
           <img src={logo} alt="Logo Furniro" className="w-10"/>
           <p className="hidden  md:flex font-bold text-2xl">Furniro</p>
@@ -42,13 +42,13 @@ const Header = () => {
           className="text-2xl cursor-pointer  md:hidden "
           onClick={() => setOpen(!open)}
           aria-label="Abrir menu"
-        >
+          >
           <GiHamburgerMenu />
         </button>
       </div>
 
       {open && (
-        <ul className=" w-full flex flex-col md:hidden pt-25">
+        <ul className="w-full flex flex-col md:hidden pt-24">
           <li className="w-full py-5 hover:bg-gold hover:text-white flex items-center justify-center ">
             <Link to="/">Home</Link>
           </li>
@@ -63,6 +63,7 @@ const Header = () => {
           </li>
         </ul>
       )}
+      </header>
     </>
   );
 };

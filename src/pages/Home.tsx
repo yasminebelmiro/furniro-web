@@ -1,11 +1,12 @@
 import React from 'react'
 import CategorySection from '../components/CategorySection'
+import HeroSection from '../components/HeroSection'
 
 
 const Home = () => {
   return (
      <>
-      <div className="bg-black text-white p-4">Home</div>
+      <HeroSection/>
       <CategorySection />
     </>
   )
