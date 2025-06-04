@@ -1,10 +1,9 @@
 import { useState } from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
-import Search from './components/Search';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import CategorySection from './components/CategorySection';
+import Shop from './pages/Shop';
 
 function App() {
   const [count, setCount] = useState(0);
@@ -17,12 +16,9 @@ function App() {
         <Route path="/" element={<Home />} />
 
         {/* Página de Shop e suas categorias */}
-        <Route path="/shop" element={<Search />} />
-        <Route path="/shop/:category" element={<Search />} />
+        <Route path="/shop" element={<Shop />} />
+        <Route path="/shop/:category" element={<Shop />} />
       </Routes>
-      <CategorySection />
-
-      {/* Exemplo de uso do contador */}
       <Footer />
     </>
   );
