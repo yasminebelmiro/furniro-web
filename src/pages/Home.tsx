@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <div>
       <CategorySection />
-      <ListProduct />
+      <ListProduct cardCount={8} />
     </div>
   )
 
