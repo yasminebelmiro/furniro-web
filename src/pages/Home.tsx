@@ -9,7 +9,7 @@ const Home = () => {
     <>
       <CategorySection />
       <ListProduct cardCount={8} />
-    </div>
+    </>
   )
 
   
