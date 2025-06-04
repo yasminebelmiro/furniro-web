@@ -1,5 +1,5 @@
 import { useState } from "react"
-import data from "../service/db.json"
+import data from "../services/db.json"
 import Product from "./Product"
 
 
