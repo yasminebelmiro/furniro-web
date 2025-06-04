@@ -13,7 +13,7 @@ const Product = ({ product }: ProductProps) => {
   const discountedPrice = (product.price * (1 - discount / 100)).toFixed(2);
 
   return (
-    <div className="relative bg-gray-100 w-[285px] h-[450px] flex flex-col xl:w-[80%] cursor-pointer" onClick={() => navigate(`/${product.id}/${product.name}`)}>
+    <div className="font-poppins relative w-[80%] bg-gray-100 lg:w-[285px] md:h-[450px] flex flex-col xl:w-[80%] cursor-pointer" onClick={() => navigate(`/${product.id}/${product.name}`)}>
       <img
         className="w-full min-h-[300px] object-cover object-center"
         src={product.thumbnail}
