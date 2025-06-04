@@ -12,7 +12,7 @@ const Search = () => {
   const { category } = useParams<{ category?: string }>();
 
   return (
-    <div className="pt-23"> {/* esse pt-23 é o espaço abaixo do header pra não cobrir o background do Search na pagina do shop, talves no home fique zoado. */}
+    <div className="pt-23"> 
       {/* Fundo com título */}
       <div
         className="w-full h-[316px] bg-cover bg-center flex flex-col justify-center items-center"
