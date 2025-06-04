@@ -1,12 +1,16 @@
 import React from 'react'
-import CategorySection from '../components/CategorySection'
+import Search from '../components/Search'
 
 
 const Home = () => {
   return (
      <>
       <div className="bg-black text-white p-4">Home</div>
-      <CategorySection />
+
+     
+      <Search />
+    
+  
     </>
   )
 
