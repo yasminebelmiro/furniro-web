@@ -1,5 +1,5 @@
-import React from 'react'
 import CategorySection from '../components/CategorySection'
+import Carousel from '../components/Carousel'
 
 
 const Home = () => {
@@ -7,6 +7,7 @@ const Home = () => {
      <>
       <div className="bg-black text-white p-4">Home</div>
       <CategorySection />
+      <Carousel />
     </>
   )
 
