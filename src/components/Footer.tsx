@@ -222,7 +222,7 @@ const Footer: React.FC<FooterProps> = ({ onSubscribe }) => {
           </div>
         </div>        {/*seção de redes sociais */}
         <div className="mt-6 mb-8">
-          <div className="flex items-center gap-6">
+          <div className="flex items-center gap-3">
             <a
               href={socialLinks.facebook}
               target="_blank"
@@ -234,7 +234,7 @@ const Footer: React.FC<FooterProps> = ({ onSubscribe }) => {
                 src={facebookIcon} 
                 alt="Facebook" 
                 className="w-10 h-10"
-                style={{ width: '40px', height: '40px' }}
+                style={{ width: '60px', height: '60px' }}
               />
             </a>
             <a
@@ -248,7 +248,7 @@ const Footer: React.FC<FooterProps> = ({ onSubscribe }) => {
                 src={instagramIcon} 
                 alt="Instagram" 
                 className="w-10 h-10"
-                style={{ width: '40px', height: '40px' }}
+                style={{ width: '60px', height: '60px' }}
               />
             </a>
             <a
@@ -262,7 +262,7 @@ const Footer: React.FC<FooterProps> = ({ onSubscribe }) => {
                 src={twitterIcon} 
                 alt="Twitter" 
                 className="w-10 h-10"
-                style={{ width: '40px', height: '40px' }}
+                style={{ width: '60px', height: '60px' }}
               />
             </a>
             <a
@@ -276,7 +276,7 @@ const Footer: React.FC<FooterProps> = ({ onSubscribe }) => {
                 src={linkedinIcon} 
                 alt="LinkedIn" 
                 className="w-10 h-10"
-                style={{ width: '40px', height: '40px' }}
+                style={{ width: '60px', height: '60px' }}
               />
             </a>
           </div>
