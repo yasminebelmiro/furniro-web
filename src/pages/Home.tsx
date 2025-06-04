@@ -5,7 +5,7 @@ import ListProduct from '../components/ListProduct'
 const Home = () => {
   
   return (
-    <div className='bg-black text-white'>
+    <div>
       <CategorySection />
       <ListProduct />
     </div>
