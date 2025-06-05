@@ -32,7 +32,7 @@ const features: Feature[] = [
   },
 ];
 
-export default function FeaturesSection() {
+const FeaturesSection = () => {
   return (
     <section className="bg-[#FAF3EA] py-8 md:py-12 w-full">
       <div
@@ -70,3 +70,6 @@ export default function FeaturesSection() {
     </section>
   );
 }
+
+
+export default FeaturesSection;

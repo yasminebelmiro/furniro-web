@@ -1,10 +1,10 @@
 
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import facebookIcon from '../assets/facebook.png';
-import instagramIcon from '../assets/instagram.png';
-import twitterIcon from '../assets/twitter.png';
-import linkedinIcon from '../assets/linkedin.png';
+import facebookIcon from '../assets/images/social-images/facebook.svg';
+import instagramIcon from '../assets/images/social-images/instagram.svg';
+import twitterIcon from '../assets/images/social-images/twitter.svg';
+import linkedinIcon from '../assets/images/social-images/linkedin.svg';
 
 interface FooterProps {
   onSubscribe?: (email: string) => void;
@@ -222,7 +222,7 @@ const Footer: React.FC<FooterProps> = ({ onSubscribe }) => {
           </div>
         </div>        {/*seção de redes sociais */}
         <div className="mt-6 mb-8">
-          <div className="flex items-center gap-6">
+          <div className="flex items-center gap-3">
             <a
               href={socialLinks.facebook}
               target="_blank"
@@ -234,7 +234,7 @@ const Footer: React.FC<FooterProps> = ({ onSubscribe }) => {
                 src={facebookIcon} 
                 alt="Facebook" 
                 className="w-10 h-10"
-                style={{ width: '40px', height: '40px' }}
+                style={{ width: '60px', height: '60px' }}
               />
             </a>
             <a
@@ -248,7 +248,7 @@ const Footer: React.FC<FooterProps> = ({ onSubscribe }) => {
                 src={instagramIcon} 
                 alt="Instagram" 
                 className="w-10 h-10"
-                style={{ width: '40px', height: '40px' }}
+                style={{ width: '60px', height: '60px' }}
               />
             </a>
             <a
@@ -262,7 +262,7 @@ const Footer: React.FC<FooterProps> = ({ onSubscribe }) => {
                 src={twitterIcon} 
                 alt="Twitter" 
                 className="w-10 h-10"
-                style={{ width: '40px', height: '40px' }}
+                style={{ width: '60px', height: '60px' }}
               />
             </a>
             <a
@@ -276,7 +276,7 @@ const Footer: React.FC<FooterProps> = ({ onSubscribe }) => {
                 src={linkedinIcon} 
                 alt="LinkedIn" 
                 className="w-10 h-10"
-                style={{ width: '40px', height: '40px' }}
+                style={{ width: '60px', height: '60px' }}
               />
             </a>
           </div>
