@@ -16,17 +16,17 @@
       "adicionalDescription": "Limpeza com pano úmido, evitar exposição direta ao sol para preservar a cor. Montagem simples e rápida.",
       "category": "living",
       "tags": ["sofá", "amarelo", "conforto"],
-      "thumbnail": "/public/products-images/product-1.jpg",
+      "thumbnail": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7",
       "images": [
-        "/public/products-images/product-1.jpg",
-        "/public/products-images/product-1.jpg",
-        "/public/products-images/product-1.jpg",
-        "/public/products-images/product-1.jpg"
+        "https://images.unsplash.com/photo-1586023492125-27b2c045efd7",
+        "https://images.unsplash.com/photo-1586023492125-27b2c045efd7",
+        "https://images.unsplash.com/photo-1586023492125-27b2c045efd7",
+        "https://images.unsplash.com/photo-1586023492125-27b2c045efd7"
       ],
 
       "imagensDescription": [
-        "/public/products-images/product-1.jpg",
-        "/public/products-images/product-1.jpg"
+        "https://images.unsplash.com/photo-1586023492125-27b2c045efd7",
+        "https://images.unsplash.com/photo-1586023492125-27b2c045efd7"
       ]
     },
     {
@@ -45,17 +45,17 @@
       "adicionalDescription": "Use lâmpadas LED recomendadas, evite contato com água, limpeza com pano seco.",
       "category": "living",
       "tags": ["luminária", "iluminação", "articulada"],
-      "thumbnail": "/public/products-images/product-2.jpg",
+      "thumbnail": "https://images.unsplash.com/photo-1506377295352-e3154d43ea9e",
       "images": [
-        "/public/products-images/product-2.jpg",
-        "/public/products-images/product-2.jpg",
-        "/public/products-images/product-2.jpg",
-        "/public/products-images/product-2.jpg"
+        "https://images.unsplash.com/photo-1506377295352-e3154d43ea9e",
+        "https://images.unsplash.com/photo-1506377295352-e3154d43ea9e",
+        "https://images.unsplash.com/photo-1506377295352-e3154d43ea9e",
+        "https://images.unsplash.com/photo-1506377295352-e3154d43ea9e"
       ],
 
       "imagensDescription": [
-        "/public/products-images/product-2.jpg",
-        "/public/products-images/product-2.jpg"
+        "https://images.unsplash.com/photo-1506377295352-e3154d43ea9e",
+        "https://images.unsplash.com/photo-1506377295352-e3154d43ea9e"
       ]
     },
     {
@@ -73,17 +73,17 @@
       "adicionalDescription": "Limpar com aspirador e pano seco. Evitar contato com líquidos.",
       "category": "living",
       "tags": ["poltrona", "moderna", "conforto"],
-      "thumbnail": "/public/products-images/product-3.jpg",
+      "thumbnail": "https://images.unsplash.com/photo-1532372576444-dda954194ad0",
       "images": [
-        "/public/products-images/product-3.jpg",
-        "/public/products-images/product-3.jpg",
-        "/public/products-images/product-3.jpg",
-        "/public/products-images/product-3.jpg"
+        "https://images.unsplash.com/photo-1532372576444-dda954194ad0",
+        "https://images.unsplash.com/photo-1532372576444-dda954194ad0",
+        "https://images.unsplash.com/photo-1532372576444-dda954194ad0",
+        "https://images.unsplash.com/photo-1532372576444-dda954194ad0"
       ],
 
       "imagensDescription": [
-        "/public/products-images/product-3.jpg",
-        "/public/products-images/product-3.jpg"
+        "https://images.unsplash.com/photo-1532372576444-dda954194ad0",
+        "https://images.unsplash.com/photo-1532372576444-dda954194ad0"
       ]
     },
     {
@@ -101,17 +101,17 @@
       "adicionalDescription": "Evitar contato com água, limpar com pano seco ou levemente umedecido.",
       "category": "living",
       "tags": ["mesa de centro", "madeira", "rústico"],
-      "thumbnail": "/public/products-images/product-4.jpg",
+      "thumbnail": "https://images.unsplash.com/photo-1560184897-67f4a3f9a7fa",
       "images": [
-        "/public/products-images/product-4.jpg",
-        "/public/products-images/product-4.jpg",
-        "/public/products-images/product-4.jpg",
-        "/public/products-images/product-4.jpg"
+        "https://images.unsplash.com/photo-1560184897-67f4a3f9a7fa",
+        "https://images.unsplash.com/photo-1560184897-67f4a3f9a7fa",
+        "https://images.unsplash.com/photo-1560184897-67f4a3f9a7fa",
+        "https://images.unsplash.com/photo-1560184897-67f4a3f9a7fa"
       ],
 
       "imagensDescription": [
-        "/public/products-images/product-4.jpg",
-        "/public/products-images/product-4.jpg"
+        "https://images.unsplash.com/photo-1560184897-67f4a3f9a7fa",
+        "https://images.unsplash.com/photo-1560184897-67f4a3f9a7fa"
       ]
     },
     {
@@ -130,17 +130,17 @@
       "adicionalDescription": "Limpeza com pano levemente úmido. Recomendado uso de protetor de tecido.",
       "category": "living",
       "tags": ["sofá", "branco", "médio", "elegante"],
-      "thumbnail": "/public/products-images/product-5.jpg",
+      "thumbnail": "https://images.unsplash.com/photo-1615800002234-05c4d488696c",
       "images": [
-        "/public/products-images/product-5.jpg",
-        "/public/products-images/product-5.jpg",
-        "/public/products-images/product-5.jpg",
-        "/public/products-images/product-5.jpg"
+        "https://images.unsplash.com/photo-1615800002234-05c4d488696c",
+        "https://images.unsplash.com/photo-1615800002234-05c4d488696c",
+        "https://images.unsplash.com/photo-1615800002234-05c4d488696c",
+        "https://images.unsplash.com/photo-1615800002234-05c4d488696c"
       ],
 
       "imagensDescription": [
-        "/public/products-images/product-5.jpg",
-        "/public/products-images/product-5.jpg"
+        "https://images.unsplash.com/photo-1615800002234-05c4d488696c",
+        "https://images.unsplash.com/photo-1615800002234-05c4d488696c"
       ]
     },
     {
@@ -159,17 +159,17 @@
       "adicionalDescription": "Fixação segura na parede é essencial. Limpar com flanela e produto específico para vidro.",
       "category": "living",
       "tags": ["espelho", "redondo", "gigante", "decoração"],
-      "thumbnail": "/public/products-images/product-6.jpg",
+      "thumbnail": "https://images.unsplash.com/photo-1618219908412-a29a1bb7b86e",
       "images": [
-        "/public/products-images/product-6.jpg",
-        "/public/products-images/product-6.jpg",
-        "/public/products-images/product-6.jpg",
-        "/public/products-images/product-6.jpg"
+        "https://images.unsplash.com/photo-1618219908412-a29a1bb7b86e",
+        "https://images.unsplash.com/photo-1618219908412-a29a1bb7b86e",
+        "https://images.unsplash.com/photo-1618219908412-a29a1bb7b86e",
+        "https://images.unsplash.com/photo-1618219908412-a29a1bb7b86e"
       ],
 
       "imagensDescription": [
-        "/public/products-images/product-6.jpg",
-        "/public/products-images/product-6.jpg"
+        "https://images.unsplash.com/photo-1618219908412-a29a1bb7b86e",
+        "https://images.unsplash.com/photo-1618219908412-a29a1bb7b86e"
       ]
     },
     {
@@ -187,17 +187,17 @@
       "adicionalDescription": "Evite produtos químicos. Limpar com pano seco e aspirador. Ideal manter longe da luz solar direta pra preservar a cor vibrante.",
       "category": "living",
       "tags": ["poltrona", "contemporânea", "ciano", "design"],
-      "thumbnail": "/public/products-images/product-7.jpg",
+      "thumbnail": "https://images.unsplash.com/photo-1606744837616-56c9a5c6a6eb",
       "images": [
-        "/public/products-images/product-7.jpg",
-        "/public/products-images/product-7.jpg",
-        "/public/products-images/product-7.jpg",
-        "/public/products-images/product-7.jpg"
+        "https://images.unsplash.com/photo-1606744837616-56c9a5c6a6eb",
+        "https://images.unsplash.com/photo-1606744837616-56c9a5c6a6eb",
+        "https://images.unsplash.com/photo-1606744837616-56c9a5c6a6eb",
+        "https://images.unsplash.com/photo-1606744837616-56c9a5c6a6eb"
       ],
 
       "imagensDescription": [
-        "/public/products-images/product-7.jpg",
-        "/public/products-images/product-7.jpg"
+        "https://images.unsplash.com/photo-1606744837616-56c9a5c6a6eb",
+        "https://images.unsplash.com/photo-1606744837616-56c9a5c6a6eb"
       ]
     },
     {
@@ -216,17 +216,17 @@
       "adicionalDescription": "Lavável à máquina em ciclo delicado. Passar em temperatura baixa. Evitar alvejantes.",
       "category": "living",
       "tags": ["cortina", "branca", "leve", "quarto"],
-      "thumbnail": "/public/products-images/product-8.jpg",
+      "thumbnail": "https://images.unsplash.com/photo-1612196808827-9ff25cb6137a",
       "images": [
-        "/public/products-images/product-8.jpg",
-        "/public/products-images/product-8.jpg",
-        "/public/products-images/product-8.jpg",
-        "/public/products-images/product-8.jpg"
+        "https://images.unsplash.com/photo-1612196808827-9ff25cb6137a",
+        "https://images.unsplash.com/photo-1612196808827-9ff25cb6137a",
+        "https://images.unsplash.com/photo-1612196808827-9ff25cb6137a",
+        "https://images.unsplash.com/photo-1612196808827-9ff25cb6137a"
       ],
 
       "imagensDescription": [
-        "/public/products-images/product-8.jpg",
-        "/public/products-images/product-8.jpg"
+        "https://images.unsplash.com/photo-1612196808827-9ff25cb6137a",
+        "https://images.unsplash.com/photo-1612196808827-9ff25cb6137a"
       ]
     },
     {
@@ -245,17 +245,17 @@
       "adicionalDescription": "Montagem simples. Limpeza com pano seco ou levemente umedecido. Suporta até 350 kg.",
       "category": "bedroom",
       "tags": ["cama", "king", "cinza", "quarto"],
-      "thumbnail": "/public/products-images/product-9.jpg",
+      "thumbnail": "https://images.unsplash.com/photo-1616594039964-ae9021a400a0",
       "images": [
-        "/public/products-images/product-9.jpg",
-        "/public/products-images/product-9.jpg",
-        "/public/products-images/product-9.jpg",
-        "/public/products-images/product-9.jpg"
+        "https://images.unsplash.com/photo-1616594039964-ae9021a400a0",
+        "https://images.unsplash.com/photo-1616594039964-ae9021a400a0",
+        "https://images.unsplash.com/photo-1616594039964-ae9021a400a0",
+        "https://images.unsplash.com/photo-1616594039964-ae9021a400a0"
       ],
 
       "imagensDescription": [
-        "/public/products-images/product-9.jpg",
-        "/public/products-images/product-9.jpg"
+        "https://images.unsplash.com/photo-1616594039964-ae9021a400a0",
+        "https://images.unsplash.com/photo-1616594039964-ae9021a400a0"
       ]
     },
     {
@@ -273,17 +273,17 @@
       "adicionalDescription": "Limpeza com pano seco. Evitar exposição direta ao sol e umidade.",
       "category": "bedroom",
       "tags": ["mesa", "cabeceira", "vintage", "quarto"],
-      "thumbnail": "/public/products-images/product-10.jpg",
+      "thumbnail": "/https://plus.unsplash.com/premium_photo-1683917067988-1b0323c3b574",
       "images": [
-        "/public/products-images/product-10.jpg",
-        "/public/products-images/product-10.jpg",
-        "/public/products-images/product-10.jpg",
-        "/public/products-images/product-10.jpg"
+        "/https://plus.unsplash.com/premium_photo-1683917067988-1b0323c3b574",
+        "/https://plus.unsplash.com/premium_photo-1683917067988-1b0323c3b574",
+        "/https://plus.unsplash.com/premium_photo-1683917067988-1b0323c3b574",
+        "/https://plus.unsplash.com/premium_photo-1683917067988-1b0323c3b574"
       ],
 
       "imagensDescription": [
-        "/public/products-images/product-10.jpg",
-        "/public/products-images/product-10.jpg"
+        "/https://plus.unsplash.com/premium_photo-1683917067988-1b0323c3b574",
+        "/https://plus.unsplash.com/premium_photo-1683917067988-1b0323c3b574"
       ]
     },
     {
@@ -301,17 +301,17 @@
       "adicionalDescription": "Limpar com pano seco. Pendurar com prego ou fita dupla face resistente. Ideal evitar luz solar direta para preservar as cores.",
       "category": "bedroom",
       "tags": ["quadros", "floral", "decoração", "arte"],
-      "thumbnail": "/public/products-images/product-11.jpg",
+      "thumbnail": "https://images.unsplash.com/photo-1586105251261-72a756497a11",
       "images": [
-        "/public/products-images/product-11.jpg",
-        "/public/products-images/product-11.jpg",
-        "/public/products-images/product-11.jpg",
-        "/public/products-images/product-11.jpg"
+        "https://images.unsplash.com/photo-1586105251261-72a756497a11",
+        "https://images.unsplash.com/photo-1586105251261-72a756497a11",
+        "https://images.unsplash.com/photo-1586105251261-72a756497a11",
+        "https://images.unsplash.com/photo-1586105251261-72a756497a11"
       ],
 
       "imagensDescription": [
-        "/public/products-images/product-11.jpg",
-        "/public/products-images/product-11.jpg"
+        "https://images.unsplash.com/photo-1586105251261-72a756497a11",
+        "https://images.unsplash.com/photo-1586105251261-72a756497a11"
       ]
     },
     {
@@ -330,17 +330,17 @@
       "adicionalDescription": "Lavável à máquina em até 40°C. Não usar alvejante. Pode passar em temperatura baixa.",
       "category": "bedroom",
       "tags": ["cama", "jogo de cama", "rosè", "roupa de cama"],
-      "thumbnail": "/public/products-images/product-12.jpg",
+      "thumbnail": "https://images.unsplash.com/photo-1613252067198-cc29a8368d09",
       "images": [
-        "/public/products-images/product-12.jpg",
-        "/public/products-images/product-12.jpg",
-        "/public/products-images/product-12.jpg",
-        "/public/products-images/product-12.jpg"
+        "https://images.unsplash.com/photo-1613252067198-cc29a8368d09",
+        "https://images.unsplash.com/photo-1613252067198-cc29a8368d09",
+        "https://images.unsplash.com/photo-1613252067198-cc29a8368d09",
+        "https://images.unsplash.com/photo-1613252067198-cc29a8368d09"
       ],
 
       "imagensDescription": [
-        "/public/products-images/product-12.jpg",
-        "/public/products-images/product-12.jpg"
+        "https://images.unsplash.com/photo-1613252067198-cc29a8368d09",
+        "https://images.unsplash.com/photo-1613252067198-cc29a8368d09"
       ]
     },
     {
@@ -359,17 +359,17 @@
       "adicionalDescription": "Não expor a quedas bruscas. Limpar com pano úmido. Ideal para uso interno.",
       "category": "bedroom",
       "tags": ["vaso", "cerâmica", "decoração", "redondo"],
-      "thumbnail": "/public/products-images/product-13.jpg",
+      "thumbnail": "https://plus.unsplash.com/premium_photo-1681980018727-b2b984b3faa7",
       "images": [
-        "/public/products-images/product-13.jpg",
-        "/public/products-images/product-13.jpg",
-        "/public/products-images/product-13.jpg",
-        "/public/products-images/product-13.jpg"
+        "https://plus.unsplash.com/premium_photo-1681980018727-b2b984b3faa7",
+        "https://plus.unsplash.com/premium_photo-1681980018727-b2b984b3faa7",
+        "https://plus.unsplash.com/premium_photo-1681980018727-b2b984b3faa7",
+        "https://plus.unsplash.com/premium_photo-1681980018727-b2b984b3faa7"
       ],
 
       "imagensDescription": [
-        "/public/products-images/product-13.jpg",
-        "/public/products-images/product-13.jpg"
+        "https://plus.unsplash.com/premium_photo-1681980018727-b2b984b3faa7",
+        "https://plus.unsplash.com/premium_photo-1681980018727-b2b984b3faa7"
       ]
     },
     {
@@ -387,17 +387,17 @@
       "adicionalDescription": "Limpar com pano seco. Evitar exposição direta ao sol para preservar a pintura.",
       "category": "bedroom",
       "tags": ["cômoda", "branca", "madeira", "organização"],
-      "thumbnail": "/public/products-images/product-14.jpg",
+      "thumbnail": "https://images.unsplash.com/photo-1556020685-ae41abfc9365",
       "images": [
-        "/public/products-images/product-14.jpg",
-        "/public/products-images/product-14.jpg",
-        "/public/products-images/product-14.jpg",
-        "/public/products-images/product-14.jpg"
+        "https://images.unsplash.com/photo-1556020685-ae41abfc9365",
+        "https://images.unsplash.com/photo-1556020685-ae41abfc9365",
+        "https://images.unsplash.com/photo-1556020685-ae41abfc9365",
+        "https://images.unsplash.com/photo-1556020685-ae41abfc9365"
       ],
 
       "imagensDescription": [
-        "/public/products-images/product-14.jpg",
-        "/public/products-images/product-14.jpg"
+        "https://images.unsplash.com/photo-1556020685-ae41abfc9365",
+        "https://images.unsplash.com/photo-1556020685-ae41abfc9365"
       ]
     },
     {
@@ -416,17 +416,17 @@
       "adicionalDescription": "Limpar com pano úmido. Evitar contato com líquidos em excesso.",
       "category": "bedroom",
       "tags": ["banco", "tecido", "estofado", "conforto"],
-      "thumbnail": "/public/products-images/product-15.jpg",
+      "thumbnail": "https://images.unsplash.com/photo-1615529162924-f8605388461d",
       "images": [
-        "/public/products-images/product-15.jpg",
-        "/public/products-images/product-15.jpg",
-        "/public/products-images/product-15.jpg",
-        "/public/products-images/product-15.jpg"
+        "https://images.unsplash.com/photo-1615529162924-f8605388461d",
+        "https://images.unsplash.com/photo-1615529162924-f8605388461d",
+        "https://images.unsplash.com/photo-1615529162924-f8605388461d",
+        "https://images.unsplash.com/photo-1615529162924-f8605388461d"
       ],
 
       "imagensDescription": [
-        "/public/products-images/product-15.jpg",
-        "/public/products-images/product-15.jpg"
+        "https://images.unsplash.com/photo-1615529162924-f8605388461d",
+        "https://images.unsplash.com/photo-1615529162924-f8605388461d"
       ]
     },
     {
@@ -445,17 +445,17 @@
       "adicionalDescription": "Evitar exposição ao sol e umidade. Limpar com pano seco.",
       "category": "bedroom",
       "tags": ["escrevaninha", "vintage", "elegante", "home office"],
-      "thumbnail": "/public/products-images/product-16.jpg",
+      "thumbnail": "https://images.unsplash.com/photo-1611269154421-4e27233ac5c7",
       "images": [
-        "/public/products-images/product-16.jpg",
-        "/public/products-images/product-16.jpg",
-        "/public/products-images/product-16.jpg",
-        "/public/products-images/product-16.jpg"
+        "https://images.unsplash.com/photo-1611269154421-4e27233ac5c7",
+        "https://images.unsplash.com/photo-1611269154421-4e27233ac5c7",
+        "https://images.unsplash.com/photo-1611269154421-4e27233ac5c7",
+        "https://images.unsplash.com/photo-1611269154421-4e27233ac5c7"
       ],
 
       "imagensDescription": [
-        "/public/products-images/product-16.jpg",
-        "/public/products-images/product-16.jpg"
+        "https://images.unsplash.com/photo-1611269154421-4e27233ac5c7",
+        "https://images.unsplash.com/photo-1611269154421-4e27233ac5c7"
       ]
     },
     {
@@ -473,17 +473,17 @@
       "adicionalDescription": "Limpeza com pano seco ou levemente umedecido. Não utilizar produtos abrasivos.",
       "category": "dining",
       "tags": ["mesa", "jantar", "madeira escura", "refinada"],
-      "thumbnail": "/public/products-images/product-17.jpg",
+      "thumbnail": "https://images.unsplash.com/photo-1617098709804-705581f844eb",
       "images": [
-        "/public/products-images/product-17.jpg",
-        "/public/products-images/product-17.jpg",
-        "/public/products-images/product-17.jpg",
-        "/public/products-images/product-17.jpg"
+        "https://images.unsplash.com/photo-1617098709804-705581f844eb",
+        "https://images.unsplash.com/photo-1617098709804-705581f844eb",
+        "https://images.unsplash.com/photo-1617098709804-705581f844eb",
+        "https://images.unsplash.com/photo-1617098709804-705581f844eb"
       ],
 
       "imagensDescription": [
-        "/public/products-images/product-17.jpg",
-        "/public/products-images/product-17.jpg"
+        "https://images.unsplash.com/photo-1617098709804-705581f844eb",
+        "https://images.unsplash.com/photo-1617098709804-705581f844eb"
       ]
     },
     {
@@ -502,17 +502,17 @@
       "adicionalDescription": "Evitar arrastar objetos duros sobre o tampo. Limpar com pano seco.",
       "category": "dining",
       "tags": ["mesa", "redonda", "elegante", "sala de jantar"],
-      "thumbnail": "/public/products-images/product-18.jpg",
+      "thumbnail": "https://images.unsplash.com/photo-1616486701797-0f33f61038ec",
       "images": [
-        "/public/products-images/product-18.jpg",
-        "/public/products-images/product-18.jpg",
-        "/public/products-images/product-18.jpg",
-        "/public/products-images/product-18.jpg"
+        "https://images.unsplash.com/photo-1616486701797-0f33f61038ec",
+        "https://images.unsplash.com/photo-1616486701797-0f33f61038ec",
+        "https://images.unsplash.com/photo-1616486701797-0f33f61038ec",
+        "https://images.unsplash.com/photo-1616486701797-0f33f61038ec"
       ],
 
       "imagensDescription": [
-        "/public/products-images/product-18.jpg",
-        "/public/products-images/product-18.jpg"
+        "https://images.unsplash.com/photo-1616486701797-0f33f61038ec",
+        "https://images.unsplash.com/photo-1616486701797-0f33f61038ec"
       ]
     },
     {
@@ -531,17 +531,17 @@
       "adicionalDescription": "Fixar corretamente na parede. Limpar com pano macio e seco. Evitar excesso de peso nas prateleiras.",
       "category": "dining",
       "tags": ["armário", "cozinha", "branco", "organização"],
-      "thumbnail": "/public/products-images/product-19.jpg",
+      "thumbnail": "https://images.unsplash.com/photo-1588854337345-77051f901b9c",
       "images": [
-        "/public/products-images/product-19.jpg",
-        "/public/products-images/product-19.jpg",
-        "/public/products-images/product-19.jpg",
-        "/public/products-images/product-19.jpg"
+        "https://images.unsplash.com/photo-1588854337345-77051f901b9c",
+        "https://images.unsplash.com/photo-1588854337345-77051f901b9c",
+        "https://images.unsplash.com/photo-1588854337345-77051f901b9c",
+        "https://images.unsplash.com/photo-1588854337345-77051f901b9c"
       ],
 
       "imagensDescription": [
-        "/public/products-images/product-19.jpg",
-        "/public/products-images/product-19.jpg"
+        "https://images.unsplash.com/photo-1588854337345-77051f901b9c",
+        "https://images.unsplash.com/photo-1588854337345-77051f901b9c"
       ]
     },
     {
@@ -560,17 +560,17 @@
       "adicionalDescription": "Utilizar lâmpadas LED. Evitar contato com líquidos. Limpar com pano seco.",
       "category": "dining",
       "tags": ["luminária", "contemporânea", "organização", "escrivaninha"],
-        "thumbnail": "/public/products-images/product-20.jpg",
+        "thumbnail": "https://plus.unsplash.com/premium_photo-1705751548612-70320bb6e62c",
       "images": [
-        "/public/products-images/product-20.jpg",
-        "/public/products-images/product-20.jpg",
-        "/public/products-images/product-20.jpg",
-        "/public/products-images/product-20.jpg"
+        "https://plus.unsplash.com/premium_photo-1705751548612-70320bb6e62c",
+        "https://plus.unsplash.com/premium_photo-1705751548612-70320bb6e62c",
+        "https://plus.unsplash.com/premium_photo-1705751548612-70320bb6e62c",
+        "https://plus.unsplash.com/premium_photo-1705751548612-70320bb6e62c"
       ],
 
       "imagensDescription": [
-        "/public/products-images/product-20.jpg",
-        "/public/products-images/product-20.jpg"
+        "https://plus.unsplash.com/premium_photo-1705751548612-70320bb6e62c",
+        "https://plus.unsplash.com/premium_photo-1705751548612-70320bb6e62c"
       ]
     },
     {
@@ -589,17 +589,17 @@
       "adicionalDescription": "Limpar com pano seco. Não usar produtos químicos nas superfícies de vidro.",
       "category": "dining",
       "tags": ["cristaleira", "madeira escura", "organização", "elegante"],
-        "thumbnail": "/public/products-images/product-21.jpg",
+        "thumbnail": "https://plus.unsplash.com/premium_photo-1676823570438-5b717d034e97",
       "images": [
-        "/public/products-images/product-21.jpg",
-        "/public/products-images/product-21.jpg",
-        "/public/products-images/product-21.jpg",
-        "/public/products-images/product-21.jpg"
+        "https://plus.unsplash.com/premium_photo-1676823570438-5b717d034e97",
+        "https://plus.unsplash.com/premium_photo-1676823570438-5b717d034e97",
+        "https://plus.unsplash.com/premium_photo-1676823570438-5b717d034e97",
+        "https://plus.unsplash.com/premium_photo-1676823570438-5b717d034e97"
       ],
 
       "imagensDescription": [
-        "/public/products-images/product-21.jpg",
-        "/public/products-images/product-21.jpg"
+        "https://plus.unsplash.com/premium_photo-1676823570438-5b717d034e97",
+        "https://plus.unsplash.com/premium_photo-1676823570438-5b717d034e97"
       ]
     },
     {
@@ -617,17 +617,17 @@
       "adicionalDescription": "Limpar com pano úmido e sabão neutro. Suporta até 120kg cada.",
       "category": "dining",
       "tags": ["banco", "bancada", "cozinha", "conforto", "alto"],
-        "thumbnail": "/public/products-images/product-22.jpg",
+        "thumbnail": "https://images.unsplash.com/photo-1556595101-15dc5f6431e3",
       "images": [
-        "/public/products-images/product-22.jpg",
-        "/public/products-images/product-22.jpg",
-        "/public/products-images/product-22.jpg",
-        "/public/products-images/product-22.jpg"
+        "https://images.unsplash.com/photo-1556595101-15dc5f6431e3",
+        "https://images.unsplash.com/photo-1556595101-15dc5f6431e3",
+        "https://images.unsplash.com/photo-1556595101-15dc5f6431e3",
+        "https://images.unsplash.com/photo-1556595101-15dc5f6431e3"
       ],
 
       "imagensDescription": [
-        "/public/products-images/product-22.jpg",
-        "/public/products-images/product-22.jpg"
+        "https://images.unsplash.com/photo-1556595101-15dc5f6431e3",
+        "https://images.unsplash.com/photo-1556595101-15dc5f6431e3"
       ]
     },
     {
@@ -645,17 +645,17 @@
       "adicionalDescription": "Evitar contato prolongado com água. Usar somente panos macios para limpeza.",
       "category": "dining",
       "tags": ["banca", "cozinha", "verde musgo", "moderna"],
-      "thumbnail": "/public/products-images/product-23.jpg",
+      "thumbnail": "https://images.unsplash.com/photo-1737233463795-34fccdfc67bb",
       "images": [
-        "/public/products-images/product-23.jpg",
-        "/public/products-images/product-23.jpg",
-        "/public/products-images/product-23.jpg",
-        "/public/products-images/product-23.jpg"
+        "https://images.unsplash.com/photo-1737233463795-34fccdfc67bb",
+        "https://images.unsplash.com/photo-1737233463795-34fccdfc67bb",
+        "https://images.unsplash.com/photo-1737233463795-34fccdfc67bb",
+        "https://images.unsplash.com/photo-1737233463795-34fccdfc67bb"
       ],
 
       "imagensDescription": [
-        "/public/products-images/product-23.jpg",
-        "/public/products-images/product-23.jpg"
+        "https://images.unsplash.com/photo-1737233463795-34fccdfc67bb",
+        "https://images.unsplash.com/photo-1737233463795-34fccdfc67bb"
       ]
     },
     {
@@ -674,17 +674,17 @@
       "adicionalDescription": "Evitar impactos e uso de produtos ácidos. Limpar com pano úmido.",
       "category": "dining",
       "tags": ["mesa", "mármore", "pequena", "sofisticada"],
-       "thumbnail": "/public/products-images/product-24.jpg",
+       "thumbnail": "https://images.unsplash.com/photo-1609347744403-2306e8a9ae27",
       "images": [
-        "/public/products-images/product-24.jpg",
-        "/public/products-images/product-24.jpg",
-        "/public/products-images/product-24.jpg",
-        "/public/products-images/product-24.jpg"
+        "https://images.unsplash.com/photo-1609347744403-2306e8a9ae27",
+        "https://images.unsplash.com/photo-1609347744403-2306e8a9ae27",
+        "https://images.unsplash.com/photo-1609347744403-2306e8a9ae27",
+        "https://images.unsplash.com/photo-1609347744403-2306e8a9ae27"
       ],
 
       "imagensDescription": [
-        "/public/products-images/product-24.jpg",
-        "/public/products-images/product-24.jpg"
+        "https://images.unsplash.com/photo-1609347744403-2306e8a9ae27",
+        "https://images.unsplash.com/photo-1609347744403-2306e8a9ae27"
       ]
     },
     {
@@ -703,17 +703,17 @@
       "adicionalDescription": "Limpeza com pano úmido, evitar exposição direta ao sol para preservar a cor. Montagem simples e rápida.",
       "category": "living",
       "tags": ["sofá", "amarelo", "conforto"],
-      "thumbnail": "/public/products-images/product-1.jpg",
+      "thumbnail": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7",
       "images": [
-        "/public/products-images/product-1.jpg",
-        "/public/products-images/product-1.jpg",
-        "/public/products-images/product-1.jpg",
-        "/public/products-images/product-1.jpg"
+        "https://images.unsplash.com/photo-1586023492125-27b2c045efd7",
+        "https://images.unsplash.com/photo-1586023492125-27b2c045efd7",
+        "https://images.unsplash.com/photo-1586023492125-27b2c045efd7",
+        "https://images.unsplash.com/photo-1586023492125-27b2c045efd7"
       ],
 
       "imagensDescription": [
-        "/public/products-images/product-1.jpg",
-        "/public/products-images/product-1.jpg"
+        "https://images.unsplash.com/photo-1586023492125-27b2c045efd7",
+        "https://images.unsplash.com/photo-1586023492125-27b2c045efd7"
       ]
     },
     {
@@ -732,17 +732,17 @@
       "adicionalDescription": "Use lâmpadas LED recomendadas, evite contato com água, limpeza com pano seco.",
       "category": "living",
       "tags": ["luminária", "iluminação", "articulada"],
-      "thumbnail": "/public/products-images/product-2.jpg",
+      "thumbnail": "https://images.unsplash.com/photo-1506377295352-e3154d43ea9e",
       "images": [
-        "/public/products-images/product-2.jpg",
-        "/public/products-images/product-2.jpg",
-        "/public/products-images/product-2.jpg",
-        "/public/products-images/product-2.jpg"
+        "https://images.unsplash.com/photo-1506377295352-e3154d43ea9e",
+        "https://images.unsplash.com/photo-1506377295352-e3154d43ea9e",
+        "https://images.unsplash.com/photo-1506377295352-e3154d43ea9e",
+        "https://images.unsplash.com/photo-1506377295352-e3154d43ea9e"
       ],
 
       "imagensDescription": [
-        "/public/products-images/product-2.jpg",
-        "/public/products-images/product-2.jpg"
+        "https://images.unsplash.com/photo-1506377295352-e3154d43ea9e",
+        "https://images.unsplash.com/photo-1506377295352-e3154d43ea9e"
       ]
     },
     {
@@ -760,17 +760,17 @@
       "adicionalDescription": "Limpar com aspirador e pano seco. Evitar contato com líquidos.",
       "category": "living",
       "tags": ["poltrona", "moderna", "conforto"],
-      "thumbnail": "/public/products-images/product-3.jpg",
+      "thumbnail": "https://images.unsplash.com/photo-1532372576444-dda954194ad0",
       "images": [
-        "/public/products-images/product-3.jpg",
-        "/public/products-images/product-3.jpg",
-        "/public/products-images/product-3.jpg",
-        "/public/products-images/product-3.jpg"
+        "https://images.unsplash.com/photo-1532372576444-dda954194ad0",
+        "https://images.unsplash.com/photo-1532372576444-dda954194ad0",
+        "https://images.unsplash.com/photo-1532372576444-dda954194ad0",
+        "https://images.unsplash.com/photo-1532372576444-dda954194ad0"
       ],
 
       "imagensDescription": [
-        "/public/products-images/product-3.jpg",
-        "/public/products-images/product-3.jpg"
+        "https://images.unsplash.com/photo-1532372576444-dda954194ad0",
+        "https://images.unsplash.com/photo-1532372576444-dda954194ad0"
       ]
     },
     {
@@ -788,17 +788,17 @@
       "adicionalDescription": "Evitar contato com água, limpar com pano seco ou levemente umedecido.",
       "category": "living",
       "tags": ["mesa de centro", "madeira", "rústico"],
-      "thumbnail": "/public/products-images/product-4.jpg",
+      "thumbnail": "https://images.unsplash.com/photo-1560184897-67f4a3f9a7fa",
       "images": [
-        "/public/products-images/product-4.jpg",
-        "/public/products-images/product-4.jpg",
-        "/public/products-images/product-4.jpg",
-        "/public/products-images/product-4.jpg"
+        "https://images.unsplash.com/photo-1560184897-67f4a3f9a7fa",
+        "https://images.unsplash.com/photo-1560184897-67f4a3f9a7fa",
+        "https://images.unsplash.com/photo-1560184897-67f4a3f9a7fa",
+        "https://images.unsplash.com/photo-1560184897-67f4a3f9a7fa"
       ],
 
       "imagensDescription": [
-        "/public/products-images/product-4.jpg",
-        "/public/products-images/product-4.jpg"
+        "https://images.unsplash.com/photo-1560184897-67f4a3f9a7fa",
+        "https://images.unsplash.com/photo-1560184897-67f4a3f9a7fa"
       ]
     },
     {
@@ -817,17 +817,17 @@
       "adicionalDescription": "Limpeza com pano levemente úmido. Recomendado uso de protetor de tecido.",
       "category": "living",
       "tags": ["sofá", "branco", "médio", "elegante"],
-      "thumbnail": "/public/products-images/product-5.jpg",
+      "thumbnail": "https://images.unsplash.com/photo-1615800002234-05c4d488696c",
       "images": [
-        "/public/products-images/product-5.jpg",
-        "/public/products-images/product-5.jpg",
-        "/public/products-images/product-5.jpg",
-        "/public/products-images/product-5.jpg"
+        "https://images.unsplash.com/photo-1615800002234-05c4d488696c",
+        "https://images.unsplash.com/photo-1615800002234-05c4d488696c",
+        "https://images.unsplash.com/photo-1615800002234-05c4d488696c",
+        "https://images.unsplash.com/photo-1615800002234-05c4d488696c"
       ],
 
       "imagensDescription": [
-        "/public/products-images/product-5.jpg",
-        "/public/products-images/product-5.jpg"
+        "https://images.unsplash.com/photo-1615800002234-05c4d488696c",
+        "https://images.unsplash.com/photo-1615800002234-05c4d488696c"
       ]
     },
     {
@@ -846,17 +846,17 @@
       "adicionalDescription": "Fixação segura na parede é essencial. Limpar com flanela e produto específico para vidro.",
       "category": "living",
       "tags": ["espelho", "redondo", "gigante", "decoração"],
-      "thumbnail": "/public/products-images/product-6.jpg",
+      "thumbnail": "https://images.unsplash.com/photo-1618219908412-a29a1bb7b86e",
       "images": [
-        "/public/products-images/product-6.jpg",
-        "/public/products-images/product-6.jpg",
-        "/public/products-images/product-6.jpg",
-        "/public/products-images/product-6.jpg"
+        "https://images.unsplash.com/photo-1618219908412-a29a1bb7b86e",
+        "https://images.unsplash.com/photo-1618219908412-a29a1bb7b86e",
+        "https://images.unsplash.com/photo-1618219908412-a29a1bb7b86e",
+        "https://images.unsplash.com/photo-1618219908412-a29a1bb7b86e"
       ],
 
       "imagensDescription": [
-        "/public/products-images/product-6.jpg",
-        "/public/products-images/product-6.jpg"
+        "https://images.unsplash.com/photo-1618219908412-a29a1bb7b86e",
+        "https://images.unsplash.com/photo-1618219908412-a29a1bb7b86e"
       ]
     },
     {
@@ -874,17 +874,17 @@
       "adicionalDescription": "Evite produtos químicos. Limpar com pano seco e aspirador. Ideal manter longe da luz solar direta pra preservar a cor vibrante.",
       "category": "living",
       "tags": ["poltrona", "contemporânea", "ciano", "design"],
-      "thumbnail": "/public/products-images/product-7.jpg",
+      "thumbnail": "https://images.unsplash.com/photo-1606744837616-56c9a5c6a6eb",
       "images": [
-        "/public/products-images/product-7.jpg",
-        "/public/products-images/product-7.jpg",
-        "/public/products-images/product-7.jpg",
-        "/public/products-images/product-7.jpg"
+        "https://images.unsplash.com/photo-1606744837616-56c9a5c6a6eb",
+        "https://images.unsplash.com/photo-1606744837616-56c9a5c6a6eb",
+        "https://images.unsplash.com/photo-1606744837616-56c9a5c6a6eb",
+        "https://images.unsplash.com/photo-1606744837616-56c9a5c6a6eb"
       ],
 
       "imagensDescription": [
-        "/public/products-images/product-7.jpg",
-        "/public/products-images/product-7.jpg"
+        "https://images.unsplash.com/photo-1606744837616-56c9a5c6a6eb",
+        "https://images.unsplash.com/photo-1606744837616-56c9a5c6a6eb"
       ]
     },
     {
@@ -903,17 +903,17 @@
       "adicionalDescription": "Lavável à máquina em ciclo delicado. Passar em temperatura baixa. Evitar alvejantes.",
       "category": "living",
       "tags": ["cortina", "branca", "leve", "quarto"],
-      "thumbnail": "/public/products-images/product-8.jpg",
+      "thumbnail": "https://images.unsplash.com/photo-1612196808827-9ff25cb6137a",
       "images": [
-        "/public/products-images/product-8.jpg",
-        "/public/products-images/product-8.jpg",
-        "/public/products-images/product-8.jpg",
-        "/public/products-images/product-8.jpg"
+        "https://images.unsplash.com/photo-1612196808827-9ff25cb6137a",
+        "https://images.unsplash.com/photo-1612196808827-9ff25cb6137a",
+        "https://images.unsplash.com/photo-1612196808827-9ff25cb6137a",
+        "https://images.unsplash.com/photo-1612196808827-9ff25cb6137a"
       ],
 
       "imagensDescription": [
-        "/public/products-images/product-8.jpg",
-        "/public/products-images/product-8.jpg"
+        "https://images.unsplash.com/photo-1612196808827-9ff25cb6137a",
+        "https://images.unsplash.com/photo-1612196808827-9ff25cb6137a"
       ]
     },
     {
@@ -932,17 +932,17 @@
       "adicionalDescription": "Montagem simples. Limpeza com pano seco ou levemente umedecido. Suporta até 350 kg.",
       "category": "bedroom",
       "tags": ["cama", "king", "cinza", "quarto"],
-      "thumbnail": "/public/products-images/product-9.jpg",
+      "thumbnail": "https://images.unsplash.com/photo-1616594039964-ae9021a400a0",
       "images": [
-        "/public/products-images/product-9.jpg",
-        "/public/products-images/product-9.jpg",
-        "/public/products-images/product-9.jpg",
-        "/public/products-images/product-9.jpg"
+        "https://images.unsplash.com/photo-1616594039964-ae9021a400a0",
+        "https://images.unsplash.com/photo-1616594039964-ae9021a400a0",
+        "https://images.unsplash.com/photo-1616594039964-ae9021a400a0",
+        "https://images.unsplash.com/photo-1616594039964-ae9021a400a0"
       ],
 
       "imagensDescription": [
-        "/public/products-images/product-9.jpg",
-        "/public/products-images/product-9.jpg"
+        "https://images.unsplash.com/photo-1616594039964-ae9021a400a0",
+        "https://images.unsplash.com/photo-1616594039964-ae9021a400a0"
       ]
     },
     {
@@ -960,17 +960,17 @@
       "adicionalDescription": "Limpeza com pano seco. Evitar exposição direta ao sol e umidade.",
       "category": "bedroom",
       "tags": ["mesa", "cabeceira", "vintage", "quarto"],
-      "thumbnail": "/public/products-images/product-10.jpg",
+      "thumbnail": "/https://plus.unsplash.com/premium_photo-1683917067988-1b0323c3b574",
       "images": [
-        "/public/products-images/product-10.jpg",
-        "/public/products-images/product-10.jpg",
-        "/public/products-images/product-10.jpg",
-        "/public/products-images/product-10.jpg"
+        "/https://plus.unsplash.com/premium_photo-1683917067988-1b0323c3b574",
+        "/https://plus.unsplash.com/premium_photo-1683917067988-1b0323c3b574",
+        "/https://plus.unsplash.com/premium_photo-1683917067988-1b0323c3b574",
+        "/https://plus.unsplash.com/premium_photo-1683917067988-1b0323c3b574"
       ],
 
       "imagensDescription": [
-        "/public/products-images/product-10.jpg",
-        "/public/products-images/product-10.jpg"
+        "/https://plus.unsplash.com/premium_photo-1683917067988-1b0323c3b574",
+        "/https://plus.unsplash.com/premium_photo-1683917067988-1b0323c3b574"
       ]
     },
     {
@@ -988,17 +988,17 @@
       "adicionalDescription": "Limpar com pano seco. Pendurar com prego ou fita dupla face resistente. Ideal evitar luz solar direta para preservar as cores.",
       "category": "bedroom",
       "tags": ["quadros", "floral", "decoração", "arte"],
-      "thumbnail": "/public/products-images/product-11.jpg",
+      "thumbnail": "https://images.unsplash.com/photo-1586105251261-72a756497a11",
       "images": [
-        "/public/products-images/product-11.jpg",
-        "/public/products-images/product-11.jpg",
-        "/public/products-images/product-11.jpg",
-        "/public/products-images/product-11.jpg"
+        "https://images.unsplash.com/photo-1586105251261-72a756497a11",
+        "https://images.unsplash.com/photo-1586105251261-72a756497a11",
+        "https://images.unsplash.com/photo-1586105251261-72a756497a11",
+        "https://images.unsplash.com/photo-1586105251261-72a756497a11"
       ],
 
       "imagensDescription": [
-        "/public/products-images/product-11.jpg",
-        "/public/products-images/product-11.jpg"
+        "https://images.unsplash.com/photo-1586105251261-72a756497a11",
+        "https://images.unsplash.com/photo-1586105251261-72a756497a11"
       ]
     },
     {
@@ -1017,17 +1017,17 @@
       "adicionalDescription": "Lavável à máquina em até 40°C. Não usar alvejante. Pode passar em temperatura baixa.",
       "category": "bedroom",
       "tags": ["cama", "jogo de cama", "rosè", "roupa de cama"],
-      "thumbnail": "/public/products-images/product-12.jpg",
+      "thumbnail": "https://images.unsplash.com/photo-1613252067198-cc29a8368d09",
       "images": [
-        "/public/products-images/product-12.jpg",
-        "/public/products-images/product-12.jpg",
-        "/public/products-images/product-12.jpg",
-        "/public/products-images/product-12.jpg"
+        "https://images.unsplash.com/photo-1613252067198-cc29a8368d09",
+        "https://images.unsplash.com/photo-1613252067198-cc29a8368d09",
+        "https://images.unsplash.com/photo-1613252067198-cc29a8368d09",
+        "https://images.unsplash.com/photo-1613252067198-cc29a8368d09"
       ],
 
       "imagensDescription": [
-        "/public/products-images/product-12.jpg",
-        "/public/products-images/product-12.jpg"
+        "https://images.unsplash.com/photo-1613252067198-cc29a8368d09",
+        "https://images.unsplash.com/photo-1613252067198-cc29a8368d09"
       ]
     },
     {
@@ -1046,17 +1046,17 @@
       "adicionalDescription": "Não expor a quedas bruscas. Limpar com pano úmido. Ideal para uso interno.",
       "category": "bedroom",
       "tags": ["vaso", "cerâmica", "decoração", "redondo"],
-      "thumbnail": "/public/products-images/product-13.jpg",
+      "thumbnail": "https://plus.unsplash.com/premium_photo-1681980018727-b2b984b3faa7",
       "images": [
-        "/public/products-images/product-13.jpg",
-        "/public/products-images/product-13.jpg",
-        "/public/products-images/product-13.jpg",
-        "/public/products-images/product-13.jpg"
+        "https://plus.unsplash.com/premium_photo-1681980018727-b2b984b3faa7",
+        "https://plus.unsplash.com/premium_photo-1681980018727-b2b984b3faa7",
+        "https://plus.unsplash.com/premium_photo-1681980018727-b2b984b3faa7",
+        "https://plus.unsplash.com/premium_photo-1681980018727-b2b984b3faa7"
       ],
 
       "imagensDescription": [
-        "/public/products-images/product-13.jpg",
-        "/public/products-images/product-13.jpg"
+        "https://plus.unsplash.com/premium_photo-1681980018727-b2b984b3faa7",
+        "https://plus.unsplash.com/premium_photo-1681980018727-b2b984b3faa7"
       ]
     },
     {
@@ -1074,17 +1074,17 @@
       "adicionalDescription": "Limpar com pano seco. Evitar exposição direta ao sol para preservar a pintura.",
       "category": "bedroom",
       "tags": ["cômoda", "branca", "madeira", "organização"],
-      "thumbnail": "/public/products-images/product-14.jpg",
+      "thumbnail": "https://images.unsplash.com/photo-1556020685-ae41abfc9365",
       "images": [
-        "/public/products-images/product-14.jpg",
-        "/public/products-images/product-14.jpg",
-        "/public/products-images/product-14.jpg",
-        "/public/products-images/product-14.jpg"
+        "https://images.unsplash.com/photo-1556020685-ae41abfc9365",
+        "https://images.unsplash.com/photo-1556020685-ae41abfc9365",
+        "https://images.unsplash.com/photo-1556020685-ae41abfc9365",
+        "https://images.unsplash.com/photo-1556020685-ae41abfc9365"
       ],
 
       "imagensDescription": [
-        "/public/products-images/product-14.jpg",
-        "/public/products-images/product-14.jpg"
+        "https://images.unsplash.com/photo-1556020685-ae41abfc9365",
+        "https://images.unsplash.com/photo-1556020685-ae41abfc9365"
       ]
     },
     {
@@ -1103,17 +1103,17 @@
       "adicionalDescription": "Limpar com pano úmido. Evitar contato com líquidos em excesso.",
       "category": "bedroom",
       "tags": ["banco", "tecido", "estofado", "conforto"],
-      "thumbnail": "/public/products-images/product-15.jpg",
+      "thumbnail": "https://images.unsplash.com/photo-1615529162924-f8605388461d",
       "images": [
-        "/public/products-images/product-15.jpg",
-        "/public/products-images/product-15.jpg",
-        "/public/products-images/product-15.jpg",
-        "/public/products-images/product-15.jpg"
+        "https://images.unsplash.com/photo-1615529162924-f8605388461d",
+        "https://images.unsplash.com/photo-1615529162924-f8605388461d",
+        "https://images.unsplash.com/photo-1615529162924-f8605388461d",
+        "https://images.unsplash.com/photo-1615529162924-f8605388461d"
       ],
 
       "imagensDescription": [
-        "/public/products-images/product-15.jpg",
-        "/public/products-images/product-15.jpg"
+        "https://images.unsplash.com/photo-1615529162924-f8605388461d",
+        "https://images.unsplash.com/photo-1615529162924-f8605388461d"
       ]
     },
     {
@@ -1132,17 +1132,17 @@
       "adicionalDescription": "Evitar exposição ao sol e umidade. Limpar com pano seco.",
       "category": "bedroom",
       "tags": ["escrevaninha", "vintage", "elegante", "home office"],
-      "thumbnail": "/public/products-images/product-16.jpg",
+      "thumbnail": "https://images.unsplash.com/photo-1611269154421-4e27233ac5c7",
       "images": [
-        "/public/products-images/product-16.jpg",
-        "/public/products-images/product-16.jpg",
-        "/public/products-images/product-16.jpg",
-        "/public/products-images/product-16.jpg"
+        "https://images.unsplash.com/photo-1611269154421-4e27233ac5c7",
+        "https://images.unsplash.com/photo-1611269154421-4e27233ac5c7",
+        "https://images.unsplash.com/photo-1611269154421-4e27233ac5c7",
+        "https://images.unsplash.com/photo-1611269154421-4e27233ac5c7"
       ],
 
       "imagensDescription": [
-        "/public/products-images/product-16.jpg",
-        "/public/products-images/product-16.jpg"
+        "https://images.unsplash.com/photo-1611269154421-4e27233ac5c7",
+        "https://images.unsplash.com/photo-1611269154421-4e27233ac5c7"
       ]
     },
     {
@@ -1160,17 +1160,17 @@
       "adicionalDescription": "Limpeza com pano seco ou levemente umedecido. Não utilizar produtos abrasivos.",
       "category": "dining",
       "tags": ["mesa", "jantar", "madeira escura", "refinada"],
-      "thumbnail": "/public/products-images/product-17.jpg",
+      "thumbnail": "https://images.unsplash.com/photo-1617098709804-705581f844eb",
       "images": [
-        "/public/products-images/product-17.jpg",
-        "/public/products-images/product-17.jpg",
-        "/public/products-images/product-17.jpg",
-        "/public/products-images/product-17.jpg"
+        "https://images.unsplash.com/photo-1617098709804-705581f844eb",
+        "https://images.unsplash.com/photo-1617098709804-705581f844eb",
+        "https://images.unsplash.com/photo-1617098709804-705581f844eb",
+        "https://images.unsplash.com/photo-1617098709804-705581f844eb"
       ],
 
       "imagensDescription": [
-        "/public/products-images/product-17.jpg",
-        "/public/products-images/product-17.jpg"
+        "https://images.unsplash.com/photo-1617098709804-705581f844eb",
+        "https://images.unsplash.com/photo-1617098709804-705581f844eb"
       ]
     },
     {
@@ -1189,17 +1189,17 @@
       "adicionalDescription": "Evitar arrastar objetos duros sobre o tampo. Limpar com pano seco.",
       "category": "dining",
       "tags": ["mesa", "redonda", "elegante", "sala de jantar"],
-      "thumbnail": "/public/products-images/product-18.jpg",
+      "thumbnail": "https://images.unsplash.com/photo-1616486701797-0f33f61038ec",
       "images": [
-        "/public/products-images/product-18.jpg",
-        "/public/products-images/product-18.jpg",
-        "/public/products-images/product-18.jpg",
-        "/public/products-images/product-18.jpg"
+        "https://images.unsplash.com/photo-1616486701797-0f33f61038ec",
+        "https://images.unsplash.com/photo-1616486701797-0f33f61038ec",
+        "https://images.unsplash.com/photo-1616486701797-0f33f61038ec",
+        "https://images.unsplash.com/photo-1616486701797-0f33f61038ec"
       ],
 
       "imagensDescription": [
-        "/public/products-images/product-18.jpg",
-        "/public/products-images/product-18.jpg"
+        "https://images.unsplash.com/photo-1616486701797-0f33f61038ec",
+        "https://images.unsplash.com/photo-1616486701797-0f33f61038ec"
       ]
     },
     {
@@ -1218,17 +1218,17 @@
       "adicionalDescription": "Fixar corretamente na parede. Limpar com pano macio e seco. Evitar excesso de peso nas prateleiras.",
       "category": "dining",
       "tags": ["armário", "cozinha", "branco", "organização"],
-      "thumbnail": "/public/products-images/product-19.jpg",
+      "thumbnail": "https://images.unsplash.com/photo-1588854337345-77051f901b9c",
       "images": [
-        "/public/products-images/product-19.jpg",
-        "/public/products-images/product-19.jpg",
-        "/public/products-images/product-19.jpg",
-        "/public/products-images/product-19.jpg"
+        "https://images.unsplash.com/photo-1588854337345-77051f901b9c",
+        "https://images.unsplash.com/photo-1588854337345-77051f901b9c",
+        "https://images.unsplash.com/photo-1588854337345-77051f901b9c",
+        "https://images.unsplash.com/photo-1588854337345-77051f901b9c"
       ],
 
       "imagensDescription": [
-        "/public/products-images/product-19.jpg",
-        "/public/products-images/product-19.jpg"
+        "https://images.unsplash.com/photo-1588854337345-77051f901b9c",
+        "https://images.unsplash.com/photo-1588854337345-77051f901b9c"
       ]
     },
     {
@@ -1247,17 +1247,17 @@
       "adicionalDescription": "Utilizar lâmpadas LED. Evitar contato com líquidos. Limpar com pano seco.",
       "category": "dining",
       "tags": ["luminária", "contemporânea", "organização", "escrivaninha"],
-        "thumbnail": "/public/products-images/product-20.jpg",
+        "thumbnail": "https://plus.unsplash.com/premium_photo-1705751548612-70320bb6e62c",
       "images": [
-        "/public/products-images/product-20.jpg",
-        "/public/products-images/product-20.jpg",
-        "/public/products-images/product-20.jpg",
-        "/public/products-images/product-20.jpg"
+        "https://plus.unsplash.com/premium_photo-1705751548612-70320bb6e62c",
+        "https://plus.unsplash.com/premium_photo-1705751548612-70320bb6e62c",
+        "https://plus.unsplash.com/premium_photo-1705751548612-70320bb6e62c",
+        "https://plus.unsplash.com/premium_photo-1705751548612-70320bb6e62c"
       ],
 
       "imagensDescription": [
-        "/public/products-images/product-20.jpg",
-        "/public/products-images/product-20.jpg"
+        "https://plus.unsplash.com/premium_photo-1705751548612-70320bb6e62c",
+        "https://plus.unsplash.com/premium_photo-1705751548612-70320bb6e62c"
       ]
     },
     {
@@ -1276,17 +1276,17 @@
       "adicionalDescription": "Limpar com pano seco. Não usar produtos químicos nas superfícies de vidro.",
       "category": "dining",
       "tags": ["cristaleira", "madeira escura", "organização", "elegante"],
-        "thumbnail": "/public/products-images/product-21.jpg",
+        "thumbnail": "https://plus.unsplash.com/premium_photo-1676823570438-5b717d034e97",
       "images": [
-        "/public/products-images/product-21.jpg",
-        "/public/products-images/product-21.jpg",
-        "/public/products-images/product-21.jpg",
-        "/public/products-images/product-21.jpg"
+        "https://plus.unsplash.com/premium_photo-1676823570438-5b717d034e97",
+        "https://plus.unsplash.com/premium_photo-1676823570438-5b717d034e97",
+        "https://plus.unsplash.com/premium_photo-1676823570438-5b717d034e97",
+        "https://plus.unsplash.com/premium_photo-1676823570438-5b717d034e97"
       ],
 
       "imagensDescription": [
-        "/public/products-images/product-21.jpg",
-        "/public/products-images/product-21.jpg"
+        "https://plus.unsplash.com/premium_photo-1676823570438-5b717d034e97",
+        "https://plus.unsplash.com/premium_photo-1676823570438-5b717d034e97"
       ]
     },
     {
@@ -1304,17 +1304,17 @@
       "adicionalDescription": "Limpar com pano úmido e sabão neutro. Suporta até 120kg cada.",
       "category": "dining",
       "tags": ["banco", "bancada", "cozinha", "conforto", "alto"],
-        "thumbnail": "/public/products-images/product-22.jpg",
+        "thumbnail": "https://images.unsplash.com/photo-1556595101-15dc5f6431e3",
       "images": [
-        "/public/products-images/product-22.jpg",
-        "/public/products-images/product-22.jpg",
-        "/public/products-images/product-22.jpg",
-        "/public/products-images/product-22.jpg"
+        "https://images.unsplash.com/photo-1556595101-15dc5f6431e3",
+        "https://images.unsplash.com/photo-1556595101-15dc5f6431e3",
+        "https://images.unsplash.com/photo-1556595101-15dc5f6431e3",
+        "https://images.unsplash.com/photo-1556595101-15dc5f6431e3"
       ],
 
       "imagensDescription": [
-        "/public/products-images/product-22.jpg",
-        "/public/products-images/product-22.jpg"
+        "https://images.unsplash.com/photo-1556595101-15dc5f6431e3",
+        "https://images.unsplash.com/photo-1556595101-15dc5f6431e3"
       ]
     },
     {
@@ -1332,17 +1332,17 @@
       "adicionalDescription": "Evitar contato prolongado com água. Usar somente panos macios para limpeza.",
       "category": "dining",
       "tags": ["banca", "cozinha", "verde musgo", "moderna"],
-      "thumbnail": "/public/products-images/product-23.jpg",
+      "thumbnail": "https://images.unsplash.com/photo-1737233463795-34fccdfc67bb",
       "images": [
-        "/public/products-images/product-23.jpg",
-        "/public/products-images/product-23.jpg",
-        "/public/products-images/product-23.jpg",
-        "/public/products-images/product-23.jpg"
+        "https://images.unsplash.com/photo-1737233463795-34fccdfc67bb",
+        "https://images.unsplash.com/photo-1737233463795-34fccdfc67bb",
+        "https://images.unsplash.com/photo-1737233463795-34fccdfc67bb",
+        "https://images.unsplash.com/photo-1737233463795-34fccdfc67bb"
       ],
 
       "imagensDescription": [
-        "/public/products-images/product-23.jpg",
-        "/public/products-images/product-23.jpg"
+        "https://images.unsplash.com/photo-1737233463795-34fccdfc67bb",
+        "https://images.unsplash.com/photo-1737233463795-34fccdfc67bb"
       ]
     },
     {
@@ -1361,17 +1361,17 @@
       "adicionalDescription": "Evitar impactos e uso de produtos ácidos. Limpar com pano úmido.",
       "category": "dining",
       "tags": ["mesa", "mármore", "pequena", "sofisticada"],
-       "thumbnail": "/public/products-images/product-24.jpg",
+       "thumbnail": "https://images.unsplash.com/photo-1609347744403-2306e8a9ae27",
       "images": [
-        "/public/products-images/product-24.jpg",
-        "/public/products-images/product-24.jpg",
-        "/public/products-images/product-24.jpg",
-        "/public/products-images/product-24.jpg"
+        "https://images.unsplash.com/photo-1609347744403-2306e8a9ae27",
+        "https://images.unsplash.com/photo-1609347744403-2306e8a9ae27",
+        "https://images.unsplash.com/photo-1609347744403-2306e8a9ae27",
+        "https://images.unsplash.com/photo-1609347744403-2306e8a9ae27"
       ],
 
       "imagensDescription": [
-        "/public/products-images/product-24.jpg",
-        "/public/products-images/product-24.jpg"
+        "https://images.unsplash.com/photo-1609347744403-2306e8a9ae27",
+        "https://images.unsplash.com/photo-1609347744403-2306e8a9ae27"
       ]
     }
     
