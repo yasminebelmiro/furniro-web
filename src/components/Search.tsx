@@ -7,9 +7,10 @@ import listIcon from '../assets/Search_lista_icon.svg';
 const capitalize = (text: string) =>
   text.charAt(0).toUpperCase() + text.slice(1).toLowerCase();
 type SearchProps = {
-  qtyProducts: number
+  qtyProductsShow: number,
+  totalQtyProducts: number
 }
-const Search = ({qtyProducts}: SearchProps) => {
+const Search = ({qtyProductsShow, totalQtyProducts}: SearchProps) => {
   const { category } = useParams<{ category?: string }>();
 
   return (
@@ -51,7 +52,7 @@ const Search = ({qtyProducts}: SearchProps) => {
           {/* Separador vertical */}
           <div className="w-[1px] h-5 bg-gray-400 opacity-50 mx-2"></div>
 
-          <span>Showing 1–{qtyProducts} of {qtyProducts} results</span>
+          <span>Showing 1–{qtyProductsShow} of {totalQtyProducts} results</span>
         </div>
 
         {/* Seletor de quantidade e ordenação */}

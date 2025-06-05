@@ -1,4 +1,4 @@
-import { useState } from 'react';
+
 import { Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import Header from './components/Header';
@@ -7,7 +7,6 @@ import Shop from './pages/Shop';
 import SingleProduct from './pages/SingleProduct';
 
 function App() {
-  const [count, setCount] = useState(0);
 
   return (
     <>
