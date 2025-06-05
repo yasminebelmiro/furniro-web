@@ -48,7 +48,7 @@ const Header = () => {
       </div>
 
       {open && (
-        <ul className="w-full flex flex-col md:hidden pt-24">
+        <ul className="fixed w-full flex flex-col md:hidden pt-24 bg-white">
           <li className="w-full py-5 hover:bg-gold hover:text-white flex items-center justify-center ">
             <Link to="/">Home</Link>
           </li>

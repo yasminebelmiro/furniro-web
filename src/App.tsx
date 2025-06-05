@@ -5,8 +5,6 @@ import Shop from './pages/Shop';
 import Search from './components/Search';
 import Header from './components/Header';
 import Footer from './components/Footer';
-
-import Shop from './pages/Shop';
 import SingleProduct from './pages/SingleProduct';
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
