@@ -1,8 +1,10 @@
-import Home from "./pages/Home";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
-import { Route, Routes } from "react-router-dom";
-import Shop from "./pages/Shop";
+import { Routes, Route } from 'react-router-dom';
+import Home from './pages/Home';
+import Shop from './pages/Shop';
+import Search from './components/Search';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import CategorySection from './components/CategorySection';
 
 function App() {
 
@@ -10,10 +12,12 @@ function App() {
     <>
       <Header />
       <Routes>
+        {/* Página Inicial */}
         <Route path="/" element={<Home />} />
+
+        {/* Página de Shop e suas categorias */}
         <Route path="/shop" element={<Shop />} />
-        {/* Rota dinâmica para categorias: dining, living, bedroom */}
-        <Route path="/shop/:category" element={<Shop />} />
+        <Route path="/shop/:category" element={<Search />} />
       </Routes>
       <Footer />
     </>

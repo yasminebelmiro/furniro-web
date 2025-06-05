@@ -1,13 +1,15 @@
 import CategorySection from '../components/CategorySection'
 import Carousel from '../components/Carousel'
+import ListProduct from '../components/ListProduct'
 
 
 const Home = () => {
+  
   return (
-     <>
-      <div className="bg-black text-white p-4">Home</div>
+    <>
       <CategorySection />
       <Carousel />
+      <ListProduct />
     </>
   )
 
