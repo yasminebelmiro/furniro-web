@@ -1,12 +1,13 @@
-import React from 'react'
-import Search from '../components/Search'
+
 import FeaturesSection from '../components/FeaturesSection'
+import ProductsShop from '../components/ProductsShop'
 
 const Shop = () => {
   return (
     <>
-    <Search />
+    <ProductsShop  />
     <FeaturesSection />
+    
     </>
   )
 }
