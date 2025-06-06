@@ -1,9 +1,9 @@
 // src/components/CategorySection.tsx
 import { Link } from 'react-router-dom';
 
-import CategoryLiving  from '../assets/Category_Living.svg';
-import CategoryDining  from '../assets/Category_Dining.svg';
-import CategoryBedroom from '../assets/Category_Bedroom.svg';
+import CategoryLiving  from '../assets/images/category-images/category-living.svg';
+import CategoryDining  from '../assets/images/category-images/category-dining.svg';
+import CategoryBedroom from '../assets/images/category-images/category-bedroom.svg';
 
 type Category = {
   name: string;
