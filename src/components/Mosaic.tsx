@@ -1,13 +1,13 @@
 
-import MosaicImage1 from '../assets/mosaic-images/mosaic-image-1.svg';
-import MosaicImage2 from '../assets/mosaic-images/mosaic-image-2.svg';
-import MosaicImage3 from '../assets/mosaic-images/mosaic-image-3.svg';
-import MosaicImage4 from '../assets/mosaic-images/mosaic-image-4.svg';
-import MosaicImage5 from '../assets/mosaic-images/mosaic-image-5.svg';
-import MosaicImage6 from '../assets/mosaic-images/mosaic-image-6.svg';
-import MosaicImage7 from '../assets/mosaic-images/mosaic-image-7.svg';
-import MosaicImage8 from '../assets/mosaic-images/mosaic-image-8.svg';
-import MosaicImage9 from '../assets/mosaic-images/mosaic-image-9.svg';
+import MosaicImage1 from '../assets/images/mosaic-images/mosaic-image-1.svg';
+import MosaicImage2 from '../assets/images/mosaic-images/mosaic-image-2.svg';
+import MosaicImage3 from '../assets/images/mosaic-images/mosaic-image-3.svg';
+import MosaicImage4 from '../assets/images/mosaic-images/mosaic-image-4.svg';
+import MosaicImage5 from '../assets/images/mosaic-images/mosaic-image-5.svg';
+import MosaicImage6 from '../assets/images/mosaic-images/mosaic-image-6.svg';
+import MosaicImage7 from '../assets/images/mosaic-images/mosaic-image-7.svg';
+import MosaicImage8 from '../assets/images/mosaic-images/mosaic-image-8.svg';
+import MosaicImage9 from '../assets/images/mosaic-images/mosaic-image-9.svg';
 
 
 const Mosaic = () => {

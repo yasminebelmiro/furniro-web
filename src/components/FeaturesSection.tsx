@@ -1,7 +1,7 @@
-import HighQuality from '../assets/Features_HighQuality.svg';
-import FreeShipping from '../assets/Features_Free.svg';
-import Warranty from '../assets/Features_Warranty.svg';
-import Support from '../assets/Features_Support.svg';
+import HighQuality from '../assets/images/features-images/high-feature.svg';
+import FreeShipping from '../assets/images/features-images/free-feature.svg';
+import Warranty from '../assets/images/features-images/warranty-feature.svg';
+import Support from '../assets/images/features-images/support-feature.svg';
 
 type Feature = {
   icon: string;

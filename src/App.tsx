@@ -25,8 +25,7 @@ function App() {
       />
       <Header />
       <Routes>
-        {/* Página Inicial */}
-        <Route path="/" element={<Home />} />        {/* Página de Shop e suas categorias */}
+        <Route path="/" element={<Home />} />      
         <Route path="/shop" element={<Shop />} />
         <Route path="/shop/:category" element={<Shop />} />
         <Route path="/product/:productId" element={<SingleProduct  />} />
