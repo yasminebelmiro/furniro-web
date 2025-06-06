@@ -1,6 +1,12 @@
+import React from 'react'
+import CascadeHeader from '../components/CascadeHeader'
+
 const SingleProduct = () => {
   return (
-    <div>SingleProduct</div>
+    <>
+      <CascadeHeader />
+      <div>SingleProduct</div>
+    </>
   )
 }
 

@@ -1,4 +1,3 @@
-
 import { Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import Shop from './pages/Shop';
@@ -10,10 +9,9 @@ import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 function App() {
-
   return (
     <>
-     <ToastContainer
+      <ToastContainer
         position="top-center" 
         autoClose={3000}    
         hideProgressBar={false}
@@ -28,7 +26,7 @@ function App() {
         <Route path="/" element={<Home />} />      
         <Route path="/shop" element={<Shop />} />
         <Route path="/shop/:category" element={<Shop />} />
-        <Route path="/product/:productId" element={<SingleProduct  />} />
+        <Route path="/product/:productId" element={<SingleProduct />} />
       </Routes>
       <Footer />
     </>
