@@ -6,7 +6,7 @@ const HeroSection = () => {
     {/* Seção de Hero (Abaixo do Header) */}
     <section className="font-poppins pt-25 pb-75 xl:pb-30 xl:pt-30 px-4 bg-cover bg-center bg-[url(src/assets/images/bg-hero-section.svg)] md:">
 
-      <div className='bg-creme rounded-xl px-5 pt-10 pb-5 mt-30 md:ml-10 md:mr-10 xl:ml-150 xl:mr-10 2xl:ml-300 '>
+       <div className='bg-creme rounded-xl px-5 pt-10 pb-5 mt-30 md:ml-[5%] md:mr-[5%] xl:ml-[50%] xl:mr-[5%] 2xl:ml-[60%]'>
         <div className='p-3'>
             <p className='tracking-widest text-md md:text-xl xl:text-xl'>New Arrial</p>
             <h2 className='text-[35px] font-bold text-gold pb-2'>Discover Our <br /> New Collection</h2>

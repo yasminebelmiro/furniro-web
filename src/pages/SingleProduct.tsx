@@ -4,8 +4,8 @@ import CascadeHeader from '../components/CascadeHeader'
 const SingleProduct = () => {
   return (
     <>
-    <CascadeHeader />
-    <div>SingleProduct</div>
+      <CascadeHeader />
+      <div>SingleProduct</div>
     </>
   )
 }

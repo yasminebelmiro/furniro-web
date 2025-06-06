@@ -1,7 +1,9 @@
-import React from 'react'
+
 import CategorySection from '../components/CategorySection'
+import Carousel from '../components/Carousel'
 import HeroSection from '../components/HeroSection'
-import ListProduct from '../components/ListProduct'
+import ProductsHome from '../components/ProductsHome'
+
 
 const Home = () => {
   
@@ -9,7 +11,8 @@ const Home = () => {
      <>
       <HeroSection/>
       <CategorySection />
-      <ListProduct />
+      <ProductsHome />
+      <Carousel />
     </>
   )
 }

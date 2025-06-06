@@ -1,4 +1,3 @@
-import React from 'react';
 import { useParams } from 'react-router-dom';
 import fundoShop from '../assets/Search_fundoShop.svg';
 import filterIcon from '../assets/Search_filter_icon.svg';
@@ -7,8 +6,11 @@ import listIcon from '../assets/Search_lista_icon.svg';
 
 const capitalize = (text: string) =>
   text.charAt(0).toUpperCase() + text.slice(1).toLowerCase();
-
-const Search = () => {
+type SearchProps = {
+  qtyProductsShow: number,
+  totalQtyProducts: number
+}
+const Search = ({qtyProductsShow, totalQtyProducts}: SearchProps) => {
   const { category } = useParams<{ category?: string }>();
 
   return (
@@ -50,7 +52,7 @@ const Search = () => {
           {/* Separador vertical */}
           <div className="w-[1px] h-5 bg-gray-400 opacity-50 mx-2"></div>
 
-          <span>Showing 1–16 of 32 results</span>
+          <span>Showing 1–{qtyProductsShow} of {totalQtyProducts} results</span>
         </div>
 
         {/* Seletor de quantidade e ordenação */}

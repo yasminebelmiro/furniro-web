@@ -1,16 +1,26 @@
-import { useState } from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
+import Shop from './pages/Shop';
+import Search from './components/Search';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import Shop from './pages/Shop';
 import SingleProduct from './pages/SingleProduct';
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
+      <ToastContainer
+        position="top-center" 
+        autoClose={3000}    
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        pauseOnHover
+        draggable
+        theme="light" 
+      />
       <Header />
       <Routes>
         {/* Página Inicial */}
@@ -21,9 +31,7 @@ function App() {
         <Route path="/shop/:category" element={<Shop />} />
 
         {/* Página de Single Product */}
-        <Route path="/product" element={<SingleProduct />} />  {/* Pode retirar essa linha depois que os produtos forem implemntados, foi apenas teste */}
         <Route path="/product/:productId" element={<SingleProduct />} />
-
       </Routes>
       <Footer />
     </>
