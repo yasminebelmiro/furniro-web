@@ -6,14 +6,30 @@ import RelatedProducts from "../components/Relatedproducts";
 
 const SingleProduct = () => {
   const { productId } = useParams<{ productId: string }>();
+    //aqui vai buscar o produto atual pelo ID
+  const currentProduct = data.products.find((product: ProductType) => product.id === productId);
   
-  //aqui vai buscar o produto atual pelo ID
-  let currentProduct = data.products.find((product: ProductType) => product.id === productId);
-  
-  // Se não encontrar o produto (para teste), usar o primeiro produto da lista
+  // Se não encontrar o produto, mostrar página de erro
   if (!currentProduct) {
-    currentProduct = data.products[0]; // Produto padrão para teste
+    return (
+      <>
+        <CascadeHeader />
+        <div className="min-h-screen flex items-center justify-center">
+          <div className="text-center">
+            <h1 className="text-2xl font-bold text-gray-800 mb-4">Produto não encontrado</h1>
+            <p className="text-gray-600 mb-6">O produto que você está procurando não existe.</p>
+            <button 
+              onClick={() => window.history.back()}
+              className="bg-gold text-white px-6 py-2 rounded hover:bg-gold/80"
+            >
+              Voltar
+            </button>
+          </div>
+        </div>
+      </>
+    );
   }
+
   return (
     <>
       <CascadeHeader />
