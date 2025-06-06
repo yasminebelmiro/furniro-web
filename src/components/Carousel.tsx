@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './Carousel.css';
-import quarto1 from '../assets/quarto1.png';
-import quarto2 from '../assets/quarto2.png';
-import quarto3 from '../assets/quarto3.png';
+import quarto1 from '../assets/images/carousel-images/carousel-bedroom.svg';
+import quarto2 from '../assets/images/carousel-images/carousel-living.svg';
+import quarto3 from '../assets/images/carousel-images/carousel-dining.svg';
 
 interface RoomSlide {
   id: string;
