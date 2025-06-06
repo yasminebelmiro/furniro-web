@@ -7,7 +7,6 @@ const Shop = () => {
     <>
     <ProductsShop  />
     <FeaturesSection />
-    
     </>
   )
 }

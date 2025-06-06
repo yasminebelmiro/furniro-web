@@ -1,8 +1,8 @@
 import { useParams } from 'react-router-dom';
-import fundoShop from '../assets/Search_fundoShop.svg';
-import filterIcon from '../assets/Search_filter_icon.svg';
-import gridIcon from '../assets/Search_grid_icon.svg';
-import listIcon from '../assets/Search_lista_icon.svg';
+import fundoShop from '../assets/images/search-images/bg-search.svg';
+import filterIcon from '../assets/images/search-images/filter-icon.svg';
+import gridIcon from '../assets/images/search-images/grid-icon.svg';
+import listIcon from '../assets/images/search-images/list-icon.svg';
 
 const capitalize = (text: string) =>
   text.charAt(0).toUpperCase() + text.slice(1).toLowerCase();

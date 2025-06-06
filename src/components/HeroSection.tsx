@@ -4,7 +4,7 @@ const HeroSection = () => {
   return (
     <> 
     {/* Seção de Hero (Abaixo do Header) */}
-    <section className="font-poppins pt-25 pb-75 xl:pb-30 xl:pt-30 px-4 bg-cover bg-center bg-[url(src/assets/images/bg-hero-section.svg)] md:">
+    <section className="font-poppins pt-25 pb-75 xl:pb-30 xl:pt-30 px-4 bg-cover bg-center bg-[url(src/assets/images/hero-images/bg-hero-section.svg)]">
 
        <div className='bg-creme rounded-xl px-5 pt-10 pb-5 mt-30 md:ml-[5%] md:mr-[5%] xl:ml-[50%] xl:mr-[5%] 2xl:ml-[60%]'>
         <div className='p-3'>
