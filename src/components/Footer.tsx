@@ -116,13 +116,16 @@ const Footer: React.FC<FooterProps> = ({ onSubscribe }) => {
                     Shop
                   </Link>
                 </li>                <li>
-                  <span className="text-black font-medium cursor-not-allowed">
+                  <Link 
+                    to="" 
+                    className="text-black font-medium hover:text-primary transition-colors duration-200"
+                  >
                     About
-                  </span>
+                  </Link>
                 </li>
                 <li>
                   <Link 
-                    to="/contact" 
+                    to="" 
                     className="text-black font-medium hover:text-primary transition-colors duration-200"
                   >
                     Contact
@@ -210,7 +213,7 @@ const Footer: React.FC<FooterProps> = ({ onSubscribe }) => {
                   </p>
                 )}
               </div>
-                <button
+              <button
                 onClick={handleSubscribe}
                 disabled={isSubmitting}
                 className="text-sm font-medium text-black border-0 border-b border-black pb-1 hover:text-primary hover:border-primary transition-colors duration-200 disabled:opacity-50 disabled:cursor-not-allowed whitespace-nowrap"

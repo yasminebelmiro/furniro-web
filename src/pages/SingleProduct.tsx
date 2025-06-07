@@ -1,3 +1,6 @@
+import React from 'react'
+import CascadeHeader from '../components/CascadeHeader'
+import ProductDetails from '../components/ProductDetails'
 import React from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import type { ProductType } from '../types/ProductType';
@@ -16,7 +19,7 @@ const SingleProduct: React.FC = () => {
   return (
     <>
       <CascadeHeader />
-
+      <ProductDetails />
       {product ? (
           <RelatedProducts
             currentProductId={product.id}
