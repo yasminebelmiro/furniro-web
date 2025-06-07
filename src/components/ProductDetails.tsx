@@ -3,6 +3,7 @@ import axios from 'axios';
 import { useParams } from 'react-router-dom';
 import { FaStar, FaRegStar, FaFacebookF, FaLinkedinIn, FaTwitter } from 'react-icons/fa';
 import type { ProductType } from '../types/ProductType';
+import { toast, ToastContainer } from 'react-toastify';
 
 const ProductDetails: React.FC = () => {
   const { productId } = useParams<{ productId: string }>();
@@ -18,6 +19,9 @@ const ProductDetails: React.FC = () => {
     twitter:  'https://x.com/compassuol?t=6MuSOtN28Z7SdtJURMyzTA&s=09',
     linkedin: 'https://www.linkedin.com/company/compass-uol',
   };
+
+  const notifyAddToCart = (name: string) =>
+    toast.info(`${name} adicionado ao carrinho!`);
 
   useEffect(() => {
     if (!productId) {
@@ -68,11 +72,11 @@ const ProductDetails: React.FC = () => {
   const mainImage = selectedImage ?? product.images[0];
 
   return (
-    <section className="font-poppins max-w-[60%] mx-auto p-5 flex flex-col md:flex-row">
+    <section className="font-poppins w-full mx-auto pt-10 flex flex-col items-center sm:flex-row sm:items-start px-4 xl:px-0">
 
       {/* Grid com imagens */}
-      <div className="w-full md:w-1/2 flex">
-        <div className="hidden sm:flex flex-col space-y-2 mr-4 mt-[3.6%]">
+      <div className="w-full sm:w-1/2 xl:w-1/2 flex flex-col-reverse sm:flex-row sm:items-start lg:ml-[5%] xl:ml-[10%] 2xl:ml-[20%]">
+        <div className="flex flex-row pt-3 justify-center sm:justify-start sm:pt-0 sm:flex-col sm:space-y-3 space-x-3 sm:space-x-0 sm:mr-4 mb-4 sm:mb-0">
           {product.images.map((imgUrl, idx) => {
             return (
               <img
@@ -86,17 +90,17 @@ const ProductDetails: React.FC = () => {
           })}
         </div>
 
-        <div className="flex-1 bg-white p-5 rounded">
+        <div className="flex-1 bg-white rounded">
           <img
             src={mainImage}
             alt={product.name}
-            className=" xl:w-[100%] xl:h-[65%] object-cover rounded"
+            className="w-150 h-100 2xl:w-full 2xl:h-110 object-cover rounded"
           />
         </div>
       </div>
 
       {/* Detalhes do produto */}
-      <div className="w-full pt-5 md:w-1/2 mt-5 md:mt-0 md:pl-10">
+      <div className="w-full sm:pl-10 lg:mr-[5%] xl:mr-[15%] 2xl:mr-[20%] sm:w-1/2 xl:w-1/2 pb-10 mt-5 sm:mt-0 sm:pl-5 xl:pl-12">
       
         {/* Nome do produto */}
         <h1 className="text-3xl font-semibold mb-2">{product.name}</h1>
@@ -188,7 +192,10 @@ const ProductDetails: React.FC = () => {
           </div>
 
           {/* Botão de adicionar ao carrinho */}
-          <button className="px-6 py-3 bg-white border border-gray-800 text-gray-800 rounded hover:bg-gray-100 transition">
+            <button 
+              onClick={() => notifyAddToCart(product.name)}
+              className="px-6 py-3 bg-white border border-gray-800 text-gray-800 rounded hover:bg-gray-100 transition"
+            >
             Add To Cart
           </button>
         </div>

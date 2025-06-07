@@ -116,13 +116,16 @@ const Footer: React.FC<FooterProps> = ({ onSubscribe }) => {
                     Shop
                   </Link>
                 </li>                <li>
-                  <span className="text-black font-medium cursor-not-allowed">
+                  <Link 
+                    to="" 
+                    className="text-black font-medium hover:text-primary transition-colors duration-200"
+                  >
                     About
-                  </span>
+                  </Link>
                 </li>
                 <li>
                   <Link 
-                    to="/contact" 
+                    to="" 
                     className="text-black font-medium hover:text-primary transition-colors duration-200"
                   >
                     Contact
