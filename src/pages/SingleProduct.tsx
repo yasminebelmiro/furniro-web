@@ -1,11 +1,9 @@
-import React from 'react'
-import CascadeHeader from '../components/CascadeHeader'
-import ProductDetails from '../components/ProductDetails'
 import React from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import type { ProductType } from '../types/ProductType';
 import data from '../services/db.json';
 import CascadeHeader from '../components/CascadeHeader';
+import ProductDetails from '../components/ProductDetails';
 import RelatedProducts from '../components/RelatedProducts';
 
 const SingleProduct: React.FC = () => {
@@ -18,14 +16,12 @@ const SingleProduct: React.FC = () => {
 
   return (
     <>
-      <CascadeHeader />
-      <ProductDetails />
       {product ? (
-          <RelatedProducts
-            currentProductId={product.id}
-            category={product.category}
-            products={data.products}
-          />
+        <>
+          <CascadeHeader />
+          <ProductDetails />
+          <RelatedProducts />
+        </>
       ) : (
         <div className="min-h-screen flex flex-col items-center justify-center px-4">
           <h1 className="text-2xl font-bold text-gray-800 mb-4">
