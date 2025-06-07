@@ -3,7 +3,8 @@ import CategorySection from '../components/CategorySection'
 import Mosaic from '../components/Mosaic'
 import HeroSection from '../components/HeroSection'
 import ProductsHome from '../components/ProductsHome'
-import CarouselContainer from '../components/CarouselContainer'
+import Carousel from '../components/Carousel';
+
 
 const Home = () => {
   
@@ -12,7 +13,7 @@ const Home = () => {
       <HeroSection/>
       <CategorySection />
       {/* <ProductsHome /> */}
-      <CarouselContainer />
+      <Carousel />
       <Mosaic />
     </>
   )

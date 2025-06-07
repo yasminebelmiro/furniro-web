@@ -1,89 +1,134 @@
-import { Splide, SplideSlide } from "@splidejs/react-splide";
-import "@splidejs/splide/dist/css/splide.min.css";
+import { useState, useRef } from 'react';
+import { Link } from 'react-router-dom'; 
+import { Splide, SplideSlide, Splide as ReactSplide } from '@splidejs/react-splide';
+import type SplideInstance from '@splidejs/splide';
+import { FaArrowRight, FaChevronLeft, FaChevronRight } from 'react-icons/fa';
 
-import quarto1 from "../assets/images/carousel-images/carousel-bedroom.svg";
-import quarto2 from "../assets/images/carousel-images/carousel-living.svg";
-import quarto3 from "../assets/images/carousel-images/carousel-dining.svg";
+import bedroomImg from '../assets/images/carousel-images/carousel-bedroom.svg';
+import diningImg from '../assets/images/carousel-images/carousel-dining.svg';
+import livingImg from '../assets/images/carousel-images/carousel-living.svg';
 
-import { FaArrowRight } from "react-icons/fa";
-import { Link } from "react-router-dom";
-
-interface RoomSlide {
-  id: string;
-  image: string;
-
-  roomType: string;
-  title: string;
-  link: string;
-}
-
-const roomSlides: RoomSlide[] = [
-  {
-    id: "01",
-    image: quarto1,
-    roomType: "Bedroom",
-    title: "Inner Peace",
-    link: "/shop/bedroom",
-  },
-  {
-    id: "02",
-    image: quarto2,
-    roomType: "Living Room",
-    title: "Modern Space",
-    link: "/shop/living",
-  },
-  {
-    id: "03",
-    image: quarto3,
-    roomType: "Dining Room",
-    title: "Cozy Corner",
-    link: "/shop/dining",
-  },
+const slidesData = [
+  { id: 1, image: bedroomImg, number: '01', category: 'Bed Room', title: 'Inner Peace', link: '/shop/bedroom' },
+  { id: 2, image: livingImg, number: '02', category: 'Living Room', title: 'Modern Vibe', link: '/shop/living' },
+  { id: 3, image: diningImg, number: '03', category: 'Dining Area', title: 'Cozy Meals', link: '/shop/dining' },
 ];
 
 const Carousel = () => {
+  const splideRef = useRef<ReactSplide | null>(null);
+  const [activeIndex, setActiveIndex] = useState(0);
+
+  const splideOptions = {
+    type: 'loop',
+    autoWidth: true,
+    gap: '2rem',
+    pagination: false,
+    arrows: false,
+    focus: 0,
+    padding: { right: '8rem' },
+  };
+
   return (
-    <div className="font-poppins">
-      <Splide
-        options={{
-          type: "slide",
-          perPage: 2,
-          perMove: 1,
-          gap: "1rem",
-          pagination: true,
-          arrows: false,
-          autoplay: false,
-          breakpoints: {
-           "767": {
-              perPage: 1,
-            },
-          },
-        }}
-        aria-label="Meu carrossel de imagens"
-      >
-        {roomSlides.map((slide) => (
-          <SplideSlide key={slide.id}>
-            {/*Overlay */}
-            <Link to={slide.link} className="relative h-full w-full">
-              <img src={slide.image} alt="Slide 1" />
-              <div className=" absolute bottom-0 flex  md:p-4  md:items-end">
-                <div className="bg-white/70 p-2 py-6 md:px-2 lg:px-6">
-                  <p className="text-sm">
-                    {slide.id} - {slide.roomType}
-                  </p>
-                  <h1 className="text-sm md:text-base lg:text-lg xl:text-2xl font-bold">
-                    {slide.title}
-                  </h1>
-                </div>
-                <button className=" md:block bg-gold h-[10%] text-white p-2 md:p-4">
-                  <FaArrowRight />
-                </button>
-              </div>
-            </Link>
-          </SplideSlide>
-        ))}
-      </Splide>
-    </div>
+    <>
+      <style>{`
+        .splide__slide {
+          transition: width 0.4s ease, height 0.4s ease;
+        }
+        @media (min-width: 1024px) {
+          .splide__slide.is-active { width: 25.25rem; height: 36.375rem; }
+          .splide__slide:not(.is-active) { width: 23.25rem; height: 30.375rem; }
+        }
+        @media (max-width: 1023px) {
+          .splide__slide { width: 18rem !important; height: 22rem !important; }
+        }
+        .splide__slide img { width: 100%; height: 100%; object-fit: cover; }
+      `}</style>
+      
+      <div className="bg-[#FCF8F3] py-10 px-4 sm:px-8 lg:px-12">
+        <div className="flex flex-col lg:flex-row items-center gap-10 max-w-screen-xl mx-auto">
+          <div className="lg:w-[35%] text-center lg:text-left">
+            <h2 className="text-3xl sm:text-4xl font-bold text-[#3A3A3A] mb-2">
+              50+ Beautiful rooms inspiration
+            </h2>
+            <p className="text-[#616161] mb-6 text-sm sm:text-base">
+              Our designer already made a lot of beautiful prototype of rooms that inspire you
+            </p>
+            <button className="bg-[#B88E2F] text-white font-bold py-3 px-10 hover:bg-[#9e7a2d] transition-colors text-sm sm:text-base">
+              Explore More
+            </button>
+          </div>
+
+          <div className="w-full lg:w-[70%] relative min-h-[32rem]">
+            <Splide
+              options={splideOptions}
+              ref={splideRef}
+              className="items-start"
+              aria-label="Room inspiration carousel"
+              onMoved={(splide: SplideInstance) => setActiveIndex(splide.index)}
+            >
+              {slidesData.map((slide) => (
+                <SplideSlide key={slide.id} className="relative cursor-pointer group flex-shrink-0">
+                  <img
+                    src={slide.image}
+                    alt={slide.title}
+                    className="transition-transform duration-300 group-hover:scale-105"
+                  />
+                  
+                  <div className="absolute bottom-2 left-2 right-2 sm:bottom-4 sm:left-4 sm:right-4 p-2 sm:p-4 bg-white/75 backdrop-blur-sm transition-all duration-300 opacity-0 group-hover:opacity-100 group-hover:bottom-6 flex items-end justify-between">
+                    <div>
+                      <div className="flex items-center gap-2 text-[#616161] text-sm sm:text-base">
+                        <span>{slide.number}</span>
+                        <div className="w-4 h-px bg-[#616161]"></div>
+                        <span>{slide.category}</span>
+                      </div>
+                      <h3 className="text-lg sm:text-xl md:text-2xl font-semibold text-[#3A3A3A] mt-1">{slide.title}</h3>
+                    </div>
+
+                    <Link to={slide.link}>
+                      <div className="bg-[#B88E2F] text-white p-3 shadow-lg hover:bg-[#9e7a2d]">
+                        <FaArrowRight size={18} />
+                      </div>
+                    </Link>
+                  </div>
+                </SplideSlide>
+              ))}
+            </Splide>
+
+            <div className="absolute top-1/2 -translate-y-1/2 w-full flex justify-between px-2 sm:px-0 sm:-mx-6 pointer-events-none">
+              <button
+                onClick={() => splideRef.current?.splide?.go('<')}
+                className="bg-white rounded-full w-10 h-10 sm:w-12 sm:h-12 flex items-center justify-center shadow-md hover:bg-gray-100 transition pointer-events-auto"
+                aria-label="Previous slide"
+              >
+                <FaChevronLeft className="text-[#B88E2F]" />
+              </button>
+              <button
+                onClick={() => splideRef.current?.splide?.go('>')}
+                className="bg-white rounded-full w-10 h-10 sm:w-12 sm:h-12 flex items-center justify-center shadow-md hover:bg-gray-100 transition pointer-events-auto"
+                aria-label="Next slide"
+              >
+                <FaChevronRight className="text-[#B88E2F]" />
+              </button>
+            </div>
+              
+            <div className="absolute -bottom-8 left-1/2 transform -translate-x-1/2 flex items-center gap-4">
+              {slidesData.map((slide, index) => (
+                <button
+                  key={slide.id}
+                  onClick={() => splideRef.current?.splide?.go(index)}
+                  className={`transition-all duration-300 rounded-full ${
+                    activeIndex === index
+                      ? 'w-4 h-4 bg-[#B88E2F] ring-2 ring-offset-2 ring-[#B88E2F] ring-offset-[#FCF8F3]'
+                      : 'w-3 h-3 bg-[#D8D8D8] hover:bg-gray-400'
+                  }`}
+                  aria-label={`Go to slide ${index + 1}`}
+                />
+              ))}
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
   );
 };
 

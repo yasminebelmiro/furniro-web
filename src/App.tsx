@@ -1,12 +1,14 @@
 import { Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import Shop from './pages/Shop';
-import Search from './components/Search';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import SingleProduct from './pages/SingleProduct';
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+
+// VERIFIQUE SE ESTA LINHA ESTÁ CORRETA
+import '@splidejs/splide/dist/css/splide.min.css';
 
 function App() {
   return (
