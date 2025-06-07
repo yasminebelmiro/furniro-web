@@ -210,7 +210,7 @@ const Footer: React.FC<FooterProps> = ({ onSubscribe }) => {
                   </p>
                 )}
               </div>
-                <button
+              <button
                 onClick={handleSubscribe}
                 disabled={isSubmitting}
                 className="text-sm font-medium text-black border-0 border-b border-black pb-1 hover:text-primary hover:border-primary transition-colors duration-200 disabled:opacity-50 disabled:cursor-not-allowed whitespace-nowrap"

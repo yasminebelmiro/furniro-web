@@ -1,11 +1,12 @@
 import React from 'react'
 import CascadeHeader from '../components/CascadeHeader'
+import ProductDetails from '../components/ProductDetails'
 
 const SingleProduct = () => {
   return (
     <>
       <CascadeHeader />
-      <div>SingleProduct</div>
+      <ProductDetails />
     </>
   )
 }
