@@ -3,7 +3,7 @@ import Carousel from "./Carousel";
 const CarouselContainer = () => {
   return (
     <div
-      className="font-poppins w-full h-auto bg-creme flex flex-col md:flex-row justify-center md:justify-between items-center px-5 py-25 md:p-25"
+      className="font-poppins w-full h-auto bg-creme flex flex-col md:flex-row justify-center md:justify-between items-center px-5 py-25 md:p-10 lg:p-25 gap-9"
       aria-label="Room inspiration showcase"
     >
       <div className="flex flex-col w-full p-4 items-center md:w-105  md:items-start gap-5">
