@@ -1,12 +1,12 @@
 import { Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import Shop from './pages/Shop';
-import Search from './components/Search';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import SingleProduct from './pages/SingleProduct';
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import ScrollToTop from './utils/ScrollToTop';
 
 function App() {
   return (
@@ -22,6 +22,7 @@ function App() {
         theme="light" 
       />
       <Header />
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />      
         <Route path="/shop" element={<Shop />} />
