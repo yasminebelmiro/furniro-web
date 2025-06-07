@@ -85,23 +85,26 @@ const ProductDescription = () => {
             )}
           </div>
         </div>        
-        
-        {/* Seção de imagens */}
+          {/* Seção de imagens */}
         <div className="flex flex-col sm:flex-row justify-center gap-8">
-          <div className="bg-[#F9F1E7] p-3 rounded-lg flex-1 max-w-xl">
-            <img
-              src={product.images[0]}
-              alt={product.name}
-              className="w-full h-auto object-cover rounded-lg"
-            />
+          <div className="bg-[#F9F1E7] p-3 rounded-lg">
+            <div className="w-[100%] h-[250px] sm:w-[300px] sm:h-[200px] lg:w-[400px] lg:h-[250px] xl:w-[500px] xl:h-[300px]">
+              <img
+                src={product.images[0]}
+                alt={product.name}
+                className="w-full h-full object-cover rounded-lg"
+              />
+            </div>
           </div>
           {product.images[1] && (
-            <div className="bg-[#F9F1E7] p-3 rounded-lg flex-1 max-w-xl">
-              <img
-                src={product.images[1]}
-                alt={`${product.name} view 2`}
-                className="w-full h-auto object-cover rounded-lg"
-              />
+            <div className="bg-[#F9F1E7] p-3 rounded-lg">
+              <div className="w-full h-[250px] sm:w-[300px] sm:h-[200px] lg:w-[400px] lg:h-[250px] xl:h-[300px]">
+                <img
+                  src={product.images[1]}
+                  alt={`${product.name} view 2`}
+                  className="w-full h-full object-cover rounded-lg"
+                />
+              </div>
             </div>
           )}
         </div>
