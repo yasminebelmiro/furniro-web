@@ -10,7 +10,7 @@ const Header = () => {
   return (
     <>
     <header className="font-poppins">
-      <div className="z-40 bg-white h-24 fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-5 l:px-10 xl:px-20">
+      <div className=" bg-white h-24 fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-5 l:px-10 xl:px-20">
         <Link to={"/"} className="flex flex-row items-center">
           <img src={logo} alt="Logo Furniro" className="w-10"/>
           <p className="hidden  md:flex font-bold text-2xl">Furniro</p>

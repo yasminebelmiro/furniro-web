@@ -6,3 +6,10 @@
   --color-creme: #FFF3E3;
   --font-poppins:'Poppins', sans-serif;
 }
+
+.splide__pagination__page.is-active {
+  @apply bg-yellow-700;
+}
+.splide__arrow.custom-arrow {
+  @apply bg-white/80 text-yellow-700 shadow rounded-full w-10 h-10 flex items-center justify-center transition hover:bg-yellow-700 hover:text-white;
+}

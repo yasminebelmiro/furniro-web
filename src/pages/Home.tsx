@@ -1,9 +1,9 @@
 
 import CategorySection from '../components/CategorySection'
 import Mosaic from '../components/Mosaic'
-import Carousel from '../components/Carousel'
 import HeroSection from '../components/HeroSection'
 import ProductsHome from '../components/ProductsHome'
+import CarouselContainer from '../components/CarouselContainer'
 
 const Home = () => {
   
@@ -11,8 +11,8 @@ const Home = () => {
      <>
       <HeroSection/>
       <CategorySection />
-      <ProductsHome />
-      <Carousel />
+      {/* <ProductsHome /> */}
+      <CarouselContainer />
       <Mosaic />
     </>
   )
