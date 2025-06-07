@@ -52,7 +52,7 @@ const ProductDescription = () => {
         <div className="mb-16">
           <div className="flex justify-center pl-8 mr-10 gap-10 sm:pl-0 sm:mr-0 sm:gap-20 mb-14">
             <button
-              className={`text-2xl transition-colors duration-300 ${
+              className={`text-2xl transition-colors duration-300 cursor-pointer ${
                 activeTab === 'description'
                   ? 'text-black'
                   : 'text-[#9F9F9F] hover:text-gray-600'
@@ -62,7 +62,7 @@ const ProductDescription = () => {
               Description
             </button>
             <button
-              className={`text-2xl transition-colors duration-300 ${
+              className={`text-2xl transition-colors duration-300 cursor-pointer ${
                 activeTab === 'additional'
                   ? 'text-black'
                   : 'text-[#9F9F9F] hover:text-gray-600'
