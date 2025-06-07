@@ -5,6 +5,7 @@ import data from '../services/db.json';
 import CascadeHeader from '../components/CascadeHeader';
 import ProductDetails from '../components/ProductDetails';
 import RelatedProducts from '../components/RelatedProducts';
+import ProductDescription from '../components/ProductDescription';
 
 const SingleProduct: React.FC = () => {
   const { productId } = useParams<{ productId: string }>();
@@ -20,6 +21,7 @@ const SingleProduct: React.FC = () => {
         <>
           <CascadeHeader />
           <ProductDetails />
+          <ProductDescription />
           <RelatedProducts />
         </>
       ) : (
