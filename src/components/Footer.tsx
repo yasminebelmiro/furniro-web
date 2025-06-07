@@ -216,7 +216,7 @@ const Footer: React.FC<FooterProps> = ({ onSubscribe }) => {
                 <button
                   onClick={handleSubscribe}
                   disabled={isSubmitting}
-                  className="text-sm font-medium text-black border-0 border-b border-black pb-1 hover:text-primary hover:border-primary transition-colors duration-200 disabled:opacity-50 disabled:cursor-not-allowed"
+                  className="text-sm font-medium cursor-pointer text-black border-0 border-b border-black pb-1 hover:text-primary hover:border-primary transition-colors duration-200 disabled:opacity-50 disabled:cursor-not-allowed"
                   aria-label="Inscrever-se na newsletter"
                 >
                   {isSubmitting ? 'ENVIANDO...' : 'SUBSCRIBE'}
