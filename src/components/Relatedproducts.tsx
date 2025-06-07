@@ -8,97 +8,42 @@ interface RelatedProductsProps {
   products: ProductType[];
 }
 
-const RelatedProducts: React.FC<RelatedProductsProps> = ({ 
-  currentProductId, 
-  category, 
-  products 
+const RelatedProducts: React.FC<RelatedProductsProps> = ({
+  currentProductId,
+  category,
+  products,
 }) => {
   const navigate = useNavigate();
 
-  //Filtra produtos da mesma categoria, excluindo o produto atual
-  const relatedProducts = products
-    .filter(product => 
-      product.category === category && 
-      product.id !== currentProductId
-    )
-    .slice(0, 4); // Mostra apenas 4 produtos
+  const related = products
+    .filter((p) => p.category === category && p.id !== currentProductId)
+    .slice(0, 4);
 
-  const handleProductClick = (productId: string) => {
-    navigate(`/product/${productId}`);
-  };
+  if (!related.length) return null;
 
-  const handleShowMore = () => {
-    navigate('/shop');
-  };
+  const goToProduct = (id: string) => navigate(`/product/${id}`);
+  const showMore = () => navigate('/shop');
 
-  if (relatedProducts.length === 0) {
-    return null;
-  }
   return (
-    <div style={{
-      display: 'flex',
-      flexDirection: 'column',
-      alignItems: 'center',
-      width: '100%',
-      maxWidth: '1440px',
-      margin: '0 auto',
-      padding: '56px 20px'
-    }}>      <h2 style={{
-        fontFamily: 'var(--font-poppins)',
-        fontWeight: 500,
-        fontSize: '36px',
-        color: '#000000',
-        marginBottom: '32px',
-        textAlign: 'center'
-      }}>
+    <div className="w-full max-w-[1440px] mx-auto py-14 px-5 flex flex-col items-center">
+      <h2 className="font-poppins font-medium text-3xl text-black mb-8 text-center">
         Related Products
       </h2>
-      
-      <div style={{
-        display: 'grid',
-        gridTemplateColumns: 'repeat(auto-fit, minmax(285px, 1fr))',
-        gap: '32px',
-        width: '100%',
-        maxWidth: '1236px',
-        marginBottom: '32px'
-      }}>
-        {relatedProducts.map((product) => (
+
+      <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-8 w-full max-w-[1236px] mb-8">
+        {related.map((product) => (
           <ProductCard
             key={product.id}
             product={product}
-            onClick={() => handleProductClick(product.id)}
+            onClick={() => goToProduct(product.id)}
           />
         ))}
-      </div>      <button
-        onClick={handleShowMore}
-        style={{
-          width: '245px',
-          height: '48px',
-          backgroundColor: '#FFFFFF',
-          border: '1px solid var(--color-gold)',
-          cursor: 'pointer',
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center',
-          fontFamily: 'var(--font-poppins)',
-          fontSize: '16px',
-          fontWeight: 600,
-          lineHeight: '150%',
-          color: 'var(--color-gold)',
-          transition: 'all 0.3s ease',
-        }}
-        onMouseEnter={(e) => {
-          const target = e.currentTarget;
-          const goldColor = getComputedStyle(document.documentElement).getPropertyValue('--color-gold').trim();
-          target.style.backgroundColor = goldColor;
-          target.style.color = '#FFFFFF';
-        }}
-        onMouseLeave={(e) => {
-          const target = e.currentTarget;
-          const goldColor = getComputedStyle(document.documentElement).getPropertyValue('--color-gold').trim();
-          target.style.backgroundColor = '#FFFFFF';
-          target.style.color = goldColor;
-        }}>
+      </div>
+
+      <button
+        onClick={showMore}
+        className="w-[245px] h-12 border border-[var(--color-gold)] text-[var(--color-gold)] font-poppins font-semibold text-base leading-[150%] transition duration-300 flex items-center justify-center hover:bg-[var(--color-gold)] hover:text-white"
+      >
         Show More
       </button>
     </div>
@@ -111,147 +56,55 @@ interface ProductCardProps {
 }
 
 const ProductCard: React.FC<ProductCardProps> = ({ product, onClick }) => {
-  const discountedPrice = product.discount 
+  const discounted = product.discount
     ? (product.price * (1 - product.discount / 100)).toFixed(2)
     : null;
 
-  const isNew = () => {
-    const productDate = new Date(product.date);
-    const today = new Date();
-    const diffTime = Math.abs(today.getTime() - productDate.getTime());
-    const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
-    return diffDays <= 30; // aqui vai considera um novo se foi adicionado nos últimos 30 dias
-  };
+  const isNew = (() => {
+    const pd = new Date(product.date);
+    const diff = (new Date().getTime() - pd.getTime()) / (1000 * 60 * 60 * 24);
+    return diff <= 30;
+  })();
 
   return (
-    <div 
+    <div
       onClick={onClick}
-      style={{
-        width: '100%',
-        maxWidth: '285px',
-        height: '446px',
-        position: 'relative',
-        cursor: 'pointer',
-        transition: 'transform 0.2s',
-        margin: '0 auto',
-        backgroundColor: '#F4F5F7',
-        display: 'flex',
-        flexDirection: 'column',
-        overflow: 'hidden'
-      }}
-      onMouseOver={(e) => {
-        (e.currentTarget as HTMLDivElement).style.transform = 'scale(1.02)';
-      }}
-      onMouseOut={(e) => {
-        (e.currentTarget as HTMLDivElement).style.transform = 'scale(1)';
-      }}
+      className="w-full max-w-[285px] h-[446px] bg-gray-100 relative flex flex-col overflow-hidden cursor-pointer transition-transform duration-200 hover:scale-[1.02] mx-auto"
     >
-      <div style={{
-        width: '100%',
-        height: '301px',
-        overflow: 'hidden',
-        flexShrink: 0
-      }}>
-        <img 
-          src={product.thumbnail} 
+      <div className="w-full h-[301px] overflow-hidden flex-shrink-0">
+        <img
+          src={product.thumbnail}
           alt={product.name}
-          style={{
-            width: '100%',
-            height: '100%',
-            objectFit: 'cover'
-          }}
+          className="w-full h-full object-cover"
         />
       </div>
 
-      {(product.discount || isNew()) && (
-        <div style={{
-          position: 'absolute',
-          top: '24px',
-          right: '24px',
-          width: '48px',
-          height: '48px',
-          borderRadius: '50%',
-          backgroundColor: isNew() ? '#2EC1AC' : '#E97171',          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center',
-          fontFamily: 'var(--font-poppins)',
-          fontWeight: 500,
-          fontSize: '12px',
-          color: '#FFFFFF',
-          zIndex: 1
-        }}>
-          {isNew() ? 'New' : `-${product.discount}%`}
+      {(discounted || isNew) && (
+        <div
+          className={`absolute top-6 right-6 w-12 h-12 rounded-full flex items-center justify-center text-xs font-medium text-white ${
+            isNew ? 'bg-[#2EC1AC]' : 'bg-[#E97171]'
+          }`}
+        >
+          {isNew ? 'New' : `-${product.discount}%`}
         </div>
       )}
 
-      <div style={{
-        width: '100%',
-        height: '145px',
-        backgroundColor: '#F4F5F7',
-        padding: '16px',
-        display: 'flex',
-        flexDirection: 'column',
-        justifyContent: 'space-between',
-        boxSizing: 'border-box',
-        flexShrink: 0
-      }}>
-        <div style={{
-          flex: 1,
-          display: 'flex',
-          flexDirection: 'column',
-          justifyContent: 'flex-start'
-        }}>
-          <h3 style={{
-            fontFamily: 'var(--font-poppins)',
-            fontWeight: 600,
-            fontSize: '20px',
-            color: '#3A3A3A',
-            margin: '0 0 4px 0',
-            lineHeight: '1.2',
-            overflow: 'hidden',
-            textOverflow: 'ellipsis',
-            whiteSpace: 'nowrap'
-          }}>
+      <div className="w-full h-[145px] bg-gray-100 p-4 flex flex-col justify-between flex-shrink-0">
+        <div className="flex flex-col justify-start">
+          <h3 className="font-poppins font-semibold text-lg text-gray-800 mb-1 truncate">
             {product.name}
           </h3>
-          <p style={{
-            fontFamily: 'var(--font-poppins)',
-            fontWeight: 500,
-            fontSize: '14px',
-            color: '#898989',
-            margin: '0 0 8px 0',
-            lineHeight: '1.3',
-            overflow: 'hidden',
-            textOverflow: 'ellipsis',
-            display: '-webkit-box',
-            WebkitLineClamp: 2,
-            WebkitBoxOrient: 'vertical'
-          }}>
+          <p className="font-poppins font-medium text-sm text-gray-500 mb-2 line-clamp-2">
             {product.subtitle}
           </p>
         </div>
-        <div style={{
-          display: 'flex',
-          gap: '8px',
-          alignItems: 'center',
-          flexWrap: 'wrap'
-        }}>
-          <span style={{
-            fontFamily: 'var(--font-poppins)',
-            fontWeight: 600,
-            fontSize: '18px',
-            color: '#3A3A3A'
-          }}>
-            R$ {discountedPrice || product.price.toFixed(2)}
+
+        <div className="flex items-center flex-wrap gap-2">
+          <span className="font-poppins font-semibold text-lg text-gray-800">
+            R$ {discounted ?? product.price.toFixed(2)}
           </span>
-          {discountedPrice && (
-            <span style={{
-              fontFamily: 'var(--font-poppins)',
-              fontWeight: 400,
-              fontSize: '14px',
-              color: '#B0B0B0',
-              textDecoration: 'line-through'
-            }}>
+          {discounted && (
+            <span className="font-poppins font-normal text-sm text-gray-400 line-through">
               R$ {product.price.toFixed(2)}
             </span>
           )}

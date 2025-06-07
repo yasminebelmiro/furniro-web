@@ -73,7 +73,7 @@ const Search = ({
       
       <div className="flex flex-wrap justify-between items-center px-8 py-4 bg-[#F9F1E7] text-sm mt-[-4px]">
         <div className="flex items-center gap-4">
-          <button className="flex items-center gap-2" onClick={() => setIsFilterOpen(!isFilterOpen)}>
+          <button className="flex items-center gap-2 cursor-pointer" onClick={() => setIsFilterOpen(!isFilterOpen)}>
             <img src={filterIcon} alt="Filter" className="w-5 h-5" />
             <span>Filter</span>
           </button>
