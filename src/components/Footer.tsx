@@ -116,13 +116,16 @@ const Footer: React.FC<FooterProps> = ({ onSubscribe }) => {
                     Shop
                   </Link>
                 </li>                <li>
-                  <span className="text-black font-medium cursor-not-allowed">
+                  <Link 
+                    to="" 
+                    className="text-black font-medium hover:text-primary transition-colors duration-200"
+                  >
                     About
-                  </span>
+                  </Link>
                 </li>
                 <li>
                   <Link 
-                    to="/contact" 
+                    to="" 
                     className="text-black font-medium hover:text-primary transition-colors duration-200"
                   >
                     Contact
@@ -167,10 +170,10 @@ const Footer: React.FC<FooterProps> = ({ onSubscribe }) => {
           <div>
             <h3 className="text-base font-medium text-gray-400 mb-6">
               Newsletter
-            </h3>
-            <div className="flex flex-col sm:flex-row gap-2">
-              <div className="flex-1">
-                <div className="relative">                  <input
+            </h3>            <div className="flex flex-col gap-4">
+              <div className="w-full">
+                <div className="relative">
+                  <input
                     type="email"
                     value={email}
                     onChange={handleEmailChange}
@@ -189,7 +192,6 @@ const Footer: React.FC<FooterProps> = ({ onSubscribe }) => {
                   />
                 </div>
                 
-                {}
                 {emailError && (
                   <p 
                     id="email-error" 
@@ -210,14 +212,16 @@ const Footer: React.FC<FooterProps> = ({ onSubscribe }) => {
                   </p>
                 )}
               </div>
+              <div className="w-fit">
                 <button
-                onClick={handleSubscribe}
-                disabled={isSubmitting}
-                className="text-sm font-medium text-black border-0 border-b border-black pb-1 hover:text-primary hover:border-primary transition-colors duration-200 disabled:opacity-50 disabled:cursor-not-allowed whitespace-nowrap"
-                aria-label="Inscrever-se na newsletter"
-              >
-                {isSubmitting ? 'ENVIANDO...' : 'SUBSCRIBE'}
-              </button>
+                  onClick={handleSubscribe}
+                  disabled={isSubmitting}
+                  className="text-sm font-medium cursor-pointer text-black border-0 border-b border-black pb-1 hover:text-primary hover:border-primary transition-colors duration-200 disabled:opacity-50 disabled:cursor-not-allowed"
+                  aria-label="Inscrever-se na newsletter"
+                >
+                  {isSubmitting ? 'ENVIANDO...' : 'SUBSCRIBE'}
+                </button>
+              </div>
             </div>
           </div>
         </div>        {/*seção de redes sociais */}

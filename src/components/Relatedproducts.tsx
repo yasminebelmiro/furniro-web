@@ -1,29 +1,20 @@
 import React from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useParams, useNavigate } from 'react-router-dom';
 import type { ProductType } from '../types/ProductType';
+
 import ListProduct from './ListProduct';
 
-interface RelatedProductsProps {
-  currentProductId: string;
-  category: string;
-  products: ProductType[];
-}
+import data from '../services/db.json';
 
-const RelatedProducts: React.FC<RelatedProductsProps> = ({ 
-  currentProductId, 
-  category, 
-  products 
-}) => {
+const RelatedProducts: React.FC = () => {
+  const { productId } = useParams<{ productId: string }>();
   const navigate = useNavigate();
 
-  //Filtra produtos da mesma categoria, excluindo o produto atual
-  const relatedProducts = products
-    .filter(product => 
-      product.category === category && 
-      product.id !== currentProductId
-    )
-    .slice(0, 4); // Mostra apenas 4 produtos
-
+  const current = data.products.find(
+    (p) => p.id === productId
+  ) as ProductType | undefined;
+  if (!current) return null;
+  
   const handleShowMore = () => {
     navigate('/shop');
   };
