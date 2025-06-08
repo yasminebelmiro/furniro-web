@@ -1,22 +1,20 @@
-
-import CategorySection from '../components/CategorySection'
-import Mosaic from '../components/Mosaic'
-import HeroSection from '../components/HeroSection'
-import ProductsHome from '../components/ProductsHome'
-import Carousel from '../components/Carousel';
+import CategorySection from "../components/CategorySection";
+import Mosaic from "../components/Mosaic";
+import HeroSection from "../components/HeroSection";
+import ProductsHome from "../components/ProductsHome";
+import CarouselContainer from "../components/CarouselContainer";
 
 
 const Home = () => {
-  
   return (
-     <>
-      <HeroSection/>
+    <>
+      <HeroSection />
       <CategorySection />
-      {/* <ProductsHome /> */}
-      <Carousel />
+      <ProductsHome />
+      <CarouselContainer />
       <Mosaic />
     </>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

@@ -1,15 +1,33 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 @import "tailwindcss";
 
-@theme{
-  --color-gold: #B88E2F;
-  --color-creme: #FFF3E3;
-  --font-poppins:'Poppins', sans-serif;
+@theme {
+  --color-gold: #b88e2f;
+  --color-creme: #fff3e3;
+  --font-poppins: "Poppins", sans-serif;
 }
 
-.splide__pagination__page.is-active {
-  @apply bg-yellow-700;
+.splide__slide {
+  transition: width 0.4s ease, height 0.4s ease;
 }
-.splide__arrow.custom-arrow {
-  @apply bg-white/80 text-yellow-700 shadow rounded-full w-10 h-10 flex items-center justify-center transition hover:bg-yellow-700 hover:text-white;
+@media (min-width: 1024px) {
+  .splide__slide.is-active {
+    width: 25.25rem;
+    height: 36.375rem;
+  }
+  .splide__slide:not(.is-active) {
+    width: 23.25rem;
+    height: 30.375rem;
+  }
+}
+@media (max-width: 1023px) {
+  .splide__slide {
+    width: 18rem !important;
+    height: 22rem !important;
+  }
+}
+.splide__slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }

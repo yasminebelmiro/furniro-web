@@ -7,8 +7,7 @@ import SingleProduct from './pages/SingleProduct';
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
-// VERIFIQUE SE ESTA LINHA ESTÁ CORRETA
-import '@splidejs/splide/dist/css/splide.min.css';
+
 
 function App() {
   return (
