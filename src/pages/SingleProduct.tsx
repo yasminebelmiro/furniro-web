@@ -2,7 +2,7 @@ import { useParams } from "react-router-dom";
 import type { ProductType } from "../types/ProductType";
 import data from "../services/db.json";
 import CascadeHeader from '../components/CascadeHeader'
-import RelatedProducts from "../components/Relatedproducts";
+import RelatedProducts from "../components/RelatedProducts";
 
 const SingleProduct = () => {
   const { productId } = useParams<{ productId: string }>();
