@@ -220,8 +220,6 @@ Acompanhe nosso fluxo de trabalho completo através do [Board do Trello](https:/
 | 🏠 **Home** | ✅ Completa | ✅ Mobile-first | Carrossel, Hero, Categorias | Layout totalmente funcional |
 | 🛍️ **Shop** | ✅ Completa | ✅ Mobile-first | Filtros, Paginação, Toast | Integração com JSON Server |
 | 📦 **Produto** | ✅ Completa | ✅ Mobile-first | Galeria, Detalhes, Relacionados | Rota dinâmica por ID |
-| ℹ️ **About** | -| - | - | Não necessário |
-| 📞 **Contact** | - | - | - | Não necessário  |
 
 ### 🎨 **Componentes Desenvolvidos**
 
@@ -312,7 +310,6 @@ Este projeto foi desenvolvido em equipe, promovendo:
     </tr>
   </table>
 </div>
-
 ---
 
 <div align="center">

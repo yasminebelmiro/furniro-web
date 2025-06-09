@@ -287,7 +287,7 @@ const Footer: React.FC<FooterProps> = ({ onSubscribe }) => {
         </div>        {}
         <div className="border-t border-gray-200 pt-8">
           <p className="text-black text-base">
-            2023 furino. All rights reserved
+            2023 furniro. All rights reserved
           </p>
         </div>
       </div>
