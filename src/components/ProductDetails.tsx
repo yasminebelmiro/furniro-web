@@ -100,7 +100,7 @@ const ProductDetails: React.FC = () => {
       </div>
 
       {/* Detalhes do produto */}
-      <div className="w-full sm:pl-10 lg:mr-[5%] xl:mr-[15%] 2xl:mr-[20%] sm:w-1/2 xl:w-1/2 pb-10 mt-5 sm:mt-0 sm:pl-5 xl:pl-12">
+      <div className="w-full sm:pl-10 lg:mr-[5%] xl:mr-[15%] 2xl:mr-[20%] sm:w-1/2 xl:w-1/2 pb-10 mt-5 sm:mt-0 xl:pl-12">
       
         {/* Nome do produto */}
         <h1 className="text-3xl font-semibold mb-2">{product.name}</h1>

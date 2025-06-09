@@ -87,7 +87,7 @@ const Footer: React.FC<FooterProps> = ({ onSubscribe }) => {
             {/* Coluna 1 - Logo e endereço */}
           <div className="lg:col-span-1">
             <h2 className="text-2xl font-bold text-primary mb-6">
-              Funiro.
+              Furniro.
             </h2>            <address className="text-gray-400 not-italic leading-relaxed">
               <span className="whitespace-nowrap">400 University Drive Suite 200 Coral</span><br />
               Gables,<br />

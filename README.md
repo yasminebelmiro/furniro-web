@@ -37,12 +37,12 @@ A proposta foi reconstruir fielmente, em React + TypeScript e Tailwind CSS, as p
 - **Prettier** - Formatador de código automático
 - **Tailwind CSS IntelliSense** - Autocompletar e preview de classes Tailwind
 
-### 📊 **Backend Simulado & API de Imagens**
+### 📊 **Backend Simulado**
 - **JSON Server** - API REST simulada para desenvolvimento
   - **Total de Produtos:** 48 itens
   - **Categorias:** Dining (16), Living (16) e Bedroom (16) 
   - **Dados completos** com imagens, descrições e especificações
-- **Unsplash** - API para imagens de alta qualidade usadas no projeto
+  - **Imagens** referenciadas via URLs da API Unsplash
 
 ---
 
@@ -199,7 +199,8 @@ docs: atualiza README com novas tecnologias
 style: ajusta espaçamentos no footer
 ```
 
-### 🗂 **Organização de Tarefas (Trello)**
+### 🗂 **Organização de Tarefas (Trello)** 
+Acompanhe nosso fluxo de trabalho completo através do [Board do Trello](https://trello.com/b/JN8OQg8a/desafio-2-furniro-web), onde documentamos toda a jornada de desenvolvimento, desde o planejamento inicial até a entrega final.
 
 | Status | Descrição |
 |--------|-----------|

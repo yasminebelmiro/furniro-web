@@ -21,7 +21,7 @@ const Mosaic = () => {
 
                 <div className='relative pb-10 xl:top-5 col-start-1 col-end-4 row-start-1 row-end-3 md:col-start-8 md:col-end-14 md:row-start-1 md:row-end-1 lg:col-start-9 lg:col-end-13 lg:row-start-1 lg:row-end-1 overflow-hidden'>
                     <p className=' text-gray-500 text-[1rem] text-center'>Share your setup with</p>
-                    <h2 className='text-[#333333] text-[1.5rem] md:text-[1.25rem] lg:text-[1.25rem] xl:text-[1.5rem] 2xl:text-[2rem] font-bold text-center sm:pb-5 md:pb-0 pt-0'>#FuniroFurniture</h2>
+                    <h2 className='text-[#333333] text-[1.5rem] md:text-[1.25rem] lg:text-[1.25rem] xl:text-[1.5rem] 2xl:text-[2rem] font-bold text-center sm:pb-5 md:pb-0 pt-0'>#FurniroFurniture</h2>
                 </div>
 
                 {/* Parte Esquerda do Grid (Em Desktop) */} 
