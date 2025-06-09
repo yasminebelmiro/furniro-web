@@ -13,8 +13,9 @@ const ProductsHome = () => {
       >
         Our Products
       </h3>
-      <ListProduct productsList={data.products} cardCount={8} />      <button
-        className="border-gold border-1 py-4 px-30 m-10 text-gold cursor-pointer"
+      <ListProduct productsList={data.products} cardCount={8} />
+      <button
+        className=" border-gold border-1 py-4 px-30 m-10 text-gold hover:bg-gold hover:text-white cursor-pointer"
         onClick={() => navigate("/shop")}
       >
         Show More
