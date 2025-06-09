@@ -1,165 +1,295 @@
 # 🪑 Furniro Web
 
-Projeto em grupo desenvolvido durante o Programa de Bolsas React - Abril/25.  
-A proposta foi reconstruir fielmente, em React + TypeScript e Tailwind, as páginas do e-commerce fictício Furniro, de acordo com o design fornecido no Figma.
+<div align="center">
+  
+  ![Furniro Web](https://img.shields.io/badge/Furniro-Web-B88E2F?style=for-the-badge&logo=furniture&logoColor=white)
+  ![Status](https://img.shields.io/badge/Status-Finalizado-brightgreen?style=for-the-badge)
+  
+</div>
+
+Projeto em grupo desenvolvido durante o **Programa de Bolsas React - Junho/25**.  
+A proposta foi reconstruir fielmente, em React + TypeScript e Tailwind CSS, as páginas do e-commerce fictício **Furniro**, seguindo fielmente o design fornecido no Figma com foco em responsividade e experiência do usuário.
 
 ---
 
-## ✅ Funcionalidades principais
+## 🚀 Tecnologias Utilizadas
 
-- Navegação entre páginas com React Router
-- Listagem de produtos com carrossel e página individual por item
-- Integração com JSON Server para simular banco de dados de produtos
-- Filtro por categoria de produto via URL (`/shop?category=living`, etc.)
-- Validação de formulário de newsletter no footer (sem `alert` ou `required` nativo)
-- Cards com feedback de adição ao carrinho (via Toast)
-- Paginação na listagem de produtos
-- Layout completamente responsivo
-- Controle e versionamento com Git + Conventional Commits
+<div align="center">
+  
+  <img src="https://skillicons.dev/icons?i=react,typescript,vite,tailwind,nodejs,git,github,figma,vscode" alt="Tech Stack" />
+  
+</div>
+
+### 🔧 **Frontend**
+- **React 19** - Biblioteca para construção de interfaces
+- **TypeScript** - Superset JavaScript com tipagem estática
+- **Vite** - Build tool ultra-rápida
+- **Tailwind CSS** - Framework CSS utility-first
+- **React Router DOM** - Roteamento para SPAs
+- **Axios** - Cliente HTTP para requisições
+
+### 🎨 **UI/UX & Componentes**
+- **@splidejs/react-splide** - Carrossel responsivo e acessível
+- **React Icons** - Biblioteca abrangente de ícones
+- **React Toastify** - Notificações elegantes e customizáveis
+
+### 🛠 **Desenvolvimento & Qualidade**
+- **ESLint** - Linter para identificar padrões problemáticos
+- **Prettier** - Formatador de código automático
+- **TypeScript ESLint** - Regras ESLint específicas para TS
+
+### 📊 **Backend Simulado**
+- **JSON Server** - API REST simulada para desenvolvimento
 
 ---
 
-## 🚀 Tecnologias utilizadas
+## ✨ Funcionalidades Principais
 
-- React + Vite
-- TypeScript
-- Tailwind CSS
-- React Router DOM
-- SplideJS – carrossel
-- JSON Server – simulação de backend
-- React Toastify – notificações
-- React Icons – biblioteca de ícones
-- ESLint + Prettier – padronização de código
+🎯 **Navegação Intuitiva**
+- Roteamento dinâmico com React Router
+- Navegação fluida entre páginas
+- URLs amigáveis e semânticas
+
+🛍️ **Catálogo de Produtos**
+- Listagem dinâmica com carrossel interativo
+- Páginas individuais para cada produto
+- Sistema de filtros por categoria
+- Paginação responsiva na listagem
+
+🎨 **Interface Responsiva**
+- Design mobile-first
+- Layout adaptável para todos os dispositivos
+- Animações e transições suaves
+
+🔔 **Feedback Visual**
+- Notificações toast para ações do usuário
+- Estados de hover e interação
+- Validação de formulários em tempo real
+
+📧 **Newsletter & Validação**
+- Formulário de newsletter no footer
+- Validação manual (sem alert/required nativo)
+- Feedback visual para entradas inválidas
+
+🎪 **Experiência Rica**
+- Carrossel de produtos na home
+- Galeria de imagens nos produtos
+- Seção de produtos relacionados
 
 ---
 
-## 🛠 Como rodar o projeto localmente
+## 🛠 Como Rodar o Projeto
 
-### Pré-requisitos
+### 📋 **Pré-requisitos**
 
-- Node.js (recomendado: v18 ou superior)
-- npm ou yarn
-- JSON Server instalado globalmente (`npm install -g json-server`)
+Certifique-se de ter instalado em sua máquina:
 
-### Passo a passo
+- **Node.js** (versão 18 ou superior) - [Download](https://nodejs.org/)
+- **npm** ou **yarn** como gerenciador de pacotes
+- **Git** para controle de versão
 
-1. Clone o repositório:
+### 🚀 **Instalação e Execução**
 
+1. **Clone o repositório:**
 ```bash
-git clone git@github.com:seu-usuario/furniro-web.git
+git clone https://github.com/seu-usuario/furniro-web.git
 cd furniro-web
 ```
 
-2. Instale as dependências:
-
+2. **Instale as dependências:**
 ```bash
 npm install
-# ou
+# ou com yarn
 yarn install
 ```
 
-3. Inicie o JSON Server com os dados simulados:
-
+3. **Inicie o servidor JSON (Backend simulado):**
 ```bash
-npm run server
+npx json-server src/services/db.json --port 3001 --watch
 ```
+> 🌐 API disponível em: [http://localhost:3001/products](http://localhost:3001/products)
 
-> Isso vai disponibilizar os produtos em: [http://localhost:3001/products](http://localhost:3001/products)
-
-4. Em outro terminal, rode o projeto React:
-
+4. **Execute o projeto em desenvolvimento:**
 ```bash
 npm run dev
+# ou com yarn
+yarn dev
 ```
+> 🎉 Aplicação disponível em: [http://localhost:5173](http://localhost:5173)
 
-> Acesse no navegador: [http://localhost:5173](http://localhost:5173)
+### 📦 **Scripts Disponíveis**
 
----
-
-## 🧩 Estrutura de Pastas (resumida)
-
-```
-furniro-web/
-├── public/                   # Arquivos públicos e favicon
-├── src/
-│   ├── assets/               # Imagens, ícones e logos
-│   ├── components/           # Componentes reutilizáveis (Header, Footer, Card, etc.)
-│   ├── data/                 # Dados mockados para JSON Server
-│   ├── hooks/                # Hooks customizados
-│   ├── layouts/              # Estruturas de layout das páginas
-│   ├── pages/
-│   │   ├── Home/
-│   │   ├── Shop/
-│   │   ├── Product/
-│   │   └── NotFound.tsx
-│   ├── routes/               # Rotas protegidas e públicas
-│   ├── services/             # Funções para requisições à API
-│   ├── styles/               # Estilos globais
-│   ├── types/                # Tipagens TypeScript
-│   ├── utils/                # Funções auxiliares
-│   ├── App.tsx               # Componente raiz
-│   └── main.tsx              # Ponto de entrada
-├── db.json                   # Banco de dados fake para JSON Server
-├── tailwind.config.js
-├── eslint.config.js
-├── .prettierrc
-├── tsconfig.json
-├── vite.config.ts
-└── README.md
+```bash
+npm run dev      # Executa em modo desenvolvimento
+npm run build    # Gera build para produção
+npm run preview  # Visualiza o build localmente
+npm run lint     # Executa verificação do ESLint
 ```
 
 ---
 
-## 📝 Regras de Git e Organização
+## 📁 Arquitetura do Projeto
 
-- **Branch principal:** `main`
-- **Branch de desenvolvimento:** `developer`
-- **Branches de funcionalidades:** `feature/nome-da-feature`
-- **Commits:** padrão [Conventional Commits](https://www.conventionalcommits.org/)
-- **Organização de tarefas no Trello:**  
-  - To Do  
-  - In Progress  
-  - Code Review  
-  - Done
+```
+📦 furniro-web/
+├── 📂 public/                     # Arquivos estáticos
+├── 📂 src/
+│   ├── 📂 assets/                 # Recursos estáticos
+│   │   ├── 📄 logo.svg
+│   │   └── 📂 images/             # Imagens organizadas por seção
+│   │       ├── 📂 carousel-images/
+│   │       ├── 📂 category-images/
+│   │       ├── 📂 features-images/
+│   │       ├── 📂 hero-images/
+│   │       ├── 📂 mosaic-images/
+│   │       ├── 📂 search-images/
+│   │       └── 📂 social-images/
+│   ├── 📂 components/             # Componentes reutilizáveis
+│   │   ├── 📄 Header.tsx          # Cabeçalho responsivo
+│   │   ├── 📄 Footer.tsx          # Rodapé com newsletter
+│   │   ├── 📄 Carousel.tsx        # Carrossel de produtos
+│   │   ├── 📄 Product.tsx         # Card de produto
+│   │   ├── 📄 CategorySection.tsx # Seção de categorias
+│   │   ├── 📄 FeaturesSection.tsx # Seção de diferenciais
+│   │   └── 📄 ... (outros)
+│   ├── 📂 pages/                  # Páginas da aplicação
+│   │   ├── 📄 Home.tsx            # Página inicial
+│   │   ├── 📄 Shop.tsx            # Catálogo de produtos
+│   │   └── 📄 SingleProduct.tsx   # Detalhes do produto
+│   ├── 📂 services/               # Integração com APIs
+│   │   └── 📄 db.json             # Base de dados simulada
+│   ├── 📂 types/                  # Definições TypeScript
+│   │   ├── 📄 ProductType.tsx     # Tipagem de produtos
+│   │   └── 📄 react-splide.d.ts   # Declarações Splide
+│   ├── 📂 utils/                  # Utilitários e helpers
+│   │   └── 📄 ScrollToTop.tsx     # Componente de scroll
+│   ├── 📄 App.tsx                 # Componente raiz
+│   ├── 📄 main.tsx                # Ponto de entrada
+│   └── 📄 index.css               # Estilos globais
+├── 📄 package.json                # Dependências e scripts
+├── 📄 tsconfig.json               # Configuração TypeScript
+├── 📄 tailwind.config.js          # Configuração Tailwind
+├── 📄 vite.config.ts              # Configuração Vite
+├── 📄 eslint.config.js            # Configuração ESLint
+└── 📄 README.md                   # Documentação
+```
+
+### 🏗️ **Padrões de Organização**
+
+- **📁 Separação por funcionalidade:** Componentes, páginas e serviços organizados logicamente
+- **🎨 Assets por contexto:** Imagens categorizadas por seção de uso
+- **🔧 Configurações centralizadas:** Todos os arquivos de config na raiz
+- **📝 Tipagem completa:** Interfaces TypeScript para todas as estruturas de dados
 
 ---
 
-## 🗂 Status das páginas
+## 📝 Fluxo de Desenvolvimento e Git
 
-| Página         | Status | Observações                                       |
-|----------------|--------|---------------------------------------------------|
-| Home           | ✅     | Layout e carrossel completos                      |
-| Shop           | ✅     | Listagem com paginação, filtros e toast          |
-| Produto        | ✅     | Página individual dinâmica por ID                |
-| About/Contact  | 🔜     | Estrutura criada, conteúdo ainda não funcional   |
-| Responsividade | ✅     | Mobile-first concluído                            |
+- **🎯 `main`** - Branch principal (produção)
+- **🔧 `developer`** - Branch de desenvolvimento
+- **✨ `feature/nome-da-feature`** - Branches para novas funcionalidades
 
----
+### 📦 **Conventional Commits**
 
-## 🔒 Requisitos atendidos
+Seguimos o padrão [Conventional Commits](https://www.conventionalcommits.org/):
 
-- Header fixo e responsivo com navegação
-- Footer funcional com links externos e validação de e-mail
-- Carrossel de produtos na Home
-- Roteamento dinâmico protegido com React Router
-- Feedback visual para ações (hover, toast)
-- Integração com JSON Server para produtos
-- Paginação na página de Shop
-- Estrutura do projeto com TypeScript
-- Formulário com validação manual (sem alert/requerido nativo)
-- Código versionado com commits semânticos
-- Projeto responsivo
+```bash
+feat: adiciona carrossel de produtos na home
+fix: corrige responsividade do header mobile
+docs: atualiza README com novas tecnologias
+style: ajusta espaçamentos no footer
+refactor: reorganiza estrutura de componentes
+test: adiciona testes para componente Product
+```
 
----
+### 🗂 **Organização de Tarefas (Trello)**
 
-## 📅 Datas importantes
-
-- Criação do repositório: até **02/06/2025 – 17h30**
-- Entrega final: **09/06/2025 – 17h30**
-- Apresentação do projeto: **10/06/2025 – 14h30**
+```
+📋 A Fazer          ➡️ 🔄 Em Progresso    ➡️ 👀 Revisão de Código    ➡️ ✅ Concluído
+```
 
 ---
 
-## 🧠 Observações finais
+## 📊 Status do Desenvolvimento
 
-Este projeto foi um ótimo exercício de desenvolvimento front-end com React + TypeScript, estimulando a colaboração em grupo, controle de versões e organização de tarefas via Trello.
+### 🎯 **Páginas Implementadas**
+
+| Página | Status | Responsividade | Funcionalidades | Observações |
+|--------|--------|----------------|-----------------|-------------|
+| 🏠 **Home** | ✅ Completa | ✅ Mobile-first | Carrossel, Hero, Categorias | Layout totalmente funcional |
+| 🛍️ **Shop** | ✅ Completa | ✅ Mobile-first | Filtros, Paginação, Toast | Integração com JSON Server |
+| 📦 **Produto** | ✅ Completa | ✅ Mobile-first | Galeria, Detalhes, Relacionados | Rota dinâmica por ID |
+| ℹ️ **About** | 🔜 Estruturada | ✅ Mobile-first | - | Conteúdo em desenvolvimento |
+| 📞 **Contact** | 🔜 Estruturada | ✅ Mobile-first | - | Formulário em implementação |
+
+### 🎨 **Componentes Desenvolvidos**
+
+| Componente | Status | Reutilização | Testes |
+|------------|--------|--------------|--------|
+| Header | ✅ | Alta | ⏳ |
+| Footer | ✅ | Alta | ⏳ |
+| Product Card | ✅ | Alta | ⏳ |
+| Carousel | ✅ | Média | ⏳ |
+| CategorySection | ✅ | Baixa | ⏳ |
+| FeaturesSection | ✅ | Baixa | ⏳ |
+
+---
+
+## ✅ Requisitos do Projeto
+
+### 🎯 **Funcionalidades Obrigatórias**
+
+- ✅ Header fixo e responsivo com navegação
+- ✅ Footer funcional com links externos e validação de e-mail
+- ✅ Carrossel de produtos na página inicial
+- ✅ Roteamento dinâmico com React Router
+- ✅ Feedback visual para interações (hover, toast)
+- ✅ Integração com JSON Server para dados de produtos
+- ✅ Paginação na página de catálogo
+- ✅ Estrutura completa com TypeScript
+- ✅ Formulário com validação manual (sem alert nativo)
+- ✅ Versionamento com commits semânticos
+- ✅ Layout totalmente responsivo
+
+### 🏆 **Diferenciais Implementados**
+
+- ✅ Animações suaves com CSS/Tailwind
+- ✅ Estados de loading para requisições
+- ✅ Sistema de filtros avançado
+- ✅ Galeria de imagens nos produtos
+- ✅ Seção de produtos relacionados
+- ✅ Otimização de performance com lazy loading
+- ✅ Acessibilidade (ARIA labels, navegação por teclado)
+
+---
+
+## 📅 Cronograma do Projeto
+
+| Marco | Data Limite | Status |
+|-------|-------------|---------|
+| 🎯 Criação do repositório | **02/06/2025 - 17h30** | ✅ |
+| 🚀 Entrega final | **09/06/2025 - 17h30** | ⏳ |
+| 🎤 Apresentação | **10/06/2025 - 14h30** | ⏳ |
+
+---
+
+## 🤝 Equipe e Contribuições
+
+Este projeto foi desenvolvido em equipe como parte do **Programa de Bolsas React**, promovendo:
+
+- 👥 **Colaboração em grupo** - Divisão de tarefas e code review
+- 🔄 **Controle de versões** - Git flow e conventional commits  
+- 📋 **Gestão de projeto** - Organização via Trello
+- 🎨 **Design fidelity** - Implementação precisa do layout Figma
+- 💻 **Boas práticas** - Clean code e padrões de desenvolvimento
+
+---
+
+<div align="center">
+  
+  **Desenvolvido com ❤️ durante o Programa de Bolsas React**
+  
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com)
+  [![GitHub](https://img.shields.io/badge/GitHub-Follow-black?style=for-the-badge&logo=github)](https://github.com)
+  
+</div>
