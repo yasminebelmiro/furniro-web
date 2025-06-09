@@ -9,15 +9,23 @@ import data from '../services/db.json';
 const RelatedProducts: React.FC = () => {
   const { productId } = useParams<{ productId: string }>();
   const navigate = useNavigate();
-
   const current = data.products.find(
     (p) => p.id === productId
   ) as ProductType | undefined;
   if (!current) return null;
+
+  //aqui filtra produtos da mesma categoria, excluindo o produto atual
+  const relatedProducts = data.products
+    .filter(product => 
+      product.category === current.category && 
+      product.id !== productId
+    )
+    .slice(0, 4); //mostra apenas 4 produtos
   
   const handleShowMore = () => {
     navigate('/shop');
   };
+  
   if (relatedProducts.length === 0) {
     return null;
   }
