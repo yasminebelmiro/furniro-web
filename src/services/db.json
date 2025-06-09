@@ -1,0 +1,1328 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Sofá Amarelinho",
+      "subtitle": "Conforto e estilo para sua sala",
+      "rate": 4,
+      "size": ["P", "M"],
+      "colors": ["#FFD700", "#FFFACD", "#FFEB3B"],
+      "reviews": 6,
+      "price": 499.9,
+      "discount": 50,
+      "date": "2025-06-03",
+      "resume": "Um sofá amarelinho, fofo e confortável para alegrar seu cantinho.",
+      "description": "Sofá amarelinho com design moderno, acabamento em tecido de alta qualidade, estrutura resistente e super confortável. Perfeito para quem quer um toque de cor e aconchego.",
+      "adicionalDescription": "Limpeza com pano úmido, evitar exposição direta ao sol para preservar a cor. Montagem simples e rápida.",
+      "category": "living",
+      "tags": ["sofá", "amarelo", "conforto"],
+      "thumbnail": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7",
+      "images": [
+        "https://images.unsplash.com/photo-1586023492125-27b2c045efd7",
+        "https://images.unsplash.com/photo-1586023492125-27b2c045efd7",
+        "https://images.unsplash.com/photo-1586023492125-27b2c045efd7",
+        "https://images.unsplash.com/photo-1586023492125-27b2c045efd7"
+      ],
+      "imagensDescription": [
+        "https://images.unsplash.com/photo-1586023492125-27b2c045efd7",
+        "https://images.unsplash.com/photo-1586023492125-27b2c045efd7"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Luminária Articulada Moderna",
+      "subtitle": "Iluminação flexível para seu espaço",
+      "rate": 5,
+      "size": ["P","M"],
+      "colors": ["#FFFFFF", "#000000"],
+      "reviews": 12,
+      "price": 129.9,
+      "discount": 15,
+      "date": "2025-06-01",
+      "resume": "Luminária prática, com braço articulado para ajustar a luz do jeito que quiser.",
+      "description": "Luminária articulada com design minimalista, ideal para salas de estar ou escritórios. Possui ajuste de ângulo para iluminar exatamente onde precisa, acabamento em metal com pintura resistente.",
+      "adicionalDescription": "Use lâmpadas LED recomendadas, evite contato com água, limpeza com pano seco.",
+      "category": "living",
+      "tags": ["luminária", "iluminação", "articulada"],
+      "thumbnail": "https://images.unsplash.com/photo-1506377295352-e3154d43ea9e",
+      "images": [
+        "https://images.unsplash.com/photo-1506377295352-e3154d43ea9e",
+        "https://images.unsplash.com/photo-1506377295352-e3154d43ea9e",
+        "https://images.unsplash.com/photo-1506377295352-e3154d43ea9e",
+        "https://images.unsplash.com/photo-1506377295352-e3154d43ea9e"
+      ],
+      "imagensDescription": [
+        "https://images.unsplash.com/photo-1506377295352-e3154d43ea9e",
+        "https://images.unsplash.com/photo-1506377295352-e3154d43ea9e"
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Poltrona Moderna Confortável",
+      "subtitle": "Design elegante para sua sala",
+      "rate": 5,
+      "size": ["M", "G"],
+      "colors": ["#2F4F4F", "#696969"],
+      "reviews": 22,
+      "price": 299.9,
+      "date": "2025-06-02",
+      "resume": "Poltrona estilosa com estofado macio e estrutura resistente.",
+      "description": "Poltrona com design contemporâneo, estofado em tecido premium e base em madeira robusta. Ideal para ambientes living que buscam conforto e estilo.",
+      "adicionalDescription": "Limpar com aspirador e pano seco. Evitar contato com líquidos.",
+      "category": "living",
+      "tags": ["poltrona", "moderna", "conforto"],
+      "thumbnail": "https://images.unsplash.com/photo-1532372576444-dda954194ad0",
+      "images": [
+        "https://images.unsplash.com/photo-1532372576444-dda954194ad0",
+        "https://images.unsplash.com/photo-1532372576444-dda954194ad0",
+        "https://images.unsplash.com/photo-1532372576444-dda954194ad0",
+        "https://images.unsplash.com/photo-1532372576444-dda954194ad0"
+      ],
+      "imagensDescription": [
+        "https://images.unsplash.com/photo-1532372576444-dda954194ad0",
+        "https://images.unsplash.com/photo-1532372576444-dda954194ad0"
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Mesa de Centro de Madeira Rústica",
+      "subtitle": "O charme natural que sua sala merece",
+      "rate": 4,
+      "size": ["G"],
+      "colors": ["#8B4513", "#A0522D"],
+      "reviews": 9,
+      "price": 219.9,
+      "date": "2025-04-28",
+      "resume": "Mesa de centro robusta, com pegada rústica e muito estilo.",
+      "description": "Mesa de centro em madeira maciça com acabamento natural e bordas orgânicas. Ideal para salas com decoração aconchegante e moderna ao mesmo tempo.",
+      "adicionalDescription": "Evitar contato com água, limpar com pano seco ou levemente umedecido.",
+      "category": "living",
+      "tags": ["mesa de centro", "madeira", "rústico"],
+      "thumbnail": "https://images.unsplash.com/photo-1560184897-67f4a3f9a7fa",
+      "images": [
+        "https://images.unsplash.com/photo-1560184897-67f4a3f9a7fa",
+        "https://images.unsplash.com/photo-1560184897-67f4a3f9a7fa",
+        "https://images.unsplash.com/photo-1560184897-67f4a3f9a7fa",
+        "https://images.unsplash.com/photo-1560184897-67f4a3f9a7fa"
+      ],
+      "imagensDescription": [
+        "https://images.unsplash.com/photo-1560184897-67f4a3f9a7fa",
+        "https://images.unsplash.com/photo-1560184897-67f4a3f9a7fa"
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Sofá Branco Médio Elegance",
+      "subtitle": "Clean, confortável e cheio de classe",
+      "rate": 4,
+      "size": ["M"],
+      "colors": ["#FFFFFF", "#F5F5F5"],
+      "reviews": 14,
+      "price": 649.9,
+      "discount": 30,
+      "date": "2025-05-25",
+      "resume": "Sofá branco tamanho médio, pra quem ama conforto e leveza no ambiente.",
+      "description": "Sofá com estofado em linho branco, estrutura reforçada e almofadas macias. Combina com decorações clean, escandinavas ou minimalistas.",
+      "adicionalDescription": "Limpeza com pano levemente úmido. Recomendado uso de protetor de tecido.",
+      "category": "living",
+      "tags": ["sofá", "branco", "médio", "elegante"],
+      "thumbnail": "https://images.unsplash.com/photo-1615800002234-05c4d488696c",
+      "images": [
+        "https://images.unsplash.com/photo-1615800002234-05c4d488696c",
+        "https://images.unsplash.com/photo-1615800002234-05c4d488696c",
+        "https://images.unsplash.com/photo-1615800002234-05c4d488696c",
+        "https://images.unsplash.com/photo-1615800002234-05c4d488696c"
+      ],
+      "imagensDescription": [
+        "https://images.unsplash.com/photo-1615800002234-05c4d488696c",
+        "https://images.unsplash.com/photo-1615800002234-05c4d488696c"
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Espelho Redondo Gigante",
+      "subtitle": "Impacto visual e amplitude instantânea",
+      "rate": 5,
+      "size": ["G"],
+      "colors": ["#C0C0C0", "#FFFFFF"],
+      "reviews": 27,
+      "price": 489.9,
+      "discount": 35,
+      "date": "2025-05-20",
+      "resume": "Espelho redondo e gigante que transforma qualquer ambiente com estilo.",
+      "description": "Espelho decorativo com moldura metálica fina em tom prata fosco. Diâmetro generoso que amplia o ambiente e adiciona sofisticação instantânea à decoração.",
+      "adicionalDescription": "Fixação segura na parede é essencial. Limpar com flanela e produto específico para vidro.",
+      "category": "living",
+      "tags": ["espelho", "redondo", "gigante", "decoração"],
+      "thumbnail": "https://images.unsplash.com/photo-1618219908412-a29a1bb7b86e",
+      "images": [
+        "https://images.unsplash.com/photo-1618219908412-a29a1bb7b86e",
+        "https://images.unsplash.com/photo-1618219908412-a29a1bb7b86e",
+        "https://images.unsplash.com/photo-1618219908412-a29a1bb7b86e",
+        "https://images.unsplash.com/photo-1618219908412-a29a1bb7b86e"
+      ],
+      "imagensDescription": [
+        "https://images.unsplash.com/photo-1618219908412-a29a1bb7b86e",
+        "https://images.unsplash.com/photo-1618219908412-a29a1bb7b86e"
+      ]
+    },
+    {
+      "id": "7",
+      "name": "Poltrona Contemporânea Ciano",
+      "subtitle": "Cor e conforto com personalidade",
+      "rate": 5,
+      "size": ["M"],
+      "colors": ["#00FFFF", "#E0FFFF"],
+      "reviews": 11,
+      "price": 339.9,
+      "date": "2025-06-03",
+      "resume": "Poltrona ciano com design arrojado, perfeita pra dar aquele up no ambiente.",
+      "description": "Poltrona com linhas modernas, estofado em tecido ciano suave ao toque e pés de metal fosco. Um mix de cor e sofisticação pra ambientes ousados.",
+      "adicionalDescription": "Evite produtos químicos. Limpar com pano seco e aspirador. Ideal manter longe da luz solar direta pra preservar a cor vibrante.",
+      "category": "living",
+      "tags": ["poltrona", "contemporânea", "ciano", "design"],
+      "thumbnail": "https://images.unsplash.com/photo-1606744837616-56c9a5c6a6eb",
+      "images": [
+        "https://images.unsplash.com/photo-1606744837616-56c9a5c6a6eb",
+        "https://images.unsplash.com/photo-1606744837616-56c9a5c6a6eb",
+        "https://images.unsplash.com/photo-1606744837616-56c9a5c6a6eb",
+        "https://images.unsplash.com/photo-1606744837616-56c9a5c6a6eb"
+      ],
+      "imagensDescription": [
+        "https://images.unsplash.com/photo-1606744837616-56c9a5c6a6eb",
+        "https://images.unsplash.com/photo-1606744837616-56c9a5c6a6eb"
+      ]
+    },
+    {
+      "id": "8",
+      "name": "Cortina Branca Leve",
+      "subtitle": "Toque suave de elegância e privacidade",
+      "rate": 4,
+      "size": ["G"],
+      "colors": ["#FFFFFF"],
+      "reviews": 19,
+      "price": 159.9,
+      "discount": 20,
+      "date": "2025-06-01",
+      "resume": "Cortina branca com tecido leve e caimento impecável.",
+      "description": "Confeccionada em voil com forro blackout opcional. Ideal para quartos ou salas que precisam de claridade suave e privacidade. Fixação por ilhós cromados.",
+      "adicionalDescription": "Lavável à máquina em ciclo delicado. Passar em temperatura baixa. Evitar alvejantes.",
+      "category": "living",
+      "tags": ["cortina", "branca", "leve", "quarto"],
+      "thumbnail": "https://images.unsplash.com/photo-1612196808827-9ff25cb6137a",
+      "images": [
+        "https://images.unsplash.com/photo-1612196808827-9ff25cb6137a",
+        "https://images.unsplash.com/photo-1612196808827-9ff25cb6137a",
+        "https://images.unsplash.com/photo-1612196808827-9ff25cb6137a",
+        "https://images.unsplash.com/photo-1612196808827-9ff25cb6137a"
+      ],
+      "imagensDescription": [
+        "https://images.unsplash.com/photo-1612196808827-9ff25cb6137a",
+        "https://images.unsplash.com/photo-1612196808827-9ff25cb6137a"
+      ]
+    },
+    {
+      "id": "9",
+      "name": "Cama King Size Cinza Lux",
+      "subtitle": "O trono que seus sonhos merecem",
+      "rate": 5,
+      "size": ["G"],
+      "colors": ["#808080", "#A9A9A9"],
+      "reviews": 32,
+      "price": 1299.9,
+      "discont": 15,
+      "date": "2025-05-30",
+      "resume": "Cama king cinza com estrutura reforçada e design moderno.",
+      "description": "Cama king size com estofado cinza em linho premium, cabeceira alta acolchoada e estrutura de madeira de eucalipto. Ideal para transformar qualquer quarto em um refúgio elegante.",
+      "adicionalDescription": "Montagem simples. Limpeza com pano seco ou levemente umedecido. Suporta até 350 kg.",
+      "category": "bedroom",
+      "tags": ["cama", "king", "cinza", "quarto"],
+      "thumbnail": "https://images.unsplash.com/photo-1616594039964-ae9021a400a0",
+      "images": [
+        "https://images.unsplash.com/photo-1616594039964-ae9021a400a0",
+        "https://images.unsplash.com/photo-1616594039964-ae9021a400a0",
+        "https://images.unsplash.com/photo-1616594039964-ae9021a400a0",
+        "https://images.unsplash.com/photo-1616594039964-ae9021a400a0"
+      ],
+      "imagensDescription": [
+        "https://images.unsplash.com/photo-1616594039964-ae9021a400a0",
+        "https://images.unsplash.com/photo-1616594039964-ae9021a400a0"
+      ]
+    },
+    {
+      "id": "10",
+      "name": "Mesa de Cabeceira Vintage",
+      "subtitle": "Charme retrô no seu cantinho de descanso",
+      "rate": 4,
+      "size": ["P"],
+      "colors": ["#D2B48C", "#8B4513"],
+      "reviews": 17,
+      "price": 189.9,
+      "date": "2025-05-29",
+      "resume": "Mesinha vintage perfeita pra dar aquele toque nostálgico e funcional.",
+      "description": "Mesa de cabeceira estilo vintage com gavetinha embutida, puxadores dourados e acabamento em madeira natural. Ideal pra compor ambientes com pegada clássica ou boho.",
+      "adicionalDescription": "Limpeza com pano seco. Evitar exposição direta ao sol e umidade.",
+      "category": "bedroom",
+      "tags": ["mesa", "cabeceira", "vintage", "quarto"],
+      "thumbnail": "https://plus.unsplash.com/premium_photo-1683917067988-1b0323c3b574",
+      "images": [
+        "https://plus.unsplash.com/premium_photo-1683917067988-1b0323c3b574",
+        "https://plus.unsplash.com/premium_photo-1683917067988-1b0323c3b574",
+        "https://plus.unsplash.com/premium_photo-1683917067988-1b0323c3b574",
+        "https://plus.unsplash.com/premium_photo-1683917067988-1b0323c3b574"
+      ],
+      "imagensDescription": [
+        "https://plus.unsplash.com/premium_photo-1683917067988-1b0323c3b574",
+        "https://plus.unsplash.com/premium_photo-1683917067988-1b0323c3b574"
+      ]
+    },
+    {
+      "id": "11",
+      "name": "Conjunto de Quadros Florais",
+      "subtitle": "Romantismo e arte em cada detalhe",
+      "rate": 5,
+      "size": ["M"],
+      "colors": ["#FFC0CB", "#FAF0E6", "#8B0000"],
+      "reviews": 24,
+      "price": 129.9,
+      "date": "2025-06-03",
+      "resume": "Kit com 3 quadros florais delicados pra decorar com poesia visual.",
+      "description": "Conjunto com 3 quadros de moldura fina em madeira clara, estampas florais aquareladas em tons suaves. Ideal para ambientes que pedem delicadeza e charme.",
+      "adicionalDescription": "Limpar com pano seco. Pendurar com prego ou fita dupla face resistente. Ideal evitar luz solar direta para preservar as cores.",
+      "category": "bedroom",
+      "tags": ["quadros", "floral", "decoração", "arte"],
+      "thumbnail": "https://images.unsplash.com/photo-1586105251261-72a756497a11",
+      "images": [
+        "https://images.unsplash.com/photo-1586105251261-72a756497a11",
+        "https://images.unsplash.com/photo-1586105251261-72a756497a11",
+        "https://images.unsplash.com/photo-1586105251261-72a756497a11",
+        "https://images.unsplash.com/photo-1586105251261-72a756497a11"
+      ],
+      "imagensDescription": [
+        "https://images.unsplash.com/photo-1586105251261-72a756497a11",
+        "https://images.unsplash.com/photo-1586105251261-72a756497a11"
+      ]
+    },
+    {
+      "id": "12",
+      "name": "Conjunto de Cama Rosè Dream",
+      "subtitle": "Conforto, maciez e uma pitada de romance",
+      "rate": 5,
+      "size": ["G"],
+      "colors": ["#FFC0CB", "#FFE4E1", "#F8F8FF"],
+      "reviews": 36,
+      "price": 229.9,
+      "discont": 25,
+      "date": "2025-06-03",
+      "resume": "Jogo de cama rosè com toque acetinado e visual delicado.",
+      "description": "Inclui lençol com elástico, sobrelençol e duas fronhas. Tecido em microfibra premium com toque de seda. Ideal para transformar seu quarto num refúgio rosado de aconchego.",
+      "adicionalDescription": "Lavável à máquina em até 40°C. Não usar alvejante. Pode passar em temperatura baixa.",
+      "category": "bedroom",
+      "tags": ["cama", "jogo de cama", "rosè", "roupa de cama"],
+      "thumbnail": "https://images.unsplash.com/photo-1613252067198-cc29a8368d09",
+      "images": [
+        "https://images.unsplash.com/photo-1613252067198-cc29a8368d09",
+        "https://images.unsplash.com/photo-1613252067198-cc29a8368d09",
+        "https://images.unsplash.com/photo-1613252067198-cc29a8368d09",
+        "https://images.unsplash.com/photo-1613252067198-cc29a8368d09"
+      ],
+      "imagensDescription": [
+        "https://images.unsplash.com/photo-1613252067198-cc29a8368d09",
+        "https://images.unsplash.com/photo-1613252067198-cc29a8368d09"
+      ]
+    },
+    {
+      "id": "13",
+      "name": "Vaso de Cerâmica Redondo",
+      "subtitle": "Elegância simples para qualquer ambiente",
+      "rate": 4,
+      "size": ["M"],
+      "colors": ["#FFFFFF", "#C0C0C0"],
+      "reviews": 15,
+      "price": 89.9,
+      "discont": 20,
+      "date": "2025-06-02",
+      "resume": "Vaso redondo em cerâmica com acabamento suave e moderno.",
+      "description": "Vaso de cerâmica com formato arredondado, acabamento fosco, ideal para plantas pequenas e médias. Combina com decoração minimalista, rústica ou contemporânea.",
+      "adicionalDescription": "Não expor a quedas bruscas. Limpar com pano úmido. Ideal para uso interno.",
+      "category": "bedroom",
+      "tags": ["vaso", "cerâmica", "decoração", "redondo"],
+      "thumbnail": "https://plus.unsplash.com/premium_photo-1681980018727-b2b984b3faa7",
+      "images": [
+        "https://plus.unsplash.com/premium_photo-1681980018727-b2b984b3faa7",
+        "https://plus.unsplash.com/premium_photo-1681980018727-b2b984b3faa7",
+        "https://plus.unsplash.com/premium_photo-1681980018727-b2b984b3faa7",
+        "https://plus.unsplash.com/premium_photo-1681980018727-b2b984b3faa7"
+      ],
+      "imagensDescription": [
+        "https://plus.unsplash.com/premium_photo-1681980018727-b2b984b3faa7",
+        "https://plus.unsplash.com/premium_photo-1681980018727-b2b984b3faa7"
+      ]
+    },
+    {
+      "id": "14",
+      "name": "Cômoda Branca de Madeira",
+      "subtitle": "Estilo minimalista com muita praticidade",
+      "rate": 4,
+      "size": ["M"],
+      "colors": ["#FFFFFF"],
+      "reviews": 20,
+      "price": 429.9,
+      "date": "2025-06-01",
+      "resume": "Cômoda branca com estrutura em madeira maciça e design moderno.",
+      "description": "Cômoda com 4 gavetas espaçosas, acabamento em pintura branca fosca e puxadores minimalistas. Ideal para organizar roupas e acessórios com estilo.",
+      "adicionalDescription": "Limpar com pano seco. Evitar exposição direta ao sol para preservar a pintura.",
+      "category": "bedroom",
+      "tags": ["cômoda", "branca", "madeira", "organização"],
+      "thumbnail": "https://images.unsplash.com/photo-1556020685-ae41abfc9365",
+      "images": [
+        "https://images.unsplash.com/photo-1556020685-ae41abfc9365",
+        "https://images.unsplash.com/photo-1556020685-ae41abfc9365",
+        "https://images.unsplash.com/photo-1556020685-ae41abfc9365",
+        "https://images.unsplash.com/photo-1556020685-ae41abfc9365"
+      ],
+      "imagensDescription": [
+        "https://images.unsplash.com/photo-1556020685-ae41abfc9365",
+        "https://images.unsplash.com/photo-1556020685-ae41abfc9365"
+      ]
+    },
+    {
+      "id": "15",
+      "name": "Banco Estofado em Tecido",
+      "subtitle": "Praticidade e conforto para qualquer canto",
+      "rate": 4,
+      "size": ["P", "M"],
+      "colors": ["#808080", "#D3D3D3"],
+      "reviews": 14,
+      "price": 179.9,
+      "discont": 20,
+      "date": "2025-06-02",
+      "resume": "Banco estofado em tecido resistente, perfeito para sala ou quarto.",
+      "description": "Banco com estrutura de madeira, assento e encosto estofados em tecido de alta durabilidade. Ideal para complementar espaços pequenos com conforto e praticidade.",
+      "adicionalDescription": "Limpar com pano úmido. Evitar contato com líquidos em excesso.",
+      "category": "bedroom",
+      "tags": ["banco", "tecido", "estofado", "conforto"],
+      "thumbnail": "https://images.unsplash.com/photo-1615529162924-f8605388461d",
+      "images": [
+        "https://images.unsplash.com/photo-1615529162924-f8605388461d",
+        "https://images.unsplash.com/photo-1615529162924-f8605388461d",
+        "https://images.unsplash.com/photo-1615529162924-f8605388461d",
+        "https://images.unsplash.com/photo-1615529162924-f8605388461d"
+      ],
+      "imagensDescription": [
+        "https://images.unsplash.com/photo-1615529162924-f8605388461d",
+        "https://images.unsplash.com/photo-1615529162924-f8605388461d"
+      ]
+    },
+    {
+      "id": "16",
+      "name": "Escrevaninha Vintage Elegante",
+      "subtitle": "Beleza retrô com funcionalidade moderna",
+      "rate": 5,
+      "size": ["M"],
+      "colors": ["#8B4513", "#D2B48C"],
+      "reviews": 21,
+      "price": 599.9,
+      "discont": 23,
+      "date": "2025-05-28",
+      "resume": "Escrevaninha vintage com design clássico e acabamento refinado.",
+      "description": "Mesa de trabalho compacta com gavetas delicadas, acabamento em madeira escura e puxadores dourados. Ideal para home office com estilo e organização.",
+      "adicionalDescription": "Evitar exposição ao sol e umidade. Limpar com pano seco.",
+      "category": "bedroom",
+      "tags": ["escrevaninha", "vintage", "elegante", "home office"],
+      "thumbnail": "https://images.unsplash.com/photo-1611269154421-4e27233ac5c7",
+      "images": [
+        "https://images.unsplash.com/photo-1611269154421-4e27233ac5c7",
+        "https://images.unsplash.com/photo-1611269154421-4e27233ac5c7",
+        "https://images.unsplash.com/photo-1611269154421-4e27233ac5c7",
+        "https://images.unsplash.com/photo-1611269154421-4e27233ac5c7"
+      ],
+      "imagensDescription": [
+        "https://images.unsplash.com/photo-1611269154421-4e27233ac5c7",
+        "https://images.unsplash.com/photo-1611269154421-4e27233ac5c7"
+      ]
+    },
+    {
+      "id": "17",
+      "name": "Mesa de Jantar de Madeira Escura",
+      "subtitle": "Sofisticação que reúne todos à mesa",
+      "rate": 5,
+      "size": ["G"],
+      "colors": ["#4B3621", "#2F1B0C"],
+      "reviews": 33,
+      "price": 1299.9,
+      "date": "2025-06-03",
+      "resume": "Mesa grande em madeira escura, ideal para jantares com estilo.",
+      "description": "Mesa de jantar retangular com estrutura robusta em madeira nobre, acabamento escuro acetinado, espaço para até 8 lugares. Combina com ambientes clássicos ou contemporâneos.",
+      "adicionalDescription": "Limpeza com pano seco ou levemente umedecido. Não utilizar produtos abrasivos.",
+      "category": "dining",
+      "tags": ["mesa", "jantar", "madeira escura", "refinada"],
+      "thumbnail": "https://images.unsplash.com/photo-1617098709804-705581f844eb",
+      "images": [
+        "https://images.unsplash.com/photo-1617098709804-705581f844eb",
+        "https://images.unsplash.com/photo-1617098709804-705581f844eb",
+        "https://images.unsplash.com/photo-1617098709804-705581f844eb",
+        "https://images.unsplash.com/photo-1617098709804-705581f844eb"
+      ],
+      "imagensDescription": [
+        "https://images.unsplash.com/photo-1617098709804-705581f844eb",
+        "https://images.unsplash.com/photo-1617098709804-705581f844eb"
+      ]
+    },
+    {
+      "id": "18",
+      "name": "Mesa Redonda Elegante",
+      "subtitle": "Design fluido para encontros memoráveis",
+      "rate": 5,
+      "size": ["M"],
+      "colors": ["#A9A9A9", "#2F4F4F"],
+      "reviews": 27,
+      "price": 979.9,
+      "discont": 10,
+      "date": "2025-06-03",
+      "resume": "Mesa redonda com base central e acabamento sofisticado.",
+      "description": "Estrutura em madeira de reflorestamento com tampo de MDF laminado, base central que otimiza o espaço, ideal para até 4 pessoas. Um charme para qualquer sala de jantar moderna.",
+      "adicionalDescription": "Evitar arrastar objetos duros sobre o tampo. Limpar com pano seco.",
+      "category": "dining",
+      "tags": ["mesa", "redonda", "elegante", "sala de jantar"],
+      "thumbnail": "https://images.unsplash.com/photo-1616486701797-0f33f61038ec",
+      "images": [
+        "https://images.unsplash.com/photo-1616486701797-0f33f61038ec",
+        "https://images.unsplash.com/photo-1616486701797-0f33f61038ec",
+        "https://images.unsplash.com/photo-1616486701797-0f33f61038ec",
+        "https://images.unsplash.com/photo-1616486701797-0f33f61038ec"
+      ],
+      "imagensDescription": [
+        "https://images.unsplash.com/photo-1616486701797-0f33f61038ec",
+        "https://images.unsplash.com/photo-1616486701797-0f33f61038ec"
+      ]
+    },
+    {
+      "id": "19",
+      "name": "Armário de Cozinha Branco",
+      "subtitle": "Organização com estilo clean",
+      "rate": 4,
+      "size": ["G"],
+      "colors": ["#FFFFFF"],
+      "reviews": 39,
+      "price": 849.9,
+      "discont": 12,
+      "date": "2025-06-03",
+      "resume": "Armário espaçoso com acabamento branco fosco e divisórias inteligentes.",
+      "description": "Armário vertical com múltiplas prateleiras, nichos e portas com dobradiças silenciosas. Perfeito para manter sua cozinha funcional e visualmente clean.",
+      "adicionalDescription": "Fixar corretamente na parede. Limpar com pano macio e seco. Evitar excesso de peso nas prateleiras.",
+      "category": "dining",
+      "tags": ["armário", "cozinha", "branco", "organização"],
+      "thumbnail": "https://images.unsplash.com/photo-1588854337345-77051f901b9c",
+      "images": [
+        "https://images.unsplash.com/photo-1588854337345-77051f901b9c",
+        "https://images.unsplash.com/photo-1588854337345-77051f901b9c",
+        "https://images.unsplash.com/photo-1588854337345-77051f901b9c",
+        "https://images.unsplash.com/photo-1588854337345-77051f901b9c"
+      ],
+      "imagensDescription": [
+        "https://images.unsplash.com/photo-1588854337345-77051f901b9c",
+        "https://images.unsplash.com/photo-1588854337345-77051f901b9c"
+      ]
+    },
+    {
+      "id": "20",
+      "name": "Luminária Organiza Contemporânea",
+      "subtitle": "Design moderno que ilumina com propósito",
+      "rate": 5,
+      "size": ["P", "M"],
+      "colors": ["#000000", "#F5F5F5"],
+      "reviews": 18,
+      "price": 229.9,
+      "discont": 17,
+      "date": "2025-06-03",
+      "resume": "Luminária versátil com design contemporâneo e base estável.",
+      "description": "Perfeita para mesas de estudo ou canto de leitura, essa luminária combina linhas limpas com materiais de qualidade. Articulável, leve e com luz direcionável, ela une estética e funcionalidade.",
+      "adicionalDescription": "Utilizar lâmpadas LED. Evitar contato com líquidos. Limpar com pano seco.",
+      "category": "dining",
+      "tags": ["luminária", "contemporânea", "organização", "escrivaninha"],
+      "thumbnail": "https://plus.unsplash.com/premium_photo-1705751548612-70320bb6e62c",
+      "images": [
+        "https://plus.unsplash.com/premium_photo-1705751548612-70320bb6e62c",
+        "https://plus.unsplash.com/premium_photo-1705751548612-70320bb6e62c",
+        "https://plus.unsplash.com/premium_photo-1705751548612-70320bb6e62c",
+        "https://plus.unsplash.com/premium_photo-1705751548612-70320bb6e62c"
+      ],
+      "imagensDescription": [
+        "https://plus.unsplash.com/premium_photo-1705751548612-70320bb6e62c",
+        "https://plus.unsplash.com/premium_photo-1705751548612-70320bb6e62c"
+      ]
+    },
+    {
+      "id": "21",
+      "name": "Cristaleira de Madeira Escura",
+      "subtitle": "Exponha com classe, guarde com estilo",
+      "rate": 5,
+      "size": ["G"],
+      "colors": ["#3E2723", "#2B1B17"],
+      "reviews": 25,
+      "price": 1449.9,
+      "date": "2025-06-03",
+      "resume": "Cristaleira robusta com portas de vidro e acabamento em madeira nobre.",
+      "description": "Com três prateleiras internas e estrutura em madeira escura, essa cristaleira traz sofisticação e praticidade. As portas de vidro valorizam taças, porcelanas e objetos decorativos.",
+      "adicionalDescription": "Limpar com pano seco. Não usar produtos químicos nas superfícies de vidro.",
+      "category": "dining",
+      "tags": ["cristaleira", "madeira escura", "organização", "elegante"],
+      "thumbnail": "https://plus.unsplash.com/premium_photo-1676823570438-5b717d034e97",
+      "images": [
+        "https://plus.unsplash.com/premium_photo-1676823570438-5b717d034e97",
+        "https://plus.unsplash.com/premium_photo-1676823570438-5b717d034e97",
+        "https://plus.unsplash.com/premium_photo-1676823570438-5b717d034e97",
+        "https://plus.unsplash.com/premium_photo-1676823570438-5b717d034e97"
+      ],
+      "imagensDescription": [
+        "https://plus.unsplash.com/premium_photo-1676823570438-5b717d034e97",
+        "https://plus.unsplash.com/premium_photo-1676823570438-5b717d034e97"
+      ]
+    },
+    {
+      "id": "22",
+      "name": "Conjunto de Bancos para Bancada",
+      "subtitle": "Estilo e conforto na altura certa",
+      "rate": 4,
+      "size": ["M"],
+      "colors": ["#C0C0C0", "#3C3C3C"],
+      "reviews": 31,
+      "price": 699.9,
+      "date": "2025-06-03",
+      "resume": "Conjunto com 2 bancos altos ideais para bancadas e cozinhas americanas.",
+      "description": "Design ergonômico com estrutura metálica pintada e assento estofado. Altura ideal para bancadas, perfeito para refeições rápidas e encontros descontraídos.",
+      "adicionalDescription": "Limpar com pano úmido e sabão neutro. Suporta até 120kg cada.",
+      "category": "dining",
+      "tags": ["banco", "bancada", "cozinha", "conforto", "alto"],
+      "thumbnail": "https://images.unsplash.com/photo-1556595101-15dc5f6431e3",
+      "images": [
+        "https://images.unsplash.com/photo-1556595101-15dc5f6431e3",
+        "https://images.unsplash.com/photo-1556595101-15dc5f6431e3",
+        "https://images.unsplash.com/photo-1556595101-15dc5f6431e3",
+        "https://images.unsplash.com/photo-1556595101-15dc5f6431e3"
+      ],
+      "imagensDescription": [
+        "https://images.unsplash.com/photo-1556595101-15dc5f6431e3",
+        "https://images.unsplash.com/photo-1556595101-15dc5f6431e3"
+      ]
+    },
+    {
+      "id": "23",
+      "name": "Banca de Cozinha Verde Musgo",
+      "subtitle": "O charme natural que sua cozinha merece",
+      "rate": 5,
+      "size": ["G"],
+      "colors": ["#556B2F", "#F0F0F0"],
+      "reviews": 22,
+      "price": 1149.9,
+      "date": "2025-06-03",
+      "resume": "Banca robusta com acabamento verde musgo, perfeita para cozinhas modernas.",
+      "description": "Com estrutura em MDF reforçado e pintura acetinada, a banca oferece amplo espaço para preparo e apoio. A cor verde musgo traz personalidade sem perder a sofisticação.",
+      "adicionalDescription": "Evitar contato prolongado com água. Usar somente panos macios para limpeza.",
+      "category": "dining",
+      "tags": ["banca", "cozinha", "verde musgo", "moderna"],
+      "thumbnail": "https://images.unsplash.com/photo-1737233463795-34fccdfc67bb",
+      "images": [
+        "https://images.unsplash.com/photo-1737233463795-34fccdfc67bb",
+        "https://images.unsplash.com/photo-1737233463795-34fccdfc67bb",
+        "https://images.unsplash.com/photo-1737233463795-34fccdfc67bb",
+        "https://images.unsplash.com/photo-1737233463795-34fccdfc67bb"
+      ],
+      "imagensDescription": [
+        "https://images.unsplash.com/photo-1737233463795-34fccdfc67bb",
+        "https://images.unsplash.com/photo-1737233463795-34fccdfc67bb"
+      ]
+    },
+    {
+      "id": "24",
+      "name": "Mesa Pequena de Mármore",
+      "subtitle": "Compacta, elegante e atemporal",
+      "rate": 5,
+      "size": ["P"],
+      "colors": ["#FFFFFF", "#C0C0C0"],
+      "reviews": 19,
+      "price": 589.9,
+      "discont": 15,
+      "date": "2025-06-03",
+      "resume": "Mesa redonda de mármore branco com base metálica discreta.",
+      "description": "Ideal para ambientes reduzidos ou como mesa lateral, combina tampo de mármore natural com estrutura metálica resistente. Sofisticada sem ocupar espaço.",
+      "adicionalDescription": "Evitar impactos e uso de produtos ácidos. Limpar com pano úmido.",
+      "category": "dining",
+      "tags": ["mesa", "mármore", "pequena", "sofisticada"],
+      "thumbnail": "https://images.unsplash.com/photo-1609347744403-2306e8a9ae27",
+      "images": [
+        "https://images.unsplash.com/photo-1609347744403-2306e8a9ae27",
+        "https://images.unsplash.com/photo-1609347744403-2306e8a9ae27",
+        "https://images.unsplash.com/photo-1609347744403-2306e8a9ae27",
+        "https://images.unsplash.com/photo-1609347744403-2306e8a9ae27"
+      ],
+      "imagensDescription": [
+        "https://images.unsplash.com/photo-1609347744403-2306e8a9ae27",
+        "https://images.unsplash.com/photo-1609347744403-2306e8a9ae27"
+      ]
+    },
+    {
+      "id": "25",
+      "name": "Sofá Amarelinho",
+      "subtitle": "Conforto e estilo para sua sala",
+      "rate": 4,
+      "size": ["P"],
+      "colors": ["#FFD700", "#FFFACD", "#FFEB3B"],
+      "reviews": 6,
+      "price": 499.9,
+      "discount": 50,
+      "date": "2025-06-03",
+      "resume": "Um sofá amarelinho, fofo e confortável para alegrar seu cantinho.",
+      "description": "Sofá amarelinho com design moderno, acabamento em tecido de alta qualidade, estrutura resistente e super confortável. Perfeito para quem quer um toque de cor e aconchego.",
+      "adicionalDescription": "Limpeza com pano úmido, evitar exposição direta ao sol para preservar a cor. Montagem simples e rápida.",
+      "category": "living",
+      "tags": ["sofá", "amarelo", "conforto"],
+      "thumbnail": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7",
+      "images": [
+        "https://images.unsplash.com/photo-1586023492125-27b2c045efd7",
+        "https://images.unsplash.com/photo-1586023492125-27b2c045efd7",
+        "https://images.unsplash.com/photo-1586023492125-27b2c045efd7",
+        "https://images.unsplash.com/photo-1586023492125-27b2c045efd7"
+      ],
+      "imagensDescription": [
+        "https://images.unsplash.com/photo-1586023492125-27b2c045efd7",
+        "https://images.unsplash.com/photo-1586023492125-27b2c045efd7"
+      ]
+    },
+    {
+      "id": "26",
+      "name": "Luminária Articulada Moderna",
+      "subtitle": "Iluminação flexível para seu espaço",
+      "rate": 5,
+      "size": ["M"],
+      "colors": ["#FFFFFF", "#000000"],
+      "reviews": 12,
+      "price": 129.9,
+      "discount": 15,
+      "date": "2025-06-01",
+      "resume": "Luminária prática, com braço articulado para ajustar a luz do jeito que quiser.",
+      "description": "Luminária articulada com design minimalista, ideal para salas de estar ou escritórios. Possui ajuste de ângulo para iluminar exatamente onde precisa, acabamento em metal com pintura resistente.",
+      "adicionalDescription": "Use lâmpadas LED recomendadas, evite contato com água, limpeza com pano seco.",
+      "category": "living",
+      "tags": ["luminária", "iluminação", "articulada"],
+      "thumbnail": "https://images.unsplash.com/photo-1506377295352-e3154d43ea9e",
+      "images": [
+        "https://images.unsplash.com/photo-1506377295352-e3154d43ea9e",
+        "https://images.unsplash.com/photo-1506377295352-e3154d43ea9e",
+        "https://images.unsplash.com/photo-1506377295352-e3154d43ea9e",
+        "https://images.unsplash.com/photo-1506377295352-e3154d43ea9e"
+      ],
+      "imagensDescription": [
+        "https://images.unsplash.com/photo-1506377295352-e3154d43ea9e",
+        "https://images.unsplash.com/photo-1506377295352-e3154d43ea9e"
+      ]
+    },
+    {
+      "id": "27",
+      "name": "Poltrona Moderna Confortável",
+      "subtitle": "Design elegante para sua sala",
+      "rate": 5,
+      "size": ["M", "G"],
+      "colors": ["#2F4F4F", "#696969"],
+      "reviews": 22,
+      "price": 299.9,
+      "date": "2025-06-02",
+      "resume": "Poltrona estilosa com estofado macio e estrutura resistente.",
+      "description": "Poltrona com design contemporâneo, estofado em tecido premium e base em madeira robusta. Ideal para ambientes living que buscam conforto e estilo.",
+      "adicionalDescription": "Limpar com aspirador e pano seco. Evitar contato com líquidos.",
+      "category": "living",
+      "tags": ["poltrona", "moderna", "conforto"],
+      "thumbnail": "https://images.unsplash.com/photo-1532372576444-dda954194ad0",
+      "images": [
+        "https://images.unsplash.com/photo-1532372576444-dda954194ad0",
+        "https://images.unsplash.com/photo-1532372576444-dda954194ad0",
+        "https://images.unsplash.com/photo-1532372576444-dda954194ad0",
+        "https://images.unsplash.com/photo-1532372576444-dda954194ad0"
+      ],
+      "imagensDescription": [
+        "https://images.unsplash.com/photo-1532372576444-dda954194ad0",
+        "https://images.unsplash.com/photo-1532372576444-dda954194ad0"
+      ]
+    },
+    {
+      "id": "28",
+      "name": "Mesa de Centro de Madeira Rústica",
+      "subtitle": "O charme natural que sua sala merece",
+      "rate": 4,
+      "size": ["G"],
+      "colors": ["#8B4513", "#A0522D"],
+      "reviews": 9,
+      "price": 219.9,
+      "date": "2025-04-28",
+      "resume": "Mesa de centro robusta, com pegada rústica e muito estilo.",
+      "description": "Mesa de centro em madeira maciça com acabamento natural e bordas orgânicas. Ideal para salas com decoração aconchegante e moderna ao mesmo tempo.",
+      "adicionalDescription": "Evitar contato com água, limpar com pano seco ou levemente umedecido.",
+      "category": "living",
+      "tags": ["mesa de centro", "madeira", "rústico"],
+      "thumbnail": "https://images.unsplash.com/photo-1560184897-67f4a3f9a7fa",
+      "images": [
+        "https://images.unsplash.com/photo-1560184897-67f4a3f9a7fa",
+        "https://images.unsplash.com/photo-1560184897-67f4a3f9a7fa",
+        "https://images.unsplash.com/photo-1560184897-67f4a3f9a7fa",
+        "https://images.unsplash.com/photo-1560184897-67f4a3f9a7fa"
+      ],
+      "imagensDescription": [
+        "https://images.unsplash.com/photo-1560184897-67f4a3f9a7fa",
+        "https://images.unsplash.com/photo-1560184897-67f4a3f9a7fa"
+      ]
+    },
+    {
+      "id": "29",
+      "name": "Sofá Branco Médio Elegance",
+      "subtitle": "Clean, confortável e cheio de classe",
+      "rate": 4,
+      "size": ["M"],
+      "colors": ["#FFFFFF", "#F5F5F5"],
+      "reviews": 14,
+      "price": 649.9,
+      "discount": 30,
+      "date": "2025-05-25",
+      "resume": "Sofá branco tamanho médio, pra quem ama conforto e leveza no ambiente.",
+      "description": "Sofá com estofado em linho branco, estrutura reforçada e almofadas macias. Combina com decorações clean, escandinavas ou minimalistas.",
+      "adicionalDescription": "Limpeza com pano levemente úmido. Recomendado uso de protetor de tecido.",
+      "category": "living",
+      "tags": ["sofá", "branco", "médio", "elegante"],
+      "thumbnail": "https://images.unsplash.com/photo-1615800002234-05c4d488696c",
+      "images": [
+        "https://images.unsplash.com/photo-1615800002234-05c4d488696c",
+        "https://images.unsplash.com/photo-1615800002234-05c4d488696c",
+        "https://images.unsplash.com/photo-1615800002234-05c4d488696c",
+        "https://images.unsplash.com/photo-1615800002234-05c4d488696c"
+      ],
+      "imagensDescription": [
+        "https://images.unsplash.com/photo-1615800002234-05c4d488696c",
+        "https://images.unsplash.com/photo-1615800002234-05c4d488696c"
+      ]
+    },
+    {
+      "id": "30",
+      "name": "Espelho Redondo Gigante",
+      "subtitle": "Impacto visual e amplitude instantânea",
+      "rate": 5,
+      "size": ["G"],
+      "colors": ["#C0C0C0", "#FFFFFF"],
+      "reviews": 27,
+      "price": 489.9,
+      "discount": 35,
+      "date": "2025-05-20",
+      "resume": "Espelho redondo e gigante que transforma qualquer ambiente com estilo.",
+      "description": "Espelho decorativo com moldura metálica fina em tom prata fosco. Diâmetro generoso que amplia o ambiente e adiciona sofisticação instantânea à decoração.",
+      "adicionalDescription": "Fixação segura na parede é essencial. Limpar com flanela e produto específico para vidro.",
+      "category": "living",
+      "tags": ["espelho", "redondo", "gigante", "decoração"],
+      "thumbnail": "https://images.unsplash.com/photo-1618219908412-a29a1bb7b86e",
+      "images": [
+        "https://images.unsplash.com/photo-1618219908412-a29a1bb7b86e",
+        "https://images.unsplash.com/photo-1618219908412-a29a1bb7b86e",
+        "https://images.unsplash.com/photo-1618219908412-a29a1bb7b86e",
+        "https://images.unsplash.com/photo-1618219908412-a29a1bb7b86e"
+      ],
+      "imagensDescription": [
+        "https://images.unsplash.com/photo-1618219908412-a29a1bb7b86e",
+        "https://images.unsplash.com/photo-1618219908412-a29a1bb7b86e"
+      ]
+    },
+    {
+      "id": "31",
+      "name": "Poltrona Contemporânea Ciano",
+      "subtitle": "Cor e conforto com personalidade",
+      "rate": 5,
+      "size": ["M"],
+      "colors": ["#00FFFF", "#E0FFFF"],
+      "reviews": 11,
+      "price": 339.9,
+      "date": "2025-06-03",
+      "resume": "Poltrona ciano com design arrojado, perfeita pra dar aquele up no ambiente.",
+      "description": "Poltrona com linhas modernas, estofado em tecido ciano suave ao toque e pés de metal fosco. Um mix de cor e sofisticação pra ambientes ousados.",
+      "adicionalDescription": "Evite produtos químicos. Limpar com pano seco e aspirador. Ideal manter longe da luz solar direta pra preservar a cor vibrante.",
+      "category": "living",
+      "tags": ["poltrona", "contemporânea", "ciano", "design"],
+      "thumbnail": "https://images.unsplash.com/photo-1606744837616-56c9a5c6a6eb",
+      "images": [
+        "https://images.unsplash.com/photo-1606744837616-56c9a5c6a6eb",
+        "https://images.unsplash.com/photo-1606744837616-56c9a5c6a6eb",
+        "https://images.unsplash.com/photo-1606744837616-56c9a5c6a6eb",
+        "https://images.unsplash.com/photo-1606744837616-56c9a5c6a6eb"
+      ],
+      "imagensDescription": [
+        "https://images.unsplash.com/photo-1606744837616-56c9a5c6a6eb",
+        "https://images.unsplash.com/photo-1606744837616-56c9a5c6a6eb"
+      ]
+    },
+    {
+      "id": "32",
+      "name": "Cortina Branca Leve",
+      "subtitle": "Toque suave de elegância e privacidade",
+      "rate": 4,
+      "size": ["G"],
+      "colors": ["#FFFFFF"],
+      "reviews": 19,
+      "price": 159.9,
+      "discount": 20,
+      "date": "2025-06-01",
+      "resume": "Cortina branca com tecido leve e caimento impecável.",
+      "description": "Confeccionada em voil com forro blackout opcional. Ideal para quartos ou salas que precisam de claridade suave e privacidade. Fixação por ilhós cromados.",
+      "adicionalDescription": "Lavável à máquina em ciclo delicado. Passar em temperatura baixa. Evitar alvejantes.",
+      "category": "living",
+      "tags": ["cortina", "branca", "leve", "quarto"],
+      "thumbnail": "https://images.unsplash.com/photo-1612196808827-9ff25cb6137a",
+      "images": [
+        "https://images.unsplash.com/photo-1612196808827-9ff25cb6137a",
+        "https://images.unsplash.com/photo-1612196808827-9ff25cb6137a",
+        "https://images.unsplash.com/photo-1612196808827-9ff25cb6137a",
+        "https://images.unsplash.com/photo-1612196808827-9ff25cb6137a"
+      ],
+      "imagensDescription": [
+        "https://images.unsplash.com/photo-1612196808827-9ff25cb6137a",
+        "https://images.unsplash.com/photo-1612196808827-9ff25cb6137a"
+      ]
+    },
+    {
+      "id": "33",
+      "name": "Cama King Size Cinza Lux",
+      "subtitle": "O trono que seus sonhos merecem",
+      "rate": 5,
+      "size": ["G"],
+      "colors": ["#808080", "#A9A9A9"],
+      "reviews": 32,
+      "price": 1299.9,
+      "discont": 15,
+      "date": "2025-05-30",
+      "resume": "Cama king cinza com estrutura reforçada e design moderno.",
+      "description": "Cama king size com estofado cinza em linho premium, cabeceira alta acolchoada e estrutura de madeira de eucalipto. Ideal para transformar qualquer quarto em um refúgio elegante.",
+      "adicionalDescription": "Montagem simples. Limpeza com pano seco ou levemente umedecido. Suporta até 350 kg.",
+      "category": "bedroom",
+      "tags": ["cama", "king", "cinza", "quarto"],
+      "thumbnail": "https://images.unsplash.com/photo-1616594039964-ae9021a400a0",
+      "images": [
+        "https://images.unsplash.com/photo-1616594039964-ae9021a400a0",
+        "https://images.unsplash.com/photo-1616594039964-ae9021a400a0",
+        "https://images.unsplash.com/photo-1616594039964-ae9021a400a0",
+        "https://images.unsplash.com/photo-1616594039964-ae9021a400a0"
+      ],
+      "imagensDescription": [
+        "https://images.unsplash.com/photo-1616594039964-ae9021a400a0",
+        "https://images.unsplash.com/photo-1616594039964-ae9021a400a0"
+      ]
+    },
+    {
+      "id": "34",
+      "name": "Mesa de Cabeceira Vintage",
+      "subtitle": "Charme retrô no seu cantinho de descanso",
+      "rate": 4,
+      "size": ["P"],
+      "colors": ["#D2B48C", "#8B4513"],
+      "reviews": 17,
+      "price": 189.9,
+      "date": "2025-05-29",
+      "resume": "Mesinha vintage perfeita pra dar aquele toque nostálgico e funcional.",
+      "description": "Mesa de cabeceira estilo vintage com gavetinha embutida, puxadores dourados e acabamento em madeira natural. Ideal pra compor ambientes com pegada clássica ou boho.",
+      "adicionalDescription": "Limpeza com pano seco. Evitar exposição direta ao sol e umidade.",
+      "category": "bedroom",
+      "tags": ["mesa", "cabeceira", "vintage", "quarto"],
+      "thumbnail": "https://plus.unsplash.com/premium_photo-1683917067988-1b0323c3b574",
+      "images": [
+        "https://plus.unsplash.com/premium_photo-1683917067988-1b0323c3b574",
+        "https://plus.unsplash.com/premium_photo-1683917067988-1b0323c3b574",
+        "https://plus.unsplash.com/premium_photo-1683917067988-1b0323c3b574",
+        "https://plus.unsplash.com/premium_photo-1683917067988-1b0323c3b574"
+      ],
+      "imagensDescription": [
+        "https://plus.unsplash.com/premium_photo-1683917067988-1b0323c3b574",
+        "https://plus.unsplash.com/premium_photo-1683917067988-1b0323c3b574"
+      ]
+    },
+    {
+      "id": "35",
+      "name": "Conjunto de Quadros Florais",
+      "subtitle": "Romantismo e arte em cada detalhe",
+      "rate": 5,
+      "size": ["M"],
+      "colors": ["#FFC0CB", "#FAF0E6", "#8B0000"],
+      "reviews": 24,
+      "price": 129.9,
+      "date": "2025-06-03",
+      "resume": "Kit com 3 quadros florais delicados pra decorar com poesia visual.",
+      "description": "Conjunto com 3 quadros de moldura fina em madeira clara, estampas florais aquareladas em tons suaves. Ideal para ambientes que pedem delicadeza e charme.",
+      "adicionalDescription": "Limpar com pano seco. Pendurar com prego ou fita dupla face resistente. Ideal evitar luz solar direta para preservar as cores.",
+      "category": "bedroom",
+      "tags": ["quadros", "floral", "decoração", "arte"],
+      "thumbnail": "https://images.unsplash.com/photo-1586105251261-72a756497a11",
+      "images": [
+        "https://images.unsplash.com/photo-1586105251261-72a756497a11",
+        "https://images.unsplash.com/photo-1586105251261-72a756497a11",
+        "https://images.unsplash.com/photo-1586105251261-72a756497a11",
+        "https://images.unsplash.com/photo-1586105251261-72a756497a11"
+      ],
+      "imagensDescription": [
+        "https://images.unsplash.com/photo-1586105251261-72a756497a11",
+        "https://images.unsplash.com/photo-1586105251261-72a756497a11"
+      ]
+    },
+    {
+      "id": "36",
+      "name": "Conjunto de Cama Rosè Dream",
+      "subtitle": "Conforto, maciez e uma pitada de romance",
+      "rate": 5,
+      "size": ["G"],
+      "colors": ["#FFC0CB", "#FFE4E1", "#F8F8FF"],
+      "reviews": 36,
+      "price": 229.9,
+      "discont": 25,
+      "date": "2025-06-03",
+      "resume": "Jogo de cama rosè com toque acetinado e visual delicado.",
+      "description": "Inclui lençol com elástico, sobrelençol e duas fronhas. Tecido em microfibra premium com toque de seda. Ideal para transformar seu quarto num refúgio rosado de aconchego.",
+      "adicionalDescription": "Lavável à máquina em até 40°C. Não usar alvejante. Pode passar em temperatura baixa.",
+      "category": "bedroom",
+      "tags": ["cama", "jogo de cama", "rosè", "roupa de cama"],
+      "thumbnail": "https://images.unsplash.com/photo-1613252067198-cc29a8368d09",
+      "images": [
+        "https://images.unsplash.com/photo-1613252067198-cc29a8368d09",
+        "https://images.unsplash.com/photo-1613252067198-cc29a8368d09",
+        "https://images.unsplash.com/photo-1613252067198-cc29a8368d09",
+        "https://images.unsplash.com/photo-1613252067198-cc29a8368d09"
+      ],
+      "imagensDescription": [
+        "https://images.unsplash.com/photo-1613252067198-cc29a8368d09",
+        "https://images.unsplash.com/photo-1613252067198-cc29a8368d09"
+      ]
+    },
+    {
+      "id": "37",
+      "name": "Vaso de Cerâmica Redondo",
+      "subtitle": "Elegância simples para qualquer ambiente",
+      "rate": 4,
+      "size": ["M"],
+      "colors": ["#FFFFFF", "#C0C0C0"],
+      "reviews": 15,
+      "price": 89.9,
+      "discont": 20,
+      "date": "2025-06-02",
+      "resume": "Vaso redondo em cerâmica com acabamento suave e moderno.",
+      "description": "Vaso de cerâmica com formato arredondado, acabamento fosco, ideal para plantas pequenas e médias. Combina com decoração minimalista, rústica ou contemporânea.",
+      "adicionalDescription": "Não expor a quedas bruscas. Limpar com pano úmido. Ideal para uso interno.",
+      "category": "bedroom",
+      "tags": ["vaso", "cerâmica", "decoração", "redondo"],
+      "thumbnail": "https://plus.unsplash.com/premium_photo-1681980018727-b2b984b3faa7",
+      "images": [
+        "https://plus.unsplash.com/premium_photo-1681980018727-b2b984b3faa7",
+        "https://plus.unsplash.com/premium_photo-1681980018727-b2b984b3faa7",
+        "https://plus.unsplash.com/premium_photo-1681980018727-b2b984b3faa7",
+        "https://plus.unsplash.com/premium_photo-1681980018727-b2b984b3faa7"
+      ],
+      "imagensDescription": [
+        "https://plus.unsplash.com/premium_photo-1681980018727-b2b984b3faa7",
+        "https://plus.unsplash.com/premium_photo-1681980018727-b2b984b3faa7"
+      ]
+    },
+    {
+      "id": "38",
+      "name": "Cômoda Branca de Madeira",
+      "subtitle": "Estilo minimalista com muita praticidade",
+      "rate": 4,
+      "size": ["M"],
+      "colors": ["#FFFFFF"],
+      "reviews": 20,
+      "price": 429.9,
+      "date": "2025-06-01",
+      "resume": "Cômoda branca com estrutura em madeira maciça e design moderno.",
+      "description": "Cômoda com 4 gavetas espaçosas, acabamento em pintura branca fosca e puxadores minimalistas. Ideal para organizar roupas e acessórios com estilo.",
+      "adicionalDescription": "Limpar com pano seco. Evitar exposição direta ao sol para preservar a pintura.",
+      "category": "bedroom",
+      "tags": ["cômoda", "branca", "madeira", "organização"],
+      "thumbnail": "https://images.unsplash.com/photo-1556020685-ae41abfc9365",
+      "images": [
+        "https://images.unsplash.com/photo-1556020685-ae41abfc9365",
+        "https://images.unsplash.com/photo-1556020685-ae41abfc9365",
+        "https://images.unsplash.com/photo-1556020685-ae41abfc9365",
+        "https://images.unsplash.com/photo-1556020685-ae41abfc9365"
+      ],
+      "imagensDescription": [
+        "https://images.unsplash.com/photo-1556020685-ae41abfc9365",
+        "https://images.unsplash.com/photo-1556020685-ae41abfc9365"
+      ]
+    },
+    {
+      "id": "39",
+      "name": "Banco Estofado em Tecido",
+      "subtitle": "Praticidade e conforto para qualquer canto",
+      "rate": 4,
+      "size": ["P", "M"],
+      "colors": ["#808080", "#D3D3D3"],
+      "reviews": 14,
+      "price": 179.9,
+      "discont": 20,
+      "date": "2025-06-02",
+      "resume": "Banco estofado em tecido resistente, perfeito para sala ou quarto.",
+      "description": "Banco com estrutura de madeira, assento e encosto estofados em tecido de alta durabilidade. Ideal para complementar espaços pequenos com conforto e praticidade.",
+      "adicionalDescription": "Limpar com pano úmido. Evitar contato com líquidos em excesso.",
+      "category": "bedroom",
+      "tags": ["banco", "tecido", "estofado", "conforto"],
+      "thumbnail": "https://images.unsplash.com/photo-1615529162924-f8605388461d",
+      "images": [
+        "https://images.unsplash.com/photo-1615529162924-f8605388461d",
+        "https://images.unsplash.com/photo-1615529162924-f8605388461d",
+        "https://images.unsplash.com/photo-1615529162924-f8605388461d",
+        "https://images.unsplash.com/photo-1615529162924-f8605388461d"
+      ],
+      "imagensDescription": [
+        "https://images.unsplash.com/photo-1615529162924-f8605388461d",
+        "https://images.unsplash.com/photo-1615529162924-f8605388461d"
+      ]
+    },
+    {
+      "id": "40",
+      "name": "Escrevaninha Vintage Elegante",
+      "subtitle": "Beleza retrô com funcionalidade moderna",
+      "rate": 5,
+      "size": ["M"],
+      "colors": ["#8B4513", "#D2B48C"],
+      "reviews": 21,
+      "price": 599.9,
+      "discont": 23,
+      "date": "2025-05-28",
+      "resume": "Escrevaninha vintage com design clássico e acabamento refinado.",
+      "description": "Mesa de trabalho compacta com gavetas delicadas, acabamento em madeira escura e puxadores dourados. Ideal para home office com estilo e organização.",
+      "adicionalDescription": "Evitar exposição ao sol e umidade. Limpar com pano seco.",
+      "category": "bedroom",
+      "tags": ["escrevaninha", "vintage", "elegante", "home office"],
+      "thumbnail": "https://images.unsplash.com/photo-1611269154421-4e27233ac5c7",
+      "images": [
+        "https://images.unsplash.com/photo-1611269154421-4e27233ac5c7",
+        "https://images.unsplash.com/photo-1611269154421-4e27233ac5c7",
+        "https://images.unsplash.com/photo-1611269154421-4e27233ac5c7",
+        "https://images.unsplash.com/photo-1611269154421-4e27233ac5c7"
+      ],
+      "imagensDescription": [
+        "https://images.unsplash.com/photo-1611269154421-4e27233ac5c7",
+        "https://images.unsplash.com/photo-1611269154421-4e27233ac5c7"
+      ]
+    },
+    {
+      "id": "41",
+      "name": "Mesa de Jantar de Madeira Escura",
+      "subtitle": "Sofisticação que reúne todos à mesa",
+      "rate": 5,
+      "size": ["G"],
+      "colors": ["#4B3621", "#2F1B0C"],
+      "reviews": 33,
+      "price": 1299.9,
+      "date": "2025-06-03",
+      "resume": "Mesa grande em madeira escura, ideal para jantares com estilo.",
+      "description": "Mesa de jantar retangular com estrutura robusta em madeira nobre, acabamento escuro acetinado, espaço para até 8 lugares. Combina com ambientes clássicos ou contemporâneos.",
+      "adicionalDescription": "Limpeza com pano seco ou levemente umedecido. Não utilizar produtos abrasivos.",
+      "category": "dining",
+      "tags": ["mesa", "jantar", "madeira escura", "refinada"],
+      "thumbnail": "https://images.unsplash.com/photo-1617098709804-705581f844eb",
+      "images": [
+        "https://images.unsplash.com/photo-1617098709804-705581f844eb",
+        "https://images.unsplash.com/photo-1617098709804-705581f844eb",
+        "https://images.unsplash.com/photo-1617098709804-705581f844eb",
+        "https://images.unsplash.com/photo-1617098709804-705581f844eb"
+      ],
+      "imagensDescription": [
+        "https://images.unsplash.com/photo-1617098709804-705581f844eb",
+        "https://images.unsplash.com/photo-1617098709804-705581f844eb"
+      ]
+    },
+    {
+      "id": "42",
+      "name": "Mesa Redonda Elegante",
+      "subtitle": "Design fluido para encontros memoráveis",
+      "rate": 5,
+      "size": ["M"],
+      "colors": ["#A9A9A9", "#2F4F4F"],
+      "reviews": 27,
+      "price": 979.9,
+      "discont": 10,
+      "date": "2025-06-03",
+      "resume": "Mesa redonda com base central e acabamento sofisticado.",
+      "description": "Estrutura em madeira de reflorestamento com tampo de MDF laminado, base central que otimiza o espaço, ideal para até 4 pessoas. Um charme para qualquer sala de jantar moderna.",
+      "adicionalDescription": "Evitar arrastar objetos duros sobre o tampo. Limpar com pano seco.",
+      "category": "dining",
+      "tags": ["mesa", "redonda", "elegante", "sala de jantar"],
+      "thumbnail": "https://images.unsplash.com/photo-1616486701797-0f33f61038ec",
+      "images": [
+        "https://images.unsplash.com/photo-1616486701797-0f33f61038ec",
+        "https://images.unsplash.com/photo-1616486701797-0f33f61038ec",
+        "https://images.unsplash.com/photo-1616486701797-0f33f61038ec",
+        "https://images.unsplash.com/photo-1616486701797-0f33f61038ec"
+      ],
+      "imagensDescription": [
+        "https://images.unsplash.com/photo-1616486701797-0f33f61038ec",
+        "https://images.unsplash.com/photo-1616486701797-0f33f61038ec"
+      ]
+    },
+    {
+      "id": "43",
+      "name": "Armário de Cozinha Branco",
+      "subtitle": "Organização com estilo clean",
+      "rate": 4,
+      "size": ["G"],
+      "colors": ["#FFFFFF"],
+      "reviews": 39,
+      "price": 849.9,
+      "discont": 12,
+      "date": "2025-06-03",
+      "resume": "Armário espaçoso com acabamento branco fosco e divisórias inteligentes.",
+      "description": "Armário vertical com múltiplas prateleiras, nichos e portas com dobradiças silenciosas. Perfeito para manter sua cozinha funcional e visualmente clean.",
+      "adicionalDescription": "Fixar corretamente na parede. Limpar com pano macio e seco. Evitar excesso de peso nas prateleiras.",
+      "category": "dining",
+      "tags": ["armário", "cozinha", "branco", "organização"],
+      "thumbnail": "https://images.unsplash.com/photo-1588854337345-77051f901b9c",
+      "images": [
+        "https://images.unsplash.com/photo-1588854337345-77051f901b9c",
+        "https://images.unsplash.com/photo-1588854337345-77051f901b9c",
+        "https://images.unsplash.com/photo-1588854337345-77051f901b9c",
+        "https://images.unsplash.com/photo-1588854337345-77051f901b9c"
+      ],
+      "imagensDescription": [
+        "https://images.unsplash.com/photo-1588854337345-77051f901b9c",
+        "https://images.unsplash.com/photo-1588854337345-77051f901b9c"
+      ]
+    },
+    {
+      "id": "44",
+      "name": "Luminária Organiza Contemporânea",
+      "subtitle": "Design moderno que ilumina com propósito",
+      "rate": 5,
+      "size": ["P", "M"],
+      "colors": ["#000000", "#F5F5F5"],
+      "reviews": 18,
+      "price": 229.9,
+      "discont": 17,
+      "date": "2025-06-03",
+      "resume": "Luminária versátil com design contemporâneo e base estável.",
+      "description": "Perfeita para mesas de estudo ou canto de leitura, essa luminária combina linhas limpas com materiais de qualidade. Articulável, leve e com luz direcionável, ela une estética e funcionalidade.",
+      "adicionalDescription": "Utilizar lâmpadas LED. Evitar contato com líquidos. Limpar com pano seco.",
+      "category": "dining",
+      "tags": ["luminária", "contemporânea", "organização", "escrivaninha"],
+      "thumbnail": "https://plus.unsplash.com/premium_photo-1705751548612-70320bb6e62c",
+      "images": [
+        "https://plus.unsplash.com/premium_photo-1705751548612-70320bb6e62c",
+        "https://plus.unsplash.com/premium_photo-1705751548612-70320bb6e62c",
+        "https://plus.unsplash.com/premium_photo-1705751548612-70320bb6e62c",
+        "https://plus.unsplash.com/premium_photo-1705751548612-70320bb6e62c"
+      ],
+      "imagensDescription": [
+        "https://plus.unsplash.com/premium_photo-1705751548612-70320bb6e62c",
+        "https://plus.unsplash.com/premium_photo-1705751548612-70320bb6e62c"
+      ]
+    },
+    {
+      "id": "45",
+      "name": "Cristaleira de Madeira Escura",
+      "subtitle": "Exponha com classe, guarde com estilo",
+      "rate": 5,
+      "size": ["G"],
+      "colors": ["#3E2723", "#2B1B17"],
+      "reviews": 25,
+      "price": 1449.9,
+      "date": "2025-06-03",
+      "resume": "Cristaleira robusta com portas de vidro e acabamento em madeira nobre.",
+      "description": "Com três prateleiras internas e estrutura em madeira escura, essa cristaleira traz sofisticação e praticidade. As portas de vidro valorizam taças, porcelanas e objetos decorativos.",
+      "adicionalDescription": "Limpar com pano seco. Não usar produtos químicos nas superfícies de vidro.",
+      "category": "dining",
+      "tags": ["cristaleira", "madeira escura", "organização", "elegante"],
+      "thumbnail": "https://plus.unsplash.com/premium_photo-1676823570438-5b717d034e97",
+      "images": [
+        "https://plus.unsplash.com/premium_photo-1676823570438-5b717d034e97",
+        "https://plus.unsplash.com/premium_photo-1676823570438-5b717d034e97",
+        "https://plus.unsplash.com/premium_photo-1676823570438-5b717d034e97",
+        "https://plus.unsplash.com/premium_photo-1676823570438-5b717d034e97"
+      ],
+      "imagensDescription": [
+        "https://plus.unsplash.com/premium_photo-1676823570438-5b717d034e97",
+        "https://plus.unsplash.com/premium_photo-1676823570438-5b717d034e97"
+      ]
+    },
+    {
+      "id": "46",
+      "name": "Conjunto de Bancos para Bancada",
+      "subtitle": "Estilo e conforto na altura certa",
+      "rate": 4,
+      "size": ["M"],
+      "colors": ["#C0C0C0", "#3C3C3C"],
+      "reviews": 31,
+      "price": 699.9,
+      "date": "2025-06-03",
+      "resume": "Conjunto com 2 bancos altos ideais para bancadas e cozinhas americanas.",
+      "description": "Design ergonômico com estrutura metálica pintada e assento estofado. Altura ideal para bancadas, perfeito para refeições rápidas e encontros descontraídos.",
+      "adicionalDescription": "Limpar com pano úmido e sabão neutro. Suporta até 120kg cada.",
+      "category": "dining",
+      "tags": ["banco", "bancada", "cozinha", "conforto", "alto"],
+      "thumbnail": "https://images.unsplash.com/photo-1556595101-15dc5f6431e3",
+      "images": [
+        "https://images.unsplash.com/photo-1556595101-15dc5f6431e3",
+        "https://images.unsplash.com/photo-1556595101-15dc5f6431e3",
+        "https://images.unsplash.com/photo-1556595101-15dc5f6431e3",
+        "https://images.unsplash.com/photo-1556595101-15dc5f6431e3"
+      ],
+      "imagensDescription": [
+        "https://images.unsplash.com/photo-1556595101-15dc5f6431e3",
+        "https://images.unsplash.com/photo-1556595101-15dc5f6431e3"
+      ]
+    },
+    {
+      "id": "47",
+      "name": "Banca de Cozinha Verde Musgo",
+      "subtitle": "O charme natural que sua cozinha merece",
+      "rate": 5,
+      "size": ["G"],
+      "colors": ["#556B2F", "#F0F0F0"],
+      "reviews": 22,
+      "price": 1149.9,
+      "date": "2025-06-03",
+      "resume": "Banca robusta com acabamento verde musgo, perfeita para cozinhas modernas.",
+      "description": "Com estrutura em MDF reforçado e pintura acetinada, a banca oferece amplo espaço para preparo e apoio. A cor verde musgo traz personalidade sem perder a sofisticação.",
+      "adicionalDescription": "Evitar contato prolongado com água. Usar somente panos macios para limpeza.",
+      "category": "dining",
+      "tags": ["banca", "cozinha", "verde musgo", "moderna"],
+      "thumbnail": "https://images.unsplash.com/photo-1737233463795-34fccdfc67bb",
+      "images": [
+        "https://images.unsplash.com/photo-1737233463795-34fccdfc67bb",
+        "https://images.unsplash.com/photo-1737233463795-34fccdfc67bb",
+        "https://images.unsplash.com/photo-1737233463795-34fccdfc67bb",
+        "https://images.unsplash.com/photo-1737233463795-34fccdfc67bb"
+      ],
+      "imagensDescription": [
+        "https://images.unsplash.com/photo-1737233463795-34fccdfc67bb",
+        "https://images.unsplash.com/photo-1737233463795-34fccdfc67bb"
+      ]
+    },
+    {
+      "id": "48",
+      "name": "Mesa Pequena de Mármore",
+      "subtitle": "Compacta, elegante e atemporal",
+      "rate": 5,
+      "size": ["P"],
+      "colors": ["#FFFFFF", "#C0C0C0"],
+      "reviews": 19,
+      "price": 589.9,
+      "discont": 15,
+      "date": "2025-06-03",
+      "resume": "Mesa redonda de mármore branco com base metálica discreta.",
+      "description": "Ideal para ambientes reduzidos ou como mesa lateral, combina tampo de mármore natural com estrutura metálica resistente. Sofisticada sem ocupar espaço.",
+      "adicionalDescription": "Evitar impactos e uso de produtos ácidos. Limpar com pano úmido.",
+      "category": "dining",
+      "tags": ["mesa", "mármore", "pequena", "sofisticada"],
+      "thumbnail": "https://images.unsplash.com/photo-1609347744403-2306e8a9ae27",
+      "images": [
+        "https://images.unsplash.com/photo-1609347744403-2306e8a9ae27",
+        "https://images.unsplash.com/photo-1609347744403-2306e8a9ae27",
+        "https://images.unsplash.com/photo-1609347744403-2306e8a9ae27",
+        "https://images.unsplash.com/photo-1609347744403-2306e8a9ae27"
+      ],
+      "imagensDescription": [
+        "https://images.unsplash.com/photo-1609347744403-2306e8a9ae27",
+        "https://images.unsplash.com/photo-1609347744403-2306e8a9ae27"
+      ]
+    }
+  ]
+}
