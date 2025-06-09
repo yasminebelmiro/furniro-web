@@ -23,10 +23,10 @@ const Header = () => {
             <Link to="/shop">Shop</Link>
           </li>
           <li>
-            <Link to="/">About</Link>
+            <Link to="#about">About</Link>
           </li>
           <li>
-            <Link to="/">Contact</Link>
+            <Link to="#contact">Contact</Link>
           </li>
         </ul>
 
@@ -56,10 +56,10 @@ const Header = () => {
             <Link to="/shop">Shop</Link>
           </li>
           <li className="w-full py-5 hover:bg-gold hover:text-white flex items-center justify-center ">
-            <Link to="/">About</Link>
+            <Link to="#about">About</Link>
           </li>
           <li className="w-full py-5 hover:bg-gold hover:text-white flex items-center justify-center ">
-            <Link to="/">Contact</Link>
+            <Link to="#contact">Contact</Link>
           </li>
         </ul>
       )}

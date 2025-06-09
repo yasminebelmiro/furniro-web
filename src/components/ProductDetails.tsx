@@ -3,7 +3,7 @@ import axios from 'axios';
 import { useParams } from 'react-router-dom';
 import { FaStar, FaRegStar, FaFacebookF, FaLinkedinIn, FaTwitter } from 'react-icons/fa';
 import type { ProductType } from '../types/ProductType';
-import { toast, ToastContainer } from 'react-toastify';
+import { toast} from 'react-toastify';
 
 const ProductDetails: React.FC = () => {
   const { productId } = useParams<{ productId: string }>();
@@ -178,14 +178,14 @@ const ProductDetails: React.FC = () => {
           <div className="flex items-center border rounded">
             <button
               onClick={() => quantity > 1 && setQuantity((q) => q - 1)}
-              className="px-3 py-2 text-lg hover:bg-gray-100 transition"
+              className="px-3 py-2 cursor-pointer text-lg hover:bg-gray-100 transition"
             >
               –
             </button>
             <span className="px-4">{quantity}</span>
             <button
               onClick={() => setQuantity((q) => q + 1)}
-              className="px-3 py-2 text-lg hover:bg-gray-100 transition"
+              className="px-3 py-2 cursor-pointer text-lg hover:bg-gray-100 transition"
             >
               +
             </button>
@@ -194,7 +194,7 @@ const ProductDetails: React.FC = () => {
           {/* Botão de adicionar ao carrinho */}
             <button 
               onClick={() => notifyAddToCart(product.name)}
-              className="px-6 py-3 bg-white border border-gray-800 text-gray-800 rounded hover:bg-gray-100 transition"
+              className="px-6 py-3 cursor-pointer bg-white border border-gray-800 text-gray-800 rounded hover:bg-gray-100 transition"
             >
             Add To Cart
           </button>

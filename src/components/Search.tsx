@@ -89,7 +89,7 @@ const Search = ({
         <div className="flex items-center gap-4">
           <div className="flex items-center gap-2">
             <span>Show</span>
-            <input type="text" defaultValue="16" readOnly className="w-12 h-10 text-center border border-gray-300 bg-white text-gray-500" />
+            <input type="text" defaultValue="8" readOnly className="w-12 h-10 text-center border border-gray-300 bg-white text-gray-500" />
           </div>
           <div className="flex items-center gap-2">
             <span>Short by</span>

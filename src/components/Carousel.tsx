@@ -105,7 +105,7 @@ const Carousel = () => {
         </button>
         <button
           onClick={() => splideRef.current?.splide?.go(">")}
-          className="bg-white rounded-full w-10 h-10 sm:w-12 sm:h-12 flex items-center justify-center shadow-md hover:bg-gray-100 transition pointer-events-auto"
+          className="bg-white cursor-pointer rounded-full w-10 h-10 sm:w-12 sm:h-12 flex items-center justify-center shadow-md hover:bg-gray-100 transition pointer-events-auto"
           aria-label="Next slide"
         >
           <FaChevronRight className="text-[#B88E2F]" />
@@ -117,7 +117,7 @@ const Carousel = () => {
           <button
             key={slide.id}
             onClick={() => splideRef.current?.splide?.go(index)}
-            className={`transition-all duration-300 rounded-full ${
+            className={`transition-all cursor-pointer duration-300 rounded-full ${
               activeIndex === index
                 ? "w-4 h-4 bg-[#B88E2F] ring-2 ring-offset-2 ring-[#B88E2F] ring-offset-[#FCF8F3]"
                 : "w-3 h-3 bg-[#D8D8D8] hover:bg-gray-400"

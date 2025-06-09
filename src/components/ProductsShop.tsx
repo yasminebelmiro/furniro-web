@@ -74,13 +74,14 @@ const ProductsShop = () => {
                   {page}
                 </button>
               ))}
-              <button
-                onClick={handleNext}
-                disabled={currentPage === totalPages}
-                className="cursor-pointer p-3 rounded-xl bg-creme"
-              >
-                Next
-              </button>
+              {currentPage < totalPages && (
+                <button
+                  onClick={handleNext}
+                  className="cursor-pointer p-3 rounded-xl bg-creme"
+                >
+                  Next
+                </button>
+              )}
             </div>
           </>
         ) : (

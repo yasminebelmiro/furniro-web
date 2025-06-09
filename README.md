@@ -7,7 +7,7 @@
   
 </div>
 
-Projeto em grupo desenvolvido durante o **Programa de Bolsas React - Junho/25**.  
+Este desafio desenvolvido em grupo faz parte da Semana 8 do programa Scholarship | UFMS, IFF e IF GOIANO - Front-end Development (React.js) - AWS Cloud Context na Compass UOL.  
 A proposta foi reconstruir fielmente, em React + TypeScript e Tailwind CSS, as páginas do e-commerce fictício **Furniro**, seguindo fielmente o design fornecido no Figma com foco em responsividade e experiência do usuário.
 
 ---
@@ -34,12 +34,15 @@ A proposta foi reconstruir fielmente, em React + TypeScript e Tailwind CSS, as p
 - **React Toastify** - Notificações elegantes e customizáveis
 
 ### 🛠 **Desenvolvimento & Qualidade**
-- **ESLint** - Linter para identificar padrões problemáticos
 - **Prettier** - Formatador de código automático
-- **TypeScript ESLint** - Regras ESLint específicas para TS
+- **Tailwind CSS IntelliSense** - Autocompletar e preview de classes Tailwind
 
-### 📊 **Backend Simulado**
+### 📊 **Backend Simulado & API de Imagens**
 - **JSON Server** - API REST simulada para desenvolvimento
+  - **Total de Produtos:** 48 itens
+  - **Categorias:** Dining (16), Living (16) e Bedroom (16) 
+  - **Dados completos** com imagens, descrições e especificações
+- **Unsplash** - API para imagens de alta qualidade usadas no projeto
 
 ---
 
@@ -123,7 +126,6 @@ yarn dev
 npm run dev      # Executa em modo desenvolvimento
 npm run build    # Gera build para produção
 npm run preview  # Visualiza o build localmente
-npm run lint     # Executa verificação do ESLint
 ```
 
 ---
@@ -132,7 +134,6 @@ npm run lint     # Executa verificação do ESLint
 
 ```
 📦 furniro-web/
-├── 📂 public/                     # Arquivos estáticos
 ├── 📂 src/
 │   ├── 📂 assets/                 # Recursos estáticos
 │   │   ├── 📄 logo.svg
@@ -162,15 +163,13 @@ npm run lint     # Executa verificação do ESLint
 │   │   ├── 📄 ProductType.tsx     # Tipagem de produtos
 │   │   └── 📄 react-splide.d.ts   # Declarações Splide
 │   ├── 📂 utils/                  # Utilitários e helpers
-│   │   └── 📄 ScrollToTop.tsx     # Componente de scroll
+│   │   └── 📄 ScrollToTop.tsx     # Componente de scroll to top
 │   ├── 📄 App.tsx                 # Componente raiz
 │   ├── 📄 main.tsx                # Ponto de entrada
 │   └── 📄 index.css               # Estilos globais
 ├── 📄 package.json                # Dependências e scripts
 ├── 📄 tsconfig.json               # Configuração TypeScript
-├── 📄 tailwind.config.js          # Configuração Tailwind
 ├── 📄 vite.config.ts              # Configuração Vite
-├── 📄 eslint.config.js            # Configuração ESLint
 └── 📄 README.md                   # Documentação
 ```
 
@@ -198,15 +197,16 @@ feat: adiciona carrossel de produtos na home
 fix: corrige responsividade do header mobile
 docs: atualiza README com novas tecnologias
 style: ajusta espaçamentos no footer
-refactor: reorganiza estrutura de componentes
-test: adiciona testes para componente Product
 ```
 
 ### 🗂 **Organização de Tarefas (Trello)**
 
-```
-📋 A Fazer          ➡️ 🔄 Em Progresso    ➡️ 👀 Revisão de Código    ➡️ ✅ Concluído
-```
+| Status | Descrição |
+|--------|-----------|
+| **A Fazer (To Do) 📌** | Tarefas pendentes a serem iniciadas |
+| **Em andamento 🧩** | Tarefas em desenvolvimento |
+| **Revisão de Código 📚** | Tarefas aguardando code review |
+| **Concluído 🎉** | Tarefas finalizadas e aprovadas |
 
 ---
 
@@ -219,19 +219,17 @@ test: adiciona testes para componente Product
 | 🏠 **Home** | ✅ Completa | ✅ Mobile-first | Carrossel, Hero, Categorias | Layout totalmente funcional |
 | 🛍️ **Shop** | ✅ Completa | ✅ Mobile-first | Filtros, Paginação, Toast | Integração com JSON Server |
 | 📦 **Produto** | ✅ Completa | ✅ Mobile-first | Galeria, Detalhes, Relacionados | Rota dinâmica por ID |
-| ℹ️ **About** | 🔜 Estruturada | ✅ Mobile-first | - | Conteúdo em desenvolvimento |
-| 📞 **Contact** | 🔜 Estruturada | ✅ Mobile-first | - | Formulário em implementação |
+| ℹ️ **About** | -| - | - | Não necessário |
+| 📞 **Contact** | - | - | - | Não necessário  |
 
 ### 🎨 **Componentes Desenvolvidos**
 
-| Componente | Status | Reutilização | Testes |
-|------------|--------|--------------|--------|
-| Header | ✅ | Alta | ⏳ |
-| Footer | ✅ | Alta | ⏳ |
-| Product Card | ✅ | Alta | ⏳ |
-| Carousel | ✅ | Média | ⏳ |
-| CategorySection | ✅ | Baixa | ⏳ |
-| FeaturesSection | ✅ | Baixa | ⏳ |
+| Componente | Status | Reutilização |
+|------------|--------|--------------|
+| Header | ✅ | Alta | 
+| Footer | ✅ | Alta | 
+| Product | ✅ | Alta |
+| Outras Features | ✅ | Baixa | 
 
 ---
 
@@ -245,7 +243,7 @@ test: adiciona testes para componente Product
 - ✅ Roteamento dinâmico com React Router
 - ✅ Feedback visual para interações (hover, toast)
 - ✅ Integração com JSON Server para dados de produtos
-- ✅ Paginação na página de catálogo
+- ✅ Paginação na página de shop
 - ✅ Estrutura completa com TypeScript
 - ✅ Formulário com validação manual (sem alert nativo)
 - ✅ Versionamento com commits semânticos
@@ -254,28 +252,14 @@ test: adiciona testes para componente Product
 ### 🏆 **Diferenciais Implementados**
 
 - ✅ Animações suaves com CSS/Tailwind
-- ✅ Estados de loading para requisições
-- ✅ Sistema de filtros avançado
+- ✅ Sistema de filtros
 - ✅ Galeria de imagens nos produtos
 - ✅ Seção de produtos relacionados
-- ✅ Otimização de performance com lazy loading
-- ✅ Acessibilidade (ARIA labels, navegação por teclado)
 
----
-
-## 📅 Cronograma do Projeto
-
-| Marco | Data Limite | Status |
-|-------|-------------|---------|
-| 🎯 Criação do repositório | **02/06/2025 - 17h30** | ✅ |
-| 🚀 Entrega final | **09/06/2025 - 17h30** | ⏳ |
-| 🎤 Apresentação | **10/06/2025 - 14h30** | ⏳ |
-
----
 
 ## 🤝 Equipe e Contribuições
 
-Este projeto foi desenvolvido em equipe como parte do **Programa de Bolsas React**, promovendo:
+Este projeto foi desenvolvido em equipe, promovendo:
 
 - 👥 **Colaboração em grupo** - Divisão de tarefas e code review
 - 🔄 **Controle de versões** - Git flow e conventional commits  
@@ -283,13 +267,55 @@ Este projeto foi desenvolvido em equipe como parte do **Programa de Bolsas React
 - 🎨 **Design fidelity** - Implementação precisa do layout Figma
 - 💻 **Boas práticas** - Clean code e padrões de desenvolvimento
 
+### 👥 **Time de Desenvolvimento**
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <a href="https://github.com/JVSecundo">
+          <img src="https://github.com/JVSecundo.png" width="100px;" style="border-radius: 50%;" alt="João Victor Secundo"/>
+          <br />
+          <sub><b>João Victor Secundo</b></sub>
+        </a>
+        <br />
+        <a href="https://github.com/JVSecundo" title="Code"></a>
+      </td>
+      <td align="center">
+        <a href="https://github.com/yasminebelmiro">
+          <img src="https://github.com/yasminebelmiro.png" width="100px;" style="border-radius: 50%;" alt="Yasmine Belmiro"/>
+          <br />
+          <sub><b>Yasmine Belmiro</b></sub>
+        </a>
+        <br />
+        <a href="https://github.com/yasminebelmiro" title="Code"></a>
+      </td>
+      <td align="center">
+        <a href="https://github.com/italogmfaria">
+          <img src="https://github.com/italogmfaria.png" width="100px;" style="border-radius: 50%;" alt="Ítalo Faria"/>
+          <br />
+          <sub><b>Ítalo Faria</b></sub>
+        </a>
+        <br />
+        <a href="https://github.com/italogmfaria" title="Code"></a>
+      </td>
+      <td align="center">
+        <a href="https://github.com/gessikajulia">
+          <img src="https://github.com/gessikajulia.png" width="100px;" style="border-radius: 50%;" alt="Gessika Julia"/>
+          <br />
+          <sub><b>Gessika Julia</b></sub>
+        </a>
+        <br />
+        <a href="https://github.com/gessikajulia" title="Code"></a>
+      </td>
+    </tr>
+  </table>
+</div>
+
 ---
 
 <div align="center">
   
-  **Desenvolvido com ❤️ durante o Programa de Bolsas React**
-  
-  [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com)
-  [![GitHub](https://img.shields.io/badge/GitHub-Follow-black?style=for-the-badge&logo=github)](https://github.com)
+  **Desenvolvido com ❤️ durante o programa Scholarship | UFMS, IFF e IF GOIANO - Front-end Development (React.js) - AWS Cloud Context**
   
 </div>

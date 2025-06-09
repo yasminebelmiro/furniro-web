@@ -20,10 +20,11 @@ const RelatedProducts: React.FC = () => {
       product.category === current.category && 
       product.id !== productId
     )
-    .slice(0, 4); //mostra apenas 4 produtos
+    .slice(0, 4); 
   
+  // caso queira ver mais produtos relacionados, é enviado aos produtos da mesma categoria
   const handleShowMore = () => {
-    navigate('/shop');
+    navigate(`/shop/${current.category}`);
   };
   
   if (relatedProducts.length === 0) {
@@ -39,7 +40,7 @@ const RelatedProducts: React.FC = () => {
         productsList={relatedProducts} 
         cardCount={4} 
       />      <button
-        className="border-gold border-1 py-4 px-30 m-10 text-gold cursor-pointer"
+        className=" border-gold border-1 py-4 px-30 m-10 text-gold hover:bg-gold hover:text-white cursor-pointer"
         onClick={handleShowMore}
       >
         Show More

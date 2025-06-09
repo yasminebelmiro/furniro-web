@@ -117,7 +117,7 @@ const Footer: React.FC<FooterProps> = ({ onSubscribe }) => {
                   </Link>
                 </li>                <li>
                   <Link 
-                    to="" 
+                    to="#about" 
                     className="text-black font-medium hover:text-primary transition-colors duration-200"
                   >
                     About
@@ -125,7 +125,7 @@ const Footer: React.FC<FooterProps> = ({ onSubscribe }) => {
                 </li>
                 <li>
                   <Link 
-                    to="" 
+                    to="#contact" 
                     className="text-black font-medium hover:text-primary transition-colors duration-200"
                   >
                     Contact

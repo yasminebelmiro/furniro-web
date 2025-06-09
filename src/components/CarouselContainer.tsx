@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom'; 
+import { Link } from "react-router-dom";
 import Carousel from "./Carousel";
 
 const CarouselContainer = () => {
@@ -13,13 +13,12 @@ const CarouselContainer = () => {
             Our designer already made a lot of beautiful prototype of rooms that
             inspire you
           </p>
-          
-          <Link to="/shop">
-            <button className="bg-[#B88E2F] text-white font-bold py-3 px-10 hover:bg-[#9e7a2d] transition-colors text-sm sm:text-base">
-              Explore More
-            </button>
+          <Link 
+          to="/shop">
+          <button className="bg-[#B88E2F] cursor-pointer text-white font-bold py-3 px-10 hover:bg-[#9e7a2d] transition-colors text-sm sm:text-base">
+            Explore More
+          </button>
           </Link>
-          
         </div>
         <Carousel />
       </div>
