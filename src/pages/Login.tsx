@@ -1,9 +1,11 @@
-
+import { SignIn } from "@clerk/clerk-react";
 
 const Login = () => {
   return (
-    <div>Login</div>
-  )
-}
+    <div className="flex items-center justify-center h-screen">
+      <SignIn />
+    </div>
+  );
+};
 
-export default Login
+export default Login;

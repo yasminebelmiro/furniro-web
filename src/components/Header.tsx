@@ -31,9 +31,10 @@ const Header = () => {
         </ul>
 
         <div className="hidden md:flex items-center justify-between w-20 ">
-          <span className="text-2xl">
+        
+          <Link to={"/login"} className="text-2xl" >
             <TbUserExclamation />
-          </span>
+          </Link>
           <span className="text-2xl">
             <MdOutlineShoppingCart />
           </span>
