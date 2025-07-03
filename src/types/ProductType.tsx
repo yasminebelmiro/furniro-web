@@ -17,4 +17,5 @@ export type ProductType = {
   thumbnail: string
   images: string[]
   imagensDescription: string[]
+  quantity: number
 }
