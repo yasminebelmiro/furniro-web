@@ -5,23 +5,31 @@ import { IoShareSocial } from "react-icons/io5";
 import { MdOutlineCompareArrows } from "react-icons/md";
 import { FaRegHeart } from "react-icons/fa";
 import { toast } from "react-toastify";
+import { useDispatch } from "react-redux";
+import { addProductToCart } from "../redux/cart/actions";
 
 type ProductProps = {
   product: ProductType;
 };
 
 const Product = ({ product }: ProductProps) => {
+
   const navigate = useNavigate();
+  const dispatch = useDispatch();
   const discount = product.discount ?? 0;
   const notifyAddToCart = (productName: string) =>
     toast.info(`${productName} adicionado ao carrinho!`);
 
   const discountedPrice = (product.price * (1 - discount / 100)).toFixed(2);
 
+  const handleProductClick = () => {
+    dispatch(addProductToCart(product));
+  }
+
   return (
     <div
       className="z-10 font-poppins relative w-[80%] bg-gray-100 lg:w-[285px] md:h-[450px] flex flex-col xl:w-[80%] cursor-pointer"
-      onClick={(e) => {
+      onClick={() => {
         navigate(`/product/${product.id}`);
       }}
     >
@@ -47,10 +55,11 @@ const Product = ({ product }: ProductProps) => {
       {/*Overlay */}
       <div className="z-20 absolute w-full h-full flex flex-col gap-6 items-center justify-center bg-[#3A3A3A]/70 opacity-0 hover:opacity-100 transition-opacity">
         <button
-          className="w-[70%] bg-white py-3 text-gold cursor-pointer"
+          className="w-[70%] bg-white py-3 text-gold cursor-pointer z-100"
           onClick={(e) => {
             e.stopPropagation();
             notifyAddToCart(product.name);
+            handleProductClick();
           }}
         >
           Add to cart
