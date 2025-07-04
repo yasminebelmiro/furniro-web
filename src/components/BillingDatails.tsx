@@ -1,4 +1,6 @@
 import { useFormContext } from "react-hook-form";
+import { useViaCep } from "../hooks/useViaCep";
+
 
 const BillingDatails = () => {
   const {
@@ -6,12 +8,14 @@ const BillingDatails = () => {
     formState: { errors },
   } = useFormContext();
 
+  useViaCep();
+  
   return (
     <div className="w-full md:w-1/2 flex flex-col items-start justify-center gap-4">
       <h1 className="text-2xl font-bold py-10">Billing details</h1>
       <div className="w-full flex flex-col md:flex-row gap-4">
         <div className="w-full md:w-1/2 flex flex-col gap-4">
-          <label className="text-sm" htmlFor="">
+          <label className="text-sm" >
             First Name
           </label>
           <input
@@ -26,7 +30,7 @@ const BillingDatails = () => {
           )}
         </div>
         <div className="flex flex-col  md:w-1/2 gap-4">
-          <label className="text-sm" htmlFor="">
+          <label className="text-sm" >
             Last Name
           </label>
           <input
@@ -41,7 +45,7 @@ const BillingDatails = () => {
           )}
         </div>
       </div>
-      <label className="text-sm" htmlFor="">
+      <label className="text-sm" >
         Company Name (Optional)
       </label>
       <input
@@ -54,7 +58,7 @@ const BillingDatails = () => {
           {errors.companyName.message as string}
         </span>
       )}
-      <label className="text-sm" htmlFor="">
+      <label className="text-sm" >
         ZIP Code
       </label>
       <input
@@ -67,12 +71,12 @@ const BillingDatails = () => {
           {errors.zipCode.message as string}
         </span>
       )}
-      <label className="text-sm" htmlFor="">
+      <label className="text-sm" >
         Country / Region
       </label>
       <input
         className="w-full p-4 border-gray-400 border rounded"
-        type="text"
+        type="text" readOnly
         {...register("country")}
       />
       {errors.country && (
@@ -80,12 +84,12 @@ const BillingDatails = () => {
           {errors.country.message as string}
         </span>
       )}
-      <label className="text-sm" htmlFor="">
+      <label className="text-sm" >
         Street adress
       </label>
       <input
         className="w-full p-4 border-gray-400 border rounded"
-        type="text"
+        type="text" 
         {...register("streetAddress")}
       />
       {errors.streetAddress && (
@@ -93,7 +97,7 @@ const BillingDatails = () => {
           {errors.streetAddress.message as string}
         </span>
       )}
-      <label className="text-sm" htmlFor="">
+      <label className="text-sm" >
         Province
       </label>
       <input
@@ -106,7 +110,7 @@ const BillingDatails = () => {
           {errors.province.message as string}
         </span>
       )}
-      <label className="text-sm" htmlFor="">
+      <label className="text-sm" >
         Town / City
       </label>
       <input
@@ -119,7 +123,7 @@ const BillingDatails = () => {
           {errors.town.message as string}
         </span>
       )}
-      <label className="text-sm" htmlFor="">
+      <label className="text-sm" >
         Add-on adress
       </label>
       <input
@@ -132,7 +136,7 @@ const BillingDatails = () => {
           {errors.addon.message as string}
         </span>
       )}
-      <label className="text-sm" htmlFor="">
+      <label className="text-sm" >
         Email adress
       </label>
       <input
