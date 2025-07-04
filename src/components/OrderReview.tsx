@@ -24,7 +24,7 @@ const OrderReview = () => {
           <p className="text-2xl text-gold font-bold">Total</p>
         </div>
       </div>
-      <form className="w-full flex flex-col items-start justify-center gap-4 mt-10">
+      <div className="w-full flex flex-col items-start justify-center gap-4 mt-10">
         <div className=" flex gap-4 items-center justify-start font-bold ">
           <input
             type="radio"
@@ -91,16 +91,16 @@ const OrderReview = () => {
             until the funds have cleared in our account.
           </p>
         )}
-      </form>
-      <p>
-        Your personal data will be used to support your experience throughout
-        this website, to manage access to your account, and for other purposes
-        described in our <strong>privacy policy.</strong>
-      </p>
-      <div className="w-full flex items-center justify-center">
-        <button className="w-[70%] text-center  py-3 border rounded-2xl">
-          Place Order
-        </button>
+        <p>
+          Your personal data will be used to support your experience throughout
+          this website, to manage access to your account, and for other purposes
+          described in our <strong>privacy policy.</strong>
+        </p>
+        <div className="w-full flex items-center justify-center">
+          <button type="submit" className="w-[70%] text-center  py-3 border rounded-2xl">
+            Place Order
+          </button>
+        </div>
       </div>
     </div>
   );
