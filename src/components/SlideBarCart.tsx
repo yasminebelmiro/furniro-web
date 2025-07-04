@@ -4,6 +4,7 @@ import { useNavigate } from "react-router-dom";
 import type { ProductType } from "../types/ProductType";
 import { IoCloseCircle } from "react-icons/io5";
 import { removeProductToCart } from "../redux/cart/actions";
+import { useUser } from "@clerk/clerk-react";
 
 type SlideBarCartProps = {
   isOpen: boolean;
@@ -13,17 +14,30 @@ type SlideBarCartProps = {
 const SlideBarCart = ({ isOpen, onClose }: SlideBarCartProps) => {
   const dispatch = useDispatch();
   const navigate = useNavigate();
+
   const products = useSelector((state: any) => state.cart.products);
   const totalPrice = useSelector((state: any) => state.cart.productsTotalPrice);
 
+  const { isSignedIn } = useUser();
+
+
   if (!isOpen) return null;
+
+  const handleIsSignedIn = () => {
+    if (!isSignedIn) {
+      navigate("/login");
+      return;
+    }
+
+    navigate("/checkout");
+  };
 
   const handleDeleteClick = (id: string) => {
     dispatch(removeProductToCart(id));
   };
   return (
     <div className="fixed top-0 left-0 w-full h-full bg-black/50 z-60">
-      <div className="font-poppins fixed top-0 right-0 w-full md:w-[50%] lg:w-[40%] xl:w-[30%] h-auto bg-white flex flex-col items-start justify-between z-50">
+      <div className="font-poppins absolute top-0 right-0 w-full md:w-[50%] lg:w-[40%] xl:w-[30%] h-full bg-white flex flex-col items-start justify-start z-50 overflow-y-auto">
         <div className="w-full flex items-start justify-between p-10 gap-14">
           <h1 className="w-full pb-4 border-b-1 border-gray-400 text-2xl font-bold">
             Shopping Cart
@@ -36,20 +50,22 @@ const SlideBarCart = ({ isOpen, onClose }: SlideBarCartProps) => {
         {products.map((product: ProductType) => {
           return (
             <div
-              className="w-[80%] flex  items-center m-10 my-5"
+              className="w-[80%] flex items-center m-10 my-5"
               key={product.id}
             >
               <img
-                className="w-[8rem] h-[8rem] md:h-[5rem] md:w-[5rem] object-cover"
+                className="min-w-[6rem] h-[6rem] md:h-[5rem] md:w-[5rem] object-cover"
                 src={product.thumbnail}
                 alt={`Imagem de ${product.name}`}
               />
               <div className="w-full flex items-center justify-between">
-                <div className="flex flex-col flex-wrap ml-10">
+                <div className="flex flex-col flex-wrap ml-10 gap-4">
                   <p>{product.name}</p>
                   <p>
                     <span>{product.quantity}</span> X{" "}
-                    <span className="text-gold">R$ {product.price} </span>
+                    <span className="text-gold font-bold">
+                      R$ {product.price.toFixed(2)}{" "}
+                    </span>
                   </p>
                 </div>
                 <button
@@ -69,7 +85,7 @@ const SlideBarCart = ({ isOpen, onClose }: SlideBarCartProps) => {
           ) : (
             <div className=" w-full flex justify-between p-10">
               <p>Subtotal</p>
-              <p className="text-gold">R${totalPrice}</p>
+              <p className="text-gold font-bold">R$ {totalPrice.toFixed(2)}</p>
             </div>
           )}
 
@@ -85,10 +101,8 @@ const SlideBarCart = ({ isOpen, onClose }: SlideBarCartProps) => {
                 Cart
               </button>
               <button
-                onClick={() => {
-                  navigate("/checkout");
-                  onClose();
-                }}
+                onClick={handleIsSignedIn}
+                disabled={products.length < 1}
                 className="text-sm px-4 py-1 border-1 border-black rounded-2xl cursor-pointer"
               >
                 Checkout
