@@ -4,7 +4,7 @@ import type { ProductType } from "../types/ProductType";
 import { FaTrash } from "react-icons/fa";
 import CartActionTypes from "../redux/cart/action-type";
 import { useNavigate } from "react-router-dom";
-import { SignedIn, useUser } from "@clerk/clerk-react";
+import { useUser } from "@clerk/clerk-react";
 
 const Cart = () => {
   const dispatch = useDispatch();
