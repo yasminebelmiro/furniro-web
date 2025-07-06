@@ -73,14 +73,17 @@ const Header = () => {
               <Link to="#about">About</Link>
             </li>
             <li className="w-full py-5 hover:bg-gold hover:text-white flex items-center justify-center ">
-              <Link to="#contact">Contact</Link>
+              <SignedIn>
+                <Link to="/contact">Contact</Link>
+              </SignedIn>
+              <SignedOut>
+                <Link to="/login">Contact</Link>
+              </SignedOut>
             </li>
           </ul>
         )}
-        
       </header>
       <SlideBarCart isOpen={isCartOpen} onClose={() => setIsCartOpen(false)} />
-      
     </>
   );
 };
