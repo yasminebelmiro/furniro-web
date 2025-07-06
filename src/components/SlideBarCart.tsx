@@ -20,7 +20,6 @@ const SlideBarCart = ({ isOpen, onClose }: SlideBarCartProps) => {
 
   const { isSignedIn } = useUser();
 
-
   if (!isOpen) return null;
 
   const handleIsSignedIn = () => {
@@ -101,7 +100,10 @@ const SlideBarCart = ({ isOpen, onClose }: SlideBarCartProps) => {
                 Cart
               </button>
               <button
-                onClick={handleIsSignedIn}
+                onClick={() => {
+                  handleIsSignedIn();
+                  onClose();
+                }}
                 disabled={products.length < 1}
                 className="text-sm px-4 py-1 border-1 border-black rounded-2xl cursor-pointer"
               >
