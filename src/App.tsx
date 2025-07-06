@@ -10,7 +10,8 @@ import ScrollToTop from './utils/ScrollToTop';
 import Cart from './pages/Cart';
 import Contact from './pages/Contact';
 import Checkout from './pages/Checkout';
-import { SignIn } from '@clerk/clerk-react';
+import Login from './pages/Login';
+
 
 
 
@@ -34,7 +35,7 @@ function App() {
         <Route path="/shop" element={<Shop />} />
         <Route path="/shop/:category" element={<Shop />} />
         <Route path="/product/:productId" element={<SingleProduct />} />
-        <Route path="/login" element={<SignIn />} />
+        <Route path="/login" element={<Login/>} />
         <Route path='/cart' element={<Cart  />}/>
         <Route path='/checkout' element={<Checkout  />}/>
         <Route path='/contact' element={<Contact  />}/>
