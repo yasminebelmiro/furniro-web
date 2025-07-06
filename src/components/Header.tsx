@@ -29,7 +29,12 @@ const Header = () => {
               <Link to="#about">About</Link>
             </li>
             <li>
-              <Link to="#contact">Contact</Link>
+              <SignedIn>
+                <Link to="/contact">Contact</Link>
+              </SignedIn>
+              <SignedOut>
+                <Link to="/login">Contact</Link>
+              </SignedOut>
             </li>
           </ul>
 
@@ -64,20 +69,30 @@ const Header = () => {
         {isMenuOpen && (
           <ul className="z-30 fixed w-full flex flex-col md:hidden pt-24 bg-white">
             <li className="w-full py-5 hover:bg-gold hover:text-white flex items-center justify-center ">
-              <Link to="/">Home</Link>
+              <Link to="/" onClick={() => setIsMenuOpen(false)}>
+                Home
+              </Link>
             </li>
             <li className="w-full py-5 hover:bg-gold hover:text-white flex items-center justify-center ">
-              <Link to="/shop">Shop</Link>
+              <Link to="/shop" onClick={() => setIsMenuOpen(false)}>
+                Shop
+              </Link>
             </li>
             <li className="w-full py-5 hover:bg-gold hover:text-white flex items-center justify-center ">
-              <Link to="#about">About</Link>
+              <Link to="#about" onClick={() => setIsMenuOpen(false)}>
+                About
+              </Link>
             </li>
             <li className="w-full py-5 hover:bg-gold hover:text-white flex items-center justify-center ">
               <SignedIn>
-                <Link to="/contact">Contact</Link>
+                <Link to="/contact" onClick={() => setIsMenuOpen(false)}>
+                  Contact
+                </Link>
               </SignedIn>
               <SignedOut>
-                <Link to="/login">Contact</Link>
+                <Link to="/login" onClick={() => setIsMenuOpen(false)}>
+                  Contact
+                </Link>
               </SignedOut>
             </li>
           </ul>
