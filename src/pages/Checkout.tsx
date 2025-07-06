@@ -8,13 +8,14 @@ import {
   checkoutSchema,
 } from "../schemas/checkoutSchema ";
 import { toast } from "react-toastify";
+import FeaturesSection from "../components/FeaturesSection";
 
 const Checkout = () => {
   const methods = useForm<CheckoutFormData>({
     resolver: zodResolver(checkoutSchema),
   });
 
-  const onSubmit = (data: CheckoutFormData) => {
+  const onSubmit = () => {
     toast.success("Pedido realizado com sucesso!");
   };
   return (
@@ -29,6 +30,7 @@ const Checkout = () => {
           <OrderReview />
         </form>
       </FormProvider>
+        <FeaturesSection />
     </div>
   );
 };

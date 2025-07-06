@@ -5,6 +5,7 @@ import { FaTrash } from "react-icons/fa";
 import CartActionTypes from "../redux/cart/action-type";
 import { useNavigate } from "react-router-dom";
 import { useUser } from "@clerk/clerk-react";
+import FeaturesSection from "../components/FeaturesSection";
 
 const Cart = () => {
   const dispatch = useDispatch();
@@ -145,6 +146,7 @@ const Cart = () => {
           </button>
         </div>
       </div>
+      <FeaturesSection />
     </div>
   );
 };
