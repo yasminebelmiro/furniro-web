@@ -1,23 +1,42 @@
-import React, { useState, useEffect } from 'react';
-import axios from 'axios';
-import { useParams } from 'react-router-dom';
-import { FaStar, FaRegStar, FaFacebookF, FaLinkedinIn, FaTwitter } from 'react-icons/fa';
-import type { ProductType } from '../types/ProductType';
-import { toast} from 'react-toastify';
+import React, { useState, useEffect } from "react";
+import axios from "axios";
+import { useParams } from "react-router-dom";
+import {
+  FaStar,
+  FaRegStar,
+  FaFacebookF,
+  FaLinkedinIn,
+  FaTwitter,
+} from "react-icons/fa";
+import type { ProductType } from "../types/ProductType";
+import { toast } from "react-toastify";
+import { useDispatch } from "react-redux";
+import { addProductToCart } from "../redux/cart/actions";
 
 const ProductDetails: React.FC = () => {
   const { productId } = useParams<{ productId: string }>();
 
-  const [product, setProduct] = useState<ProductType | null | undefined>(undefined);
+  const [product, setProduct] = useState<ProductType | null | undefined>(
+    undefined
+  );
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
-  const [selectedSize, setSelectedSize] = useState<string>('');
-  const [selectedColor, setSelectedColor] = useState<string>('');
+  const [selectedSize, setSelectedSize] = useState<string>("");
+  const [selectedColor, setSelectedColor] = useState<string>("");
   const [quantity, setQuantity] = useState<number>(1);
 
+  const dispatch = useDispatch();
+
   const socialLinks = {
-    facebook: 'https://www.facebook.com/compassuol',
-    twitter:  'https://x.com/compassuol?t=6MuSOtN28Z7SdtJURMyzTA&s=09',
-    linkedin: 'https://www.linkedin.com/company/compass-uol',
+    facebook: "https://www.facebook.com/compassuol",
+    twitter: "https://x.com/compassuol?t=6MuSOtN28Z7SdtJURMyzTA&s=09",
+    linkedin: "https://www.linkedin.com/company/compass-uol",
+  };
+
+  const handleProductClick = () => {
+    if (product) {
+      dispatch(addProductToCart(product));
+      notifyAddToCart(product.name);
+    }
   };
 
   const notifyAddToCart = (name: string) =>
@@ -54,9 +73,7 @@ const ProductDetails: React.FC = () => {
 
   if (product === undefined) {
     return (
-      <div className="p-5 text-center text-gray-600">
-        Carregando o produto…
-      </div>
+      <div className="p-5 text-center text-gray-600">Carregando o produto…</div>
     );
   }
 
@@ -73,7 +90,6 @@ const ProductDetails: React.FC = () => {
 
   return (
     <section className="font-poppins w-full mx-auto pt-10 flex flex-col items-center sm:flex-row sm:items-start px-4 xl:px-0">
-
       {/* Grid com imagens */}
       <div className="w-full sm:w-1/2 xl:w-1/2 flex flex-col-reverse sm:flex-row sm:items-start lg:ml-[5%] xl:ml-[10%] 2xl:ml-[20%]">
         <div className="flex flex-row pt-3 justify-center sm:justify-start sm:pt-0 sm:flex-col sm:space-y-3 space-x-3 sm:space-x-0 sm:mr-4 mb-4 sm:mb-0">
@@ -101,7 +117,6 @@ const ProductDetails: React.FC = () => {
 
       {/* Detalhes do produto */}
       <div className="w-full sm:pl-10 lg:mr-[5%] xl:mr-[15%] 2xl:mr-[20%] sm:w-1/2 xl:w-1/2 pb-10 mt-5 sm:mt-0 xl:pl-12">
-      
         {/* Nome do produto */}
         <h1 className="text-3xl font-semibold mb-2">{product.name}</h1>
 
@@ -125,7 +140,7 @@ const ProductDetails: React.FC = () => {
 
           {/* Quantidade de reviews */}
           <span className="text-gray-600 ml-1">
-            | <b /> {product.reviews} Review{product.reviews > 1 && 's'}
+            | <b /> {product.reviews} Review{product.reviews > 1 && "s"}
           </span>
         </div>
 
@@ -144,8 +159,8 @@ const ProductDetails: React.FC = () => {
                 onClick={() => setSelectedSize(sz)}
                 className={`border cursor-pointer rounded w-12 h-10 text-sm flex items-center justify-center transition ${
                   selectedSize === sz
-                    ? 'bg-yellow-500 text-white border-yellow-500'
-                    : 'bg-white text-gray-700 border-gray-300 hover:border-gray-500'
+                    ? "bg-yellow-500 text-white border-yellow-500"
+                    : "bg-white text-gray-700 border-gray-300 hover:border-gray-500"
                 }`}
               >
                 {sz}
@@ -163,7 +178,7 @@ const ProductDetails: React.FC = () => {
                 key={clr}
                 onClick={() => setSelectedColor(clr)}
                 className={`w-8 h-8 rounded-full border-2 transition cursor-pointer ${
-                  selectedColor === clr ? 'border-gray-800' : 'border-gray-200'
+                  selectedColor === clr ? "border-gray-800" : "border-gray-200"
                 }`}
                 style={{ backgroundColor: clr }}
               />
@@ -173,7 +188,6 @@ const ProductDetails: React.FC = () => {
 
         {/* Ações do produto */}
         <div className="flex items-center space-x-4 mb-6">
-
           {/* Botão de aumentar/diminuir quantidade */}
           <div className="flex items-center border rounded">
             <button
@@ -192,10 +206,13 @@ const ProductDetails: React.FC = () => {
           </div>
 
           {/* Botão de adicionar ao carrinho */}
-            <button 
-              onClick={() => notifyAddToCart(product.name)}
-              className="px-6 py-3 cursor-pointer bg-white border border-gray-800 text-gray-800 rounded hover:bg-gray-100 transition"
-            >
+          <button
+            onClick={() => {
+              notifyAddToCart(product.name);
+              handleProductClick();
+            }}
+            className="px-6 py-3 cursor-pointer bg-white border border-gray-800 text-gray-800 rounded hover:bg-gray-100 transition"
+          >
             Add To Cart
           </button>
         </div>
@@ -214,7 +231,7 @@ const ProductDetails: React.FC = () => {
 
           {/* Tags do produto */}
           <p className="text-gray-600 mb-2">
-            <span className="font-medium">Tags:</span> {product.tags.join(', ')}
+            <span className="font-medium">Tags:</span> {product.tags.join(", ")}
           </p>
 
           {/* Redes sociais */}
