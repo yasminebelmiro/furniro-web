@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import logo from "../assets/logo.svg";
+
 import { TbUserExclamation } from "react-icons/tb";
 import { MdOutlineShoppingCart } from "react-icons/md";
 import { GiHamburgerMenu } from "react-icons/gi";
@@ -15,7 +15,7 @@ const Header = () => {
       <header className="font-poppins">
         <div className=" bg-white h-24 fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-5 l:px-10 xl:px-20">
           <Link to={"/"} className="flex flex-row items-center">
-            <img src={logo} alt="Logo Furniro" className="w-10" />
+            <img src="https://furniro-web-assets-19.s3.us-east-2.amazonaws.com/logo.svg" alt="Logo Furniro" className="w-10" />
             <p className="hidden  md:flex font-bold text-2xl">Furniro</p>
           </Link>
           <ul className="hidden md:flex w-1/2 justify-evenly ">

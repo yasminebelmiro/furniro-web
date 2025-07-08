@@ -1,4 +1,4 @@
-import background from '../assets/images/search-images/bg-search.svg';
+
 import { Link } from 'react-router-dom';
 type CurrentPageProps = {
   currentPage: string; 
@@ -7,7 +7,7 @@ const CurrentPage = ({currentPage}:CurrentPageProps) => {
   return (
     <div
         className="w-full h-[316px] bg-cover bg-center flex flex-col justify-center items-center"
-        style={{ backgroundImage: `url(${background})` }}
+        style={{ backgroundImage: `url(https://furniro-web-assets-19.s3.us-east-2.amazonaws.com/search-images/bg-search.svg)` }}
       >
         <h1 className="text-[3rem] font-medium text-black font-['Poppins'] mb-2">
           {currentPage}
