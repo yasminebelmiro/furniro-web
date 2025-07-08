@@ -19,7 +19,7 @@ const ProductsShop = () => {
   useEffect(() => {
     const filteredByCategory = category
       ? data.products.filter(
-          (product: ProductType) => product.category === category
+          (product) => product.category === category
         )
       : data.products;
     

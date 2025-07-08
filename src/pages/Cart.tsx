@@ -112,7 +112,7 @@ const Cart = () => {
                 </div>
               </li>
               <li className="w-[20%] text-xs ">
-                R$ {(product.price * product.quantity).toFixed(2)}
+                R$ {(product.price * (product.quantity ?? 1)).toFixed(2)}
               </li>
               <li className="w-[20%] text-[1rem] text-gold text-center">
                 <button onClick={() => handleRemove(product.id)}>

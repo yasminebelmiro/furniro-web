@@ -8,9 +8,7 @@ import {
 import type SplideInstance from "@splidejs/splide";
 import { FaArrowRight, FaChevronLeft, FaChevronRight } from "react-icons/fa";
 import "@splidejs/splide/dist/css/splide.min.css";
-import bedroomImg from "../assets/images/carousel-images/carousel-bedroom.svg";
-import diningImg from "../assets/images/carousel-images/carousel-dining.svg";
-import livingImg from "../assets/images/carousel-images/carousel-living.svg";
+
 
 const slidesData = [
   {
