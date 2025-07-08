@@ -1,10 +1,6 @@
 // src/components/CategorySection.tsx
 import { Link } from 'react-router-dom';
 
-import CategoryLiving  from '../assets/images/category-images/category-living.svg';
-import CategoryDining  from '../assets/images/category-images/category-dining.svg';
-import CategoryBedroom from '../assets/images/category-images/category-bedroom.svg';
-
 type Category = {
   name: string;
   image: string;
@@ -12,9 +8,9 @@ type Category = {
 };
 
 const categories: Category[] = [
-  { name: 'Dining',  image: CategoryDining,  link: '/shop/dining' },
-  { name: 'Living',  image: CategoryLiving,  link: '/shop/living' },
-  { name: 'Bedroom', image: CategoryBedroom, link: '/shop/bedroom' },
+  { name: 'Dining',  image: "https://furniro-web-assets-19.s3.us-east-2.amazonaws.com/category-images/category-living.svg",  link: '/shop/dining' },
+  { name: 'Living',  image: "https://furniro-web-assets-19.s3.us-east-2.amazonaws.com/category-images/category-dining.svg",  link: '/shop/living' },
+  { name: 'Bedroom', image: "https://furniro-web-assets-19.s3.us-east-2.amazonaws.com/category-images/category-bedroom.svg", link: '/shop/bedroom' },
 ];
 
 export default function CategorySection() {

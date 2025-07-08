@@ -1,14 +1,16 @@
 
-import MosaicImage1 from '../assets/images/mosaic-images/mosaic-image-1.svg';
-import MosaicImage2 from '../assets/images/mosaic-images/mosaic-image-2.svg';
-import MosaicImage3 from '../assets/images/mosaic-images/mosaic-image-3.svg';
-import MosaicImage4 from '../assets/images/mosaic-images/mosaic-image-4.svg';
-import MosaicImage5 from '../assets/images/mosaic-images/mosaic-image-5.svg';
-import MosaicImage6 from '../assets/images/mosaic-images/mosaic-image-6.svg';
-import MosaicImage7 from '../assets/images/mosaic-images/mosaic-image-7.svg';
-import MosaicImage8 from '../assets/images/mosaic-images/mosaic-image-8.svg';
-import MosaicImage9 from '../assets/images/mosaic-images/mosaic-image-9.svg';
 
+const mosaicImages = {
+ MosaicImage1: "https://furniro-web-assets-19.s3.us-east-2.amazonaws.com/mosaic-images/mosaic-image-1.svg",
+ MosaicImage2: "https://furniro-web-assets-19.s3.us-east-2.amazonaws.com/mosaic-images/mosaic-image-2.svg",
+ MosaicImage3: "https://furniro-web-assets-19.s3.us-east-2.amazonaws.com/mosaic-images/mosaic-image-33.svg",
+ MosaicImage4: "https://furniro-web-assets-19.s3.us-east-2.amazonaws.com/mosaic-images/mosaic-image-4.svg",
+ MosaicImage5: "https://furniro-web-assets-19.s3.us-east-2.amazonaws.com/mosaic-images/mosaic-image-5.svg",
+ MosaicImage6: "https://furniro-web-assets-19.s3.us-east-2.amazonaws.com/mosaic-images/mosaic-image-6.svg",
+ MosaicImage7: "https://furniro-web-assets-19.s3.us-east-2.amazonaws.com/mosaic-images/mosaic-image-7.svg",
+ MosaicImage8: "https://furniro-web-assets-19.s3.us-east-2.amazonaws.com/mosaic-images/mosaic-image-8.svg",
+ MosaicImage9: "https://furniro-web-assets-19.s3.us-east-2.amazonaws.com/mosaic-images/mosaic-image-9.svg",
+}
 
 const Mosaic = () => {
   return (
@@ -39,7 +41,7 @@ const Mosaic = () => {
                     md:overflow-hidden
                 ">
                     <img
-                    src={MosaicImage1}
+                    src={mosaicImages.MosaicImage1}
                     alt="Mosaic 1"
                     className="md:w-full h-full object-cover"
                     />
@@ -57,7 +59,7 @@ const Mosaic = () => {
                     md:overflow-hidden
                 ">
                     <img
-                    src={MosaicImage2}
+                    src={mosaicImages.MosaicImage2}
                     alt="Mosaic 2"
                     className="w-full h-full object-cover"
                     />
@@ -76,7 +78,7 @@ const Mosaic = () => {
                     md:overflow-hidden
                 ">
                     <img
-                    src={MosaicImage3}
+                    src={mosaicImages.MosaicImage3}
                     alt="Mosaic 3"
                     className="w-full h-full object-cover"
                     />
@@ -94,7 +96,7 @@ const Mosaic = () => {
                     md:overflow-hidden
                 ">
                     <img
-                    src={MosaicImage4}
+                    src={mosaicImages.MosaicImage4}
                     alt="Mosaic 4"
                     className="w-full h-full object-cover"
                     />
@@ -114,7 +116,7 @@ const Mosaic = () => {
                     md:overflow-hidden
                 ">
                     <img
-                    src={MosaicImage5}
+                    src={mosaicImages.MosaicImage5}
                     alt="Mosaic 5"
                     className="w-full h-full object-cover"
                     />
@@ -134,7 +136,7 @@ const Mosaic = () => {
                     md:overflow-hidden
                 ">
                     <img
-                    src={MosaicImage6}
+                    src={mosaicImages.MosaicImage6}
                     alt="Mosaic 6"
                     className="w-full h-full object-cover"
                     />
@@ -152,7 +154,7 @@ const Mosaic = () => {
                     md:overflow-hidden
                 ">
                     <img
-                    src={MosaicImage7}
+                    src={mosaicImages.MosaicImage7}
                     alt="Mosaic 7"
                     className="w-full h-full object-cover"
                     />
@@ -170,7 +172,7 @@ const Mosaic = () => {
                     md:overflow-hidden
                 ">
                     <img
-                    src={MosaicImage8}
+                    src={mosaicImages.MosaicImage8}
                     alt="Mosaic 8"
                     className="w-full h-full object-cover"
                     />
@@ -188,7 +190,7 @@ const Mosaic = () => {
                     md:overflow-hidden
                 ">
                     <img
-                    src={MosaicImage9}
+                    src={mosaicImages.MosaicImage9}
                     alt="Mosaic 9"
                     className="w-full h-full object-cover"
                     />

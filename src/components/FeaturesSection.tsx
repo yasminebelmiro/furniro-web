@@ -1,34 +1,33 @@
-import HighQuality from '../assets/images/features-images/high-feature.svg';
-import FreeShipping from '../assets/images/features-images/free-feature.svg';
-import Warranty from '../assets/images/features-images/warranty-feature.svg';
-import Support from '../assets/images/features-images/support-feature.svg';
+import { LuPackage2 } from "react-icons/lu";
+import { GoTrophy, GoVerified } from "react-icons/go";
+import { BiSupport } from "react-icons/bi";
 
 type Feature = {
-  icon: string;
+  icon: React.ReactNode;
   title: string;
   description: string;
 };
 
 const features: Feature[] = [
   {
-    icon: HighQuality,
-    title: 'High Quality',
-    description: 'crafted from top materials',
+    icon: <GoTrophy size={48} className="text-[#B88E2F]" />,
+    title: "High Quality",
+    description: "crafted from top materials",
   },
   {
-    icon: Warranty,
-    title: 'Warranty Protection',
-    description: 'Over 2 years',
+    icon: <GoVerified size={48} className="text-[#B88E2F]" />,
+    title: "Warranty Protection",
+    description: "Over 2 years",
   },
   {
-    icon: FreeShipping,
-    title: 'Free Shipping',
-    description: 'Order over 150 $',
+    icon: <LuPackage2 size={48} className="text-[#B88E2F]" />,
+    title: "Free Shipping",
+    description: "Order over 150 $",
   },
   {
-    icon: Support,
-    title: '24 / 7 Support',
-    description: 'Dedicated support',
+    icon: <BiSupport size={48} className="text-[#B88E2F]" />,
+    title: "24 / 7 Support",
+    description: "Dedicated support",
   },
 ];
 
@@ -51,11 +50,7 @@ const FeaturesSection = () => {
               justify-center sm:justify-start
             "
           >
-            <img
-              src={feature.icon}
-              alt={feature.title}
-              className="w-12 h-12 shrink-0 mt-1"
-            />
+            <div className="w-12 h-12 shrink-0 mt-1">{feature.icon}</div>
             <div className="text-left min-w-[10rem]">
               <h3 className="text-[#242424] font-poppins text-[1.125rem] md:text-xl font-semibold leading-[1.75rem]">
                 {feature.title}
@@ -69,7 +64,6 @@ const FeaturesSection = () => {
       </div>
     </section>
   );
-}
-
+};
 
 export default FeaturesSection;

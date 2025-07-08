@@ -1,9 +1,8 @@
 import { useState } from 'react';
 import { useParams } from 'react-router-dom';
-import fundoShop from '../assets/images/search-images/bg-search.svg';
-import filterIcon from '../assets/images/search-images/filter-icon.svg';
-import gridIcon from '../assets/images/search-images/grid-icon.svg';
-import listIcon from '../assets/images/search-images/list-icon.svg';
+import { CiBoxList, CiFilter } from "react-icons/ci";
+
+import { BsFillGridFill } from 'react-icons/bs';
 
 const capitalize = (text: string) =>
   text.charAt(0).toUpperCase() + text.slice(1).toLowerCase();
@@ -58,7 +57,7 @@ const Search = ({
     <div className="pt-23 relative">
       <div
         className="w-full h-[316px] bg-cover bg-center flex flex-col justify-center items-center"
-        style={{ backgroundImage: `url(${fundoShop})` }}
+        style={{ backgroundImage: `url(https://furniro-web-assets-19.s3.us-east-2.amazonaws.com/search-images/bg-search.svg)` }}
       >
         <h1 className="text-[3rem] font-medium text-black font-['Poppins'] mb-2">
           Shop
@@ -74,11 +73,11 @@ const Search = ({
       <div className="flex flex-wrap justify-between items-center px-8 py-4 bg-[#F9F1E7] text-sm mt-[-4px]">
         <div className="flex items-center gap-4">
           <button className="flex items-center gap-2 cursor-pointer" onClick={() => setIsFilterOpen(!isFilterOpen)}>
-            <img src={filterIcon} alt="Filter" className="w-5 h-5" />
+            <CiFilter />
             <span>Filter</span>
           </button>
-          <img src={gridIcon} alt="Grid View" className="w-5 h-5" />
-          <img src={listIcon} alt="List View" className="w-5 h-5" />
+          <BsFillGridFill />
+          <CiBoxList />
           <div className="w-[1px] h-5 bg-gray-400 opacity-50 mx-2"></div>
           {totalQtyProducts > 0 ? (
             <span>Showing {startItem}–{endItem} of {totalQtyProducts} results</span>

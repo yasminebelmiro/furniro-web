@@ -1,10 +1,8 @@
 
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import facebookIcon from '../assets/images/social-images/facebook.svg';
-import instagramIcon from '../assets/images/social-images/instagram.svg';
-import twitterIcon from '../assets/images/social-images/twitter.svg';
-import linkedinIcon from '../assets/images/social-images/linkedin.svg';
+import { FaFacebook, FaInstagram, FaLinkedin } from 'react-icons/fa';
+import { AiFillTwitterCircle } from "react-icons/ai";
 
 interface FooterProps {
   onSubscribe?: (email: string) => void;
@@ -72,13 +70,7 @@ const Footer: React.FC<FooterProps> = ({ onSubscribe }) => {
     }
   };
 
-//links das redes sociais da Compass UOL
-  const socialLinks = {
-    facebook: 'https://www.facebook.com/compassuol',
-    instagram: 'https://www.instagram.com/compass.uol?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==',
-    twitter: 'https://x.com/compassuol?t=6MuSOtN28Z7SdtJURMyzTA&s=09',
-    linkedin: 'https://www.linkedin.com/company/compass-uol'
-  };
+
 
   return (
     <footer className="font-poppins w-full bg-white border-t border-gray-200">
@@ -228,60 +220,40 @@ const Footer: React.FC<FooterProps> = ({ onSubscribe }) => {
         <div className="mt-6 mb-8">
           <div className="flex items-center gap-3">
             <a
-              href={socialLinks.facebook}
+              href={'https://www.facebook.com/compassuol'}
               target="_blank"
               rel="noopener noreferrer"
               className="text-black hover:opacity-70 transition-all duration-200 hover:scale-110"
               aria-label="Visitar Facebook da Compass UOL"
             >
-              <img 
-                src={facebookIcon} 
-                alt="Facebook" 
-                className="w-10 h-10"
-                style={{ width: '60px', height: '60px' }}
-              />
+              <FaFacebook />
             </a>
             <a
-              href={socialLinks.instagram}
+              href={'https://www.instagram.com/compass.uol?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=='}
               target="_blank"
               rel="noopener noreferrer"
               className="text-black hover:opacity-70 transition-all duration-200 hover:scale-110"
               aria-label="Visitar Instagram da Compass UOL"
             >
-              <img 
-                src={instagramIcon} 
-                alt="Instagram" 
-                className="w-10 h-10"
-                style={{ width: '60px', height: '60px' }}
-              />
+              <FaInstagram />
             </a>
             <a
-              href={socialLinks.twitter}
+              href={"https://x.com/compassuol?t=6MuSOtN28Z7SdtJURMyzTA&s=09"}
               target="_blank"
               rel="noopener noreferrer"
               className="text-black hover:opacity-70 transition-all duration-200 hover:scale-110"
               aria-label="Visitar Twitter da Compass UOL"
             >
-              <img 
-                src={twitterIcon} 
-                alt="Twitter" 
-                className="w-10 h-10"
-                style={{ width: '60px', height: '60px' }}
-              />
+             <AiFillTwitterCircle  />
             </a>
             <a
-              href={socialLinks.linkedin}
+              href={'https://www.linkedin.com/company/compass-uol'}
               target="_blank"
               rel="noopener noreferrer"
               className="text-black hover:opacity-70 transition-all duration-200 hover:scale-110"
               aria-label="Visitar LinkedIn da Compass UOL"
             >
-              <img 
-                src={linkedinIcon} 
-                alt="LinkedIn" 
-                className="w-10 h-10"
-                style={{ width: '60px', height: '60px' }}
-              />
+              <FaLinkedin />
             </a>
           </div>
         </div>        {}

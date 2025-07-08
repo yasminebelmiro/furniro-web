@@ -8,14 +8,12 @@ import {
 import type SplideInstance from "@splidejs/splide";
 import { FaArrowRight, FaChevronLeft, FaChevronRight } from "react-icons/fa";
 import "@splidejs/splide/dist/css/splide.min.css";
-import bedroomImg from "../assets/images/carousel-images/carousel-bedroom.svg";
-import diningImg from "../assets/images/carousel-images/carousel-dining.svg";
-import livingImg from "../assets/images/carousel-images/carousel-living.svg";
+
 
 const slidesData = [
   {
     id: 1,
-    image: bedroomImg,
+    image: "https://furniro-web-assets-19.s3.us-east-2.amazonaws.com/carrousel-images/carousel-bedroom.svg",
     number: "01",
     category: "Bed Room",
     title: "Inner Peace",
@@ -23,7 +21,7 @@ const slidesData = [
   },
   {
     id: 2,
-    image: livingImg,
+    image: "https://furniro-web-assets-19.s3.us-east-2.amazonaws.com/carrousel-images/carousel-living.svg",
     number: "02",
     category: "Living Room",
     title: "Modern Vibe",
@@ -31,7 +29,7 @@ const slidesData = [
   },
   {
     id: 3,
-    image: diningImg,
+    image: "https://furniro-web-assets-19.s3.us-east-2.amazonaws.com/carrousel-images/carousel-dining.svg",
     number: "03",
     category: "Dining Area",
     title: "Cozy Meals",
