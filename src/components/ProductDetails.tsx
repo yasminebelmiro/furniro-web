@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import axios from "axios";
 import { useParams } from "react-router-dom";
 import {
   FaStar,
@@ -12,6 +11,7 @@ import type { ProductType } from "../types/ProductType";
 import { toast } from "react-toastify";
 import { useDispatch } from "react-redux";
 import { addProductToCart } from "../redux/cart/actions";
+import api from "../services/api";
 
 const ProductDetails: React.FC = () => {
   const { productId } = useParams<{ productId: string }>();
@@ -43,22 +43,15 @@ const ProductDetails: React.FC = () => {
     toast.info(`${name} adicionado ao carrinho!`);
 
   useEffect(() => {
-    if (!productId) {
-      setProduct(null);
-      return;
-    }
-
+    if (!productId) return setProduct(null);
     const fetchProduct = async () => {
       try {
-        const response = await axios.get<ProductType>(
-          `http://localhost:3000/products/${productId}`
-        );
-        setProduct(response.data);
+        const res = await api.get<ProductType>(`products/${productId}`);
+        setProduct(res.data);
       } catch {
         setProduct(null);
       }
     };
-
     fetchProduct();
   }, [productId]);
 

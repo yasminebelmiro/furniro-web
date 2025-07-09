@@ -7,10 +7,11 @@
   
 </div>
 
-Este desafio desenvolvido em grupo faz parte da Semana 8 do programa Scholarship | UFMS, IFF e IF GOIANO - Front-end Development (React.js) - AWS Cloud Context na Compass UOL.  
-A proposta foi reconstruir fielmente, em React + TypeScript e Tailwind CSS, as páginas do e-commerce fictício **Furniro**, seguindo fielmente o design fornecido no Figma com foco em responsividade e experiência do usuário.
+Este desafio individual faz parte da Semana 12 do programa Scholarship | UFMS, IFF e IF Goiano - Front-end Development (React.js) - AWS Cloud Context, promovido pela Compass UOL.
+A proposta foi recriar com fidelidade, usando React + TypeScript e Tailwind CSS, as páginas que estavam faltando no desafio da Semana 8 do e-commerce fictício **Furniro**: Cart, Checkout e Contact. O foco principal foi a responsividade e a experiência do usuário, sempre seguindo à risca o layout fornecido no Figma.
+Além disso, todas as imagens do projeto foram armazenadas na AWS S3, e a aplicação foi publicada na AWS EC2.
 
----
+
 
 ## 🚀 Tecnologias Utilizadas
 
@@ -21,63 +22,89 @@ A proposta foi reconstruir fielmente, em React + TypeScript e Tailwind CSS, as p
 </div>
 
 ### 🔧 **Frontend**
-- **React 19** - Biblioteca para construção de interfaces
-- **TypeScript** - Superset JavaScript com tipagem estática
-- **Vite** - Build tool ultra-rápida
-- **Tailwind CSS** - Framework CSS utility-first
-- **React Router DOM** - Roteamento para SPAs
-- **Axios** - Cliente HTTP para requisições
+- **React 19** – Biblioteca moderna para construção de interfaces reativas
+- **TypeScript** – Superset do JavaScript com tipagem estática
+- **Vite 6** – Ferramenta de build ultra-rápida
+- **Tailwind CSS 4** – Framework CSS utility-first
+- **React Router DOM 7** – Roteamento moderno para SPAs
+- **Axios** – Cliente HTTP para comunicação com APIs
+- **Redux + React Redux** – Gerenciamento de estado global
+- **Zod** – Validação de schemas TypeScript-friendly
 
 ### 🎨 **UI/UX & Componentes**
-- **@splidejs/react-splide** - Carrossel responsivo e acessível
-- **React Icons** - Biblioteca abrangente de ícones
-- **React Toastify** - Notificações elegantes e customizáveis
+- **@splidejs/react-splide** – Carrossel responsivo e acessível
+- **@splidejs/splide** – Núcleo do Splide para customizações
+- **React Icons** – Biblioteca de ícones SVG para React
+- **React Toastify** – Sistema de notificações elegante e personalizável
+- **@clerk/clerk-react** – Autenticação e gerenciamento de usuários
+
+### 🧩 **Formulários & Validação**
+- **react-hook-form** – Manipulação de formulários com performance
+- **@hookform/resolvers** – Integração entre React Hook Form e Zod
 
 ### 🛠 **Desenvolvimento & Qualidade**
-- **Prettier** - Formatador de código automático
-- **Tailwind CSS IntelliSense** - Autocompletar e preview de classes Tailwind
+
+- **Prettier** – Formatador automático de código
+- **ESLint + plugins** – Linting e boas práticas de código
+- **Tailwind CSS IntelliSense** – Autocompletar e visualização de classes no editor
+- **Jest + Testing Library** – Testes unitários e de integração com foco em acessibilidade e usabilidade
+- **Redux Logger** – Middleware para debug de ações Redux
 
 ### 📊 **Backend Simulado**
-- **JSON Server** - API REST simulada para desenvolvimento
-  - **Total de Produtos:** 48 itens
-  - **Categorias:** Dining (16), Living (16) e Bedroom (16) 
+- **JSON Server** – API REST fake para desenvolvimento local
+  - **Total de Produtos:** 24 itens
+  - **Categorias:** Dining, Living e Bedroom
   - **Dados completos** com imagens, descrições e especificações
-  - **Imagens** referenciadas via URLs da API Unsplash
+  - **Imagens** hospedadas via **AWS S3**
 
----
 
 ## ✨ Funcionalidades Principais
 
-🎯 **Navegação Intuitiva**
-- Roteamento dinâmico com React Router
-- Navegação fluida entre páginas
+### 🎯 Navegação Intuitiva
+- Roteamento dinâmico com React Router DOM
 - URLs amigáveis e semânticas
+- Proteção de rotas para páginas de Checkout e Contact (usuário precisa estar logado)
+- Breadcrumbs com redirecionamento para Home
 
-🛍️ **Catálogo de Produtos**
-- Listagem dinâmica com carrossel interativo
-- Páginas individuais para cada produto
-- Sistema de filtros por categoria
-- Paginação responsiva na listagem
+### 🛍️ Catálogo de Produtos
+- Listagem dinâmica com dados via JSON Server
+- Filtros por categoria: Dining, Living e Bedroom
+- Paginação responsiva
+- Páginas individuais de produto
+- Botão **Add to Cart** funcional e interativo
 
-🎨 **Interface Responsiva**
-- Design mobile-first
+### 🛒 Carrinho de Compras
+- Sidebar lateral com produtos adicionados
+- Edição e remoção de itens direto do sidebar
+- Carrinho persistido via Redux
+- Páginas de **Cart** e **Checkout** com sincronização total com o sidebar
+- Botões de navegação dentro do sidebar: Cart, Checkout, Comparison (apenas navegação)
+
+### 🎨 Interface Responsiva
+- Design **mobile-first**
 - Layout adaptável para todos os dispositivos
-- Animações e transições suaves
+- Animações suaves com transições elegantes
+- Componentes adaptáveis com Tailwind CSS
 
-🔔 **Feedback Visual**
-- Notificações toast para ações do usuário
-- Estados de hover e interação
-- Validação de formulários em tempo real
+### 🔔 Feedback Visual
+- Toasts com React Toastify para ações importantes (ex: pedido feito, formulário enviado)
+- Validação de formulários em tempo real com React Hook Form + Zod
+- Estados visuais de hover, loading e erro personalizados
 
-📧 **Newsletter & Validação**
-- Formulário de newsletter no footer
-- Validação manual (sem alert/required nativo)
-- Feedback visual para entradas inválidas
+### 📧 Newsletter & Formulários
+- Formulário de newsletter no rodapé com validação manual
+- Formulário de checkput com validação
+- Formulário de contato com validação
+- Validação customizada 
+- Toast de sucesso ao enviar os formulários
 
-🎪 **Experiência Rica**
-- Carrossel de produtos na home
+### 🎪 Experiência Rica
+- Carrossel interativo na Home (Splide)
+- Proteção de rota: pagina de **Chekout** e **Contact** exige autenticação com Clerk
 - Galeria de imagens nos produtos
 - Seção de produtos relacionados
+- Todas as imagens hospedadas via AWS S3
+- Deploy em instância EC2 com porta pública
 
 ---
 
@@ -108,9 +135,9 @@ yarn install
 
 3. **Inicie o servidor JSON (Backend simulado):**
 ```bash
-npx json-server src/services/db.json --port 3001 --watch
+npx json-server src/services/db.json --port 3000 --watch
 ```
-> 🌐 API disponível em: [http://localhost:3001/products](http://localhost:3001/products)
+> 🌐 API disponível em: [http://localhost:3000/products](http://localhost:3000/products)
 
 4. **Execute o projeto em desenvolvimento:**
 ```bash
@@ -129,54 +156,57 @@ npm run preview  # Visualiza o build localmente
 ```
 
 ---
+## ☁️ Demonstração na AWS EC2
 
-## 📁 Arquitetura do Projeto
+A aplicação foi publicada em uma instância **EC2** da AWS, com porta liberada para acesso externo.  
+Todas as imagens utilizadas no projeto estão armazenadas em um **bucket S3** público.
 
-```
-📦 furniro-web/
-├── 📂 src/
-│   ├── 📂 assets/                 # Recursos estáticos
-│   │   ├── 📄 logo.svg
-│   │   └── 📂 images/             # Imagens organizadas por seção
-│   │       ├── 📂 carousel-images/
-│   │       ├── 📂 category-images/
-│   │       ├── 📂 features-images/
-│   │       ├── 📂 hero-images/
-│   │       ├── 📂 mosaic-images/
-│   │       ├── 📂 search-images/
-│   │       └── 📂 social-images/
-│   ├── 📂 components/             # Componentes reutilizáveis
-│   │   ├── 📄 Header.tsx          # Cabeçalho responsivo
-│   │   ├── 📄 Footer.tsx          # Rodapé com newsletter
-│   │   ├── 📄 Carousel.tsx        # Carrossel de produtos
-│   │   ├── 📄 Product.tsx         # Card de produto
-│   │   ├── 📄 CategorySection.tsx # Seção de categorias
-│   │   ├── 📄 FeaturesSection.tsx # Seção de diferenciais
-│   │   └── 📄 ... (outros)
-│   ├── 📂 pages/                  # Páginas da aplicação
-│   │   ├── 📄 Home.tsx            # Página inicial
-│   │   ├── 📄 Shop.tsx            # Catálogo de produtos
-│   │   └── 📄 SingleProduct.tsx   # Detalhes do produto
-│   ├── 📂 services/               # Integração com APIs
-│   │   └── 📄 db.json             # Base de dados simulada
-│   ├── 📂 types/                  # Definições TypeScript
-│   │   ├── 📄 ProductType.tsx     # Tipagem de produtos
-│   │   └── 📄 react-splide.d.ts   # Declarações Splide
-│   ├── 📂 utils/                  # Utilitários e helpers
-│   │   └── 📄 ScrollToTop.tsx     # Componente de scroll to top
-│   ├── 📄 App.tsx                 # Componente raiz
-│   ├── 📄 main.tsx                # Ponto de entrada
-│   └── 📄 index.css               # Estilos globais
-├── 📄 package.json                # Dependências e scripts
-├── 📄 tsconfig.json               # Configuração TypeScript
-├── 📄 vite.config.ts              # Configuração Vite
-└── 📄 README.md                   # Documentação
+
+### 📹 Vídeo de Demonstração
+> O vídeo a seguir mostra a instância EC2 rodando a aplicação, com navegação entre as páginas principais e testes de responsividade, login e funcionamento dos formulários.
+
+[🎥 Assista aqui](https://drive.google.com/file/d/1omUlv1Dba2FryRcDTI8f2Rf_sBxcwBSB/view?usp=sharing)
+
+---
+
+
+
+
+## 📁 Estrutura do Projeto
+
+```bash
+├── public/                   # Arquivos públicos
+├── src/                      # Código-fonte da aplicação
+│   ├── components/           # Componentes reutilizáveis da UI
+│   ├── hooks/                # Hooks customizados
+│   ├── pages/                # Páginas da aplicação (Cart, Checkout, Contact etc.)
+│   ├── redux/                # Configuração do Redux (slices, store)
+│   ├── schemas/              # Schemas de validação (Zod)
+│   ├── services/             # Serviços (ex: integração com ViaCEP, API do JSON Server)
+│   ├── tests/                # Testes com Jest + Testing Library
+│   ├── types/                # Tipagens globais TypeScript
+│   ├── utils/                # Funções utilitárias
+│   ├── App.tsx               # Componente raiz da aplicação
+│   ├── main.tsx              # Ponto de entrada principal
+│   ├── index.css             # Estilos globais
+│   ├── setupTests.ts         # Configuração global dos testes
+│   └── vite-env.d.ts         # Declarações para o Vite
+├── .env                      # Variáveis de ambiente
+├── .gitignore                # Arquivos ignorados pelo Git
+├── eslint.config.js          # Configurações do ESLint
+├── jest.config.js            # Configurações do Jest
+├── index.html                # HTML base
+├── package.json              # Dependências e scripts
+├── tsconfig.json             # Configuração principal do TypeScript
+├── tsconfig.app.json         # TSConfig para aplicação
+├── tsconfig.node.json        # TSConfig para ambiente Node
+├── vite.config.ts            # Configuração do Vite
+└── README.md                 # Documentação do projeto
 ```
 
 ### 🏗️ **Padrões de Organização**
 
 - **📁 Separação por funcionalidade:** Componentes, páginas e serviços organizados logicamente
-- **🎨 Assets por contexto:** Imagens categorizadas por seção de uso
 - **🔧 Configurações centralizadas:** Todos os arquivos de config na raiz
 - **📝 Tipagem completa:** Interfaces TypeScript para todas as estruturas de dados
 
@@ -188,65 +218,29 @@ npm run preview  # Visualiza o build localmente
 - **🔧 `developer`** - Branch de desenvolvimento
 - **✨ `feature/nome-da-feature`** - Branches para novas funcionalidades
 
-### 📦 **Conventional Commits**
-
-Seguimos o padrão [Conventional Commits](https://www.conventionalcommits.org/):
-
-```bash
-feat: adiciona carrossel de produtos na home
-fix: corrige responsividade do header mobile
-docs: atualiza README com novas tecnologias
-style: ajusta espaçamentos no footer
-```
-
-### 🗂 **Organização de Tarefas (Trello)** 
-Acompanhe nosso fluxo de trabalho completo através do [Board do Trello](https://trello.com/b/JN8OQg8a/desafio-2-furniro-web), onde documentamos toda a jornada de desenvolvimento, desde o planejamento inicial até a entrega final.
-
-| Status | Descrição |
-|--------|-----------|
-| **A Fazer (To Do) 📌** | Tarefas pendentes a serem iniciadas |
-| **Em andamento 🧩** | Tarefas em desenvolvimento |
-| **Revisão de Código 📚** | Tarefas aguardando code review |
-| **Concluído 🎉** | Tarefas finalizadas e aprovadas |
-
----
-
-## 📊 Status do Desenvolvimento
-
-### 🎯 **Páginas Implementadas**
-
-| Página | Status | Responsividade | Funcionalidades | Observações |
-|--------|--------|----------------|-----------------|-------------|
-| 🏠 **Home** | ✅ Completa | ✅ Mobile-first | Carrossel, Hero, Categorias | Layout totalmente funcional |
-| 🛍️ **Shop** | ✅ Completa | ✅ Mobile-first | Filtros, Paginação, Toast | Integração com JSON Server |
-| 📦 **Produto** | ✅ Completa | ✅ Mobile-first | Galeria, Detalhes, Relacionados | Rota dinâmica por ID |
-
-### 🎨 **Componentes Desenvolvidos**
-
-| Componente | Status | Reutilização |
-|------------|--------|--------------|
-| Header | ✅ | Alta | 
-| Footer | ✅ | Alta | 
-| Product | ✅ | Alta |
-| Outras Features | ✅ | Baixa | 
-
----
-
 ## ✅ Requisitos do Projeto
 
 ### 🎯 **Funcionalidades Obrigatórias**
 
 - ✅ Header fixo e responsivo com navegação
-- ✅ Footer funcional com links externos e validação de e-mail
-- ✅ Carrossel de produtos na página inicial
-- ✅ Roteamento dinâmico com React Router
-- ✅ Feedback visual para interações (hover, toast)
-- ✅ Integração com JSON Server para dados de produtos
-- ✅ Paginação na página de shop
-- ✅ Estrutura completa com TypeScript
-- ✅ Formulário com validação manual (sem alert nativo)
-- ✅ Versionamento com commits semânticos
-- ✅ Layout totalmente responsivo
+- ✅ Footer com links externos e formulário de newsletter com validação customizada
+- ✅ Carrossel de produtos na página inicial usando Splide
+- ✅ Roteamento com React Router DOM com proteção de rotas (Checkout e Contact exigem login)
+- ✅ Sidebar do carrinho funcional com Redux (abrir/fechar, adicionar/remover produtos, total dinâmico)
+- ✅ Página de Cart exibindo produtos adicionados com opção de alterar quantidade
+- ✅ Página de Checkout com preenchimento automático de endereço via API do ViaCEP
+- ✅ Página de Contact com validação de campos e toast de envio
+- ✅ Integração com JSON Server para simular banco de dados
+- ✅ Toasts personalizados com React Toastify para feedback visual
+- ✅ Todos os formulários validados com React Hook Form + Zod (sem uso de alert ou required nativo)
+- ✅ Layout mobile-first e totalmente responsivo
+- ✅ Versionamento com Conventional Commits e estrutura de branches (`developer`, `feature/nome`)
+- ✅ Autenticação com Clerk (restrição de acesso e redirecionamentos)
+- ✅ Breadcrumb funcional em todas as páginas
+- ✅ Todas as imagens hospedadas em bucket AWS S3
+- ✅ Deploy da aplicação em instância EC2 da AWS com porta pública
+- ✅ Testes automatizados com Jest + Testing Library com cobertura mínima de 80% nas páginas de Checkout e Contact
+
 
 ### 🏆 **Diferenciais Implementados**
 
@@ -258,7 +252,7 @@ Acompanhe nosso fluxo de trabalho completo através do [Board do Trello](https:/
 
 ## 🤝 Equipe e Contribuições
 
-Este projeto foi desenvolvido em equipe, promovendo:
+O projeto completo foi desenvolvido em equipe, promovendo:
 
 - 👥 **Colaboração em grupo** - Divisão de tarefas e code review
 - 🔄 **Controle de versões** - Git flow e conventional commits  
