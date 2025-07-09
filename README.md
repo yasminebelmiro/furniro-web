@@ -11,7 +11,18 @@ Este desafio individual faz parte da Semana 12 do programa Scholarship | UFMS, I
 A proposta foi recriar com fidelidade, usando React + TypeScript e Tailwind CSS, as páginas que estavam faltando no desafio da Semana 8 do e-commerce fictício **Furniro**: Cart, Checkout e Contact. O foco principal foi a responsividade e a experiência do usuário, sempre seguindo à risca o layout fornecido no Figma.
 Além disso, todas as imagens do projeto foram armazenadas na AWS S3, e a aplicação foi publicada na AWS EC2.
 
+## ⚠️ Pontos de Atenção
 
+Antes de avaliar o projeto, seguem algumas observações importantes sobre pendências e limitações técnicas encontradas durante a entrega:
+
+- ❌ **Cobertura de testes**: Não consegui implementar os testes unitários para as páginas de **Checkout** e **Contact**, portanto, **a cobertura mínima de 80% exigida não foi atingida**.
+
+- ⚙️ **Build direto na EC2**: Enfrentei dificuldades para rodar o comando `npm run build` diretamente na instância EC2, mesmo com ajuda de outros colegas. Como solução, fiz o build localmente e subi manualmente a pasta `dist/` para o repositório.
+
+- 🔁 **Substituição do localhost pelo IP público**: Devido ao build feito localmente, o projeto ficou com URLs fixas apontando para `localhost`, incluindo as chamadas feitas com **Axios** ao JSON Server.  Isso faz com que a aplicação em produção (na EC2) **não consiga acessar os dados de produtos**, já que o frontend tenta buscar os dados no próprio `localhost` da EC2, onde não está rodando o JSON Server.
+---
+
+🎯 Apesar dessas limitações, as principais funcionalidades e requisitos obrigatórios do desafio foram implementados com sucesso, incluindo autenticação com Clerk, consumo da API ViaCEP, controle de carrinho com Redux, validação com Zod e deploy funcional via EC2 + S3.
 
 ## 🚀 Tecnologias Utilizadas
 
@@ -89,7 +100,7 @@ Além disso, todas as imagens do projeto foram armazenadas na AWS S3, e a aplica
 ### 🔔 Feedback Visual
 - Toasts com React Toastify para ações importantes (ex: pedido feito, formulário enviado)
 - Validação de formulários em tempo real com React Hook Form + Zod
-- Estados visuais de hover, loading e erro personalizados
+- Proteção de rota: página de **Checkout** e **Contact** exige autenticação com Clerk
 
 ### 📧 Newsletter & Formulários
 - Formulário de newsletter no rodapé com validação manual
